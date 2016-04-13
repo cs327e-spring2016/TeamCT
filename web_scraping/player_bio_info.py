@@ -16,6 +16,7 @@ print(entireSet)
 fullNameList = []
 lnameList = []
 fnameList = []
+teamList = []
 PPGList = []
 APGList = []
 RPGList = []
@@ -38,6 +39,9 @@ for set in entireSet:
   lname = firstAndLast[-1]    
   fnameList.append(fname)
   lnameList.append(lname) 
+  
+  team = set[3]
+  teamList.append(team)
   
   points = set[29]
   PPGList.append(points)
@@ -95,7 +99,30 @@ print(FTPList)
 print(minList)
 
 # now, create rows in database in our format
+playerID = 1	# also a counter
+seasonID = "1516" # need to figure how to distinguish data from website
+#need FOR loop for all players  -  just testing out for AJ Price
+playerRow = []
+playerRow.append(playerID)
+playerRow.append(lnameList[playerID])
+playerRow.append(fnameList[playerID])
+playerRow.append(seasonID)
+playerRow.append(teamList[playerID])
+playerRow.append(PPGList[playerID])
+playerRow.append(APGList[playerID])
+playerRow.append(RPGList[playerID])
+playerRow.append(SPGList[playerID])
+playerRow.append(BPGList[playerID])
+playerRow.append(TOsList[playerID])
+playerRow.append(FGMList[playerID])
+playerRow.append(FGPist[playerID])
+playerRow.append(ThreePMList[playerID])
+playerRow.append(ThreePPList[playerID])
+playerRow.append(FTMList[playerID])
+playerRow.append(FTPList[playerID])
+playerRow.append(minList[playerID])
 
+print(playerRow)
 
   
 #conn = pymysql.connect(host='127.0.0.1', user='root', passwd='xyz', db='mysql')
