@@ -71,7 +71,7 @@ for set in entireSet:
   ThreePMList.append(ThreePM)
   
   ThreePP = set[16]
-  THreePPList.append(ThreePP)
+  ThreePPList.append(ThreePP)
   
   FTM = set[17]
   FTMList.append(FTM)
