@@ -100,29 +100,38 @@ print(minList)
 
 # now, create rows in database in our format
 playerID = 1	# also a counter
+maxCount = len(entireSet)	# number of rows from NBA stat website
 seasonID = "1516" # need to figure how to distinguish data from website
-#need FOR loop for all players  -  just testing out for AJ Price
-playerRow = []
-playerRow.append(playerID)
-playerRow.append(lnameList[playerID-1])
-playerRow.append(fnameList[playerID-1])
-playerRow.append(seasonID)
-playerRow.append(teamList[playerID-1])
-playerRow.append(PPGList[playerID-1])
-playerRow.append(APGList[playerID-1])
-playerRow.append(RPGList[playerID-1])
-playerRow.append(SPGList[playerID-1])
-playerRow.append(BPGList[playerID-1])
-playerRow.append(TOsList[playerID-1])
-playerRow.append(FGMList[playerID-1])
-playerRow.append(FGPList[playerID-1])
-playerRow.append(ThreePMList[playerID-1])
-playerRow.append(ThreePPList[playerID-1])
-playerRow.append(FTMList[playerID-1])
-playerRow.append(FTPList[playerID-1])
-playerRow.append(minList[playerID-1])
+#for loops gets all players + stats, ordered by first name however
+while playerID <= maxCount:
 
-print(playerRow)
+  playerRow = []
+  playerRow.append(playerID)
+  playerRow.append(lnameList[playerID-1])
+  playerRow.append(fnameList[playerID-1])
+  playerRow.append(seasonID)
+  playerRow.append(teamList[playerID-1])
+  playerRow.append(PPGList[playerID-1])
+  playerRow.append(APGList[playerID-1])
+  playerRow.append(RPGList[playerID-1])
+  playerRow.append(SPGList[playerID-1])
+  playerRow.append(BPGList[playerID-1])
+  playerRow.append(TOsList[playerID-1])
+  playerRow.append(FGMList[playerID-1])
+  playerRow.append(FGPList[playerID-1])
+  playerRow.append(ThreePMList[playerID-1])
+  playerRow.append(ThreePPList[playerID-1])
+  playerRow.append(FTMList[playerID-1])
+  playerRow.append(FTPList[playerID-1])
+  playerRow.append(minList[playerID-1])
+
+  print(playerRow)
+  # once playerRow is created, add to MySQL database 'TeamCT'
+
+  playerID = playerID + 1	# increment counter & move onto next player
+
+
+
 
   
 #conn = pymysql.connect(host='127.0.0.1', user='root', passwd='xyz', db='mysql')
