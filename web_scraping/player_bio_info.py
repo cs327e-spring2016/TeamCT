@@ -102,11 +102,14 @@ print(minList)
 playerID = 1	# also a counter
 maxCount = len(entireSet)	# number of rows from NBA stat website
 seasonID = "1516" # need to figure how to distinguish data from website
+
+databaseList = []
+
 #for loops gets all players + stats, ordered by first name however
 while playerID <= maxCount:
 
   playerRow = []
-  playerRow.append(playerID)
+  #playerRow.append(playerID)
   playerRow.append(lnameList[playerID-1])
   playerRow.append(fnameList[playerID-1])
   playerRow.append(seasonID)
@@ -125,12 +128,25 @@ while playerID <= maxCount:
   playerRow.append(FTPList[playerID-1])
   playerRow.append(minList[playerID-1])
 
-  print(playerRow)
-  # once playerRow is created, add to MySQL database 'TeamCT'
-
+  databaseList.append(playerRow)
+  
   playerID = playerID + 1	# increment counter & move onto next player
 
+# once databaseList is created, sort by last names
+databaseList.sort(key=lambda x: x[0])
 
+# reset playerID to 1
+playerID = 1
+while playerID <= maxCount:
+  databaseList[playerID-1].insert(0,playerID)
+  playerID = playerID + 1
+for list in databaseList:  
+  print(list)
+  
+    
+
+
+# once playerRow is created, add to MySQL database 'TeamCT'
 
 
   
