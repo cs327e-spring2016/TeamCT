@@ -153,13 +153,18 @@ for list in databaseList:
 
 
 # once playerRow is created, add to MySQL database 'TeamCT'
-
-
   
-#conn = pymysql.connect(host='127.0.0.1', user='root', passwd='xyz', db='mysql')
-#cur = conn.cursor()
-#cur.execute("USE TeamCT")
+conn = pymysql.connect(host='127.0.0.1', user='root', passwd='xyz', db='mysql')
+cur = conn.cursor()
+cur.execute("USE TeamCT")
+
+for num in range(len(databaseList)):  # loop to add each playerRow into Player_Bio_Info table
+  cur.execute("INSERT INTO Player_Bio_Info (player_id, lname, fname, season_id, team, PPG, APG, RPG, SPG, BPG, TOs, FG_Percent, FGM, 3P_Percent, 3PM, FT_Percent, FTM, min_per_game) VALUES (databaseList[num-1][0], databaseList[num-1][1], databaseList[num-1][2], databaseList[num-1][3], databaseList[num-1][4], databaseList[num-1][5], databaseList[num-1][6], databaseList[num-1][7], databaseList[num-1][8], databaseList[num-1][9], databaseList[num-1][10], databaseList[num-1][11], databaseList[num-1][12], databaseList[num-1][13], databaseList[num-1][14], databaseList[num-1][15], databaseList[num-1][16], databaseList[num-1][-1])
+  cur.connection.commit()
+  
+  print(cur.fetchone())
+  
 #cur.execute("SELECT * FROM pages WHERE id=1")
 #print(cur.fetchone())
-#cur.close()
-#conn.close()
+cur.close()
+conn.close()
