@@ -3,147 +3,153 @@ import json
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 
-
-response = urlopen("http://stats.nba.com/stats/leaguedashplayerstats?College=&Conference=&Country=&DateFrom=&DateTo=&Division=&DraftPick=&DraftYear=&GameScope=&GameSegment=&Height=&LastNGames=0&LeagueID=00&Location=&MeasureType=Base&Month=0&OpponentTeamID=0&Outcome=&PORound=0&PaceAdjust=N&PerMode=PerGame&Period=0&PlayerExperience=&PlayerPosition=&PlusMinus=N&Rank=N&Season=2013-14&SeasonSegment=&SeasonType=Regular+Season&ShotClockRange=&StarterBench=&TeamID=0&VsConference=&VsDivision=&Weight=")
-string = response.read().decode("utf-8")
-responseJson = json.loads(string)
-
-entireSet = responseJson['resultSets'][0]['rowSet']
-print(entireSet)
-
-
-# loop to get all stats lists
-fullNameList = []
-lnameList = []
-fnameList = []
-teamList = []
-PPGList = []
-APGList = []
-RPGList = []
-SPGList = []
-BPGList = []
-TOsList = []
-FGMList = []
-FGPList = []
-ThreePMList = []
-ThreePPList = []
-FTMList = []
-FTPList = []
-minList = []
-
-for set in entireSet:  
-  fullName = set[1]
-  fullNameList.append(fullName)
-  firstAndLast = fullName.split()
-  fname = firstAndLast[0]
-  lname = firstAndLast[-1]    
-  fnameList.append(fname)
-  lnameList.append(lname) 
-  
-  team = set[3]
-  teamList.append(team)
-  
-  points = set[29]
-  PPGList.append(points)
-  
-  assists = set[22]
-  APGList.append(assists)
-  
-  rebounds = set[21]
-  RPGList.append(rebounds)
-  
-  steals = set[24]
-  SPGList.append(steals)
-  
-  blocks = set[25]
-  BPGList.append(blocks)
-  
-  turnovers = set[23]
-  TOsList.append(turnovers)
-  
-  FGM = set[11]
-  FGMList.append(FGM)
-  
-  FGP = set[13]
-  FGPList.append(FGP)
-  
-  ThreePM = set[14]
-  ThreePMList.append(ThreePM)
-  
-  ThreePP = set[16]
-  ThreePPList.append(ThreePP)
-  
-  FTM = set[17]
-  FTMList.append(FTM)
-  
-  FTP = set[19]
-  FTPList.append(FTP)
-  
-  minutes = set[10]
-  minList.append(minutes)
-    
-print(lnameList)
-print(fnameList)    
-print(PPGList)
-print(APGList)
-print(RPGList)
-print(SPGList)
-print(BPGList)
-print(TOsList)
-print(FGMList)
-print(FGPList)
-print(ThreePMList)
-print(ThreePPList)
-print(FTMList)
-print(FTPList)
-print(minList)
-
-# now, create rows in database in our format
-playerID = 1	# also a counter
-maxCount = len(entireSet)	# number of rows from NBA stat website
-seasonID = "1516" # need to figure how to distinguish data from website
-
+seasons = ["2013-14", "2014-15", "2015-16"]
+playerID = 1
 databaseList = []
 
-#for loops gets all players + stats, ordered by first name however
-while playerID <= maxCount:
+for i in seasons:
 
-  playerRow = []
-  #playerRow.append(playerID)
-  playerRow.append(lnameList[playerID-1])
-  playerRow.append(fnameList[playerID-1])
-  playerRow.append(seasonID)
-  playerRow.append(teamList[playerID-1])
-  playerRow.append(PPGList[playerID-1])
-  playerRow.append(APGList[playerID-1])
-  playerRow.append(RPGList[playerID-1])
-  playerRow.append(SPGList[playerID-1])
-  playerRow.append(BPGList[playerID-1])
-  playerRow.append(TOsList[playerID-1])
-  playerRow.append(FGMList[playerID-1])
-  playerRow.append(FGPList[playerID-1])
-  playerRow.append(ThreePMList[playerID-1])
-  playerRow.append(ThreePPList[playerID-1])
-  playerRow.append(FTMList[playerID-1])
-  playerRow.append(FTPList[playerID-1])
-  playerRow.append(minList[playerID-1])
+  response = urlopen("http://stats.nba.com/stats/leaguedashplayerstats?College=&Conference=&Country=&DateFrom=&DateTo=&Division=&DraftPick=&DraftYear=&GameScope=&GameSegment=&Height=&LastNGames=0&LeagueID=00&Location=&MeasureType=Base&Month=0&OpponentTeamID=0&Outcome=&PORound=0&PaceAdjust=N&PerMode=PerGame&Period=0&PlayerExperience=&PlayerPosition=&PlusMinus=N&Rank=N&Season=" + i +"&SeasonSegment=&SeasonType=Regular+Season&ShotClockRange=&StarterBench=&TeamID=0&VsConference=&VsDivision=&Weight=")
+  string = response.read().decode("utf-8")
+  responseJson = json.loads(string)
 
-  databaseList.append(playerRow)
-  
-  playerID = playerID + 1	# increment counter & move onto next player
+  entireSet = responseJson['resultSets'][0]['rowSet']
+  print(entireSet)
 
-# once databaseList is created, sort by last names
+  # loop to get all stats lists
+  fullNameList = []
+  lnameList = []
+  fnameList = []
+  teamList = []
+  PPGList = []
+  APGList = []
+  RPGList = []
+  SPGList = []
+  BPGList = []
+  TOsList = []
+  FGMList = []
+  FGPList = []
+  ThreePMList = []
+  ThreePPList = []
+  FTMList = []
+  FTPList = []
+  minList = []
+
+  for set in entireSet:
+    fullName = set[1]
+    fullNameList.append(fullName)
+    firstAndLast = fullName.split()
+    fname = firstAndLast[0]
+    lname = firstAndLast[-1]
+    fnameList.append(fname)
+    lnameList.append(lname)
+
+    team = set[3]
+    teamList.append(team)
+
+    points = set[29]
+    PPGList.append(points)
+
+    assists = set[22]
+    APGList.append(assists)
+
+    rebounds = set[21]
+    RPGList.append(rebounds)
+
+    steals = set[24]
+    SPGList.append(steals)
+
+    blocks = set[25]
+    BPGList.append(blocks)
+
+    turnovers = set[23]
+    TOsList.append(turnovers)
+
+    FGM = set[11]
+    FGMList.append(FGM)
+
+    FGP = set[13]
+    FGPList.append(FGP)
+
+    ThreePM = set[14]
+    ThreePMList.append(ThreePM)
+
+    ThreePP = set[16]
+    ThreePPList.append(ThreePP)
+
+    FTM = set[17]
+    FTMList.append(FTM)
+
+    FTP = set[19]
+    FTPList.append(FTP)
+
+    minutes = set[10]
+    minList.append(minutes)
+
+  print(lnameList)
+  print(fnameList)
+  print(PPGList)
+  print(APGList)
+  print(RPGList)
+  print(SPGList)
+  print(BPGList)
+  print(TOsList)
+  print(FGMList)
+  print(FGPList)
+  print(ThreePMList)
+  print(ThreePPList)
+  print(FTMList)
+  print(FTPList)
+  print(minList)
+
+  # now, create rows in database in our format
+  counter = 1	# also a counter
+  maxCount = len(entireSet)	# number of rows from NBA stat website
+  seasonID = i # need to figure how to distinguish data from website
+
+
+
+  #for loops gets all players + stats, ordered by first name however
+  while counter <= maxCount:
+
+    playerRow = []
+    #playerRow.append(playerID)
+    playerRow.append(lnameList[counter-1])
+    playerRow.append(fnameList[counter-1])
+    playerRow.append(seasonID)
+    playerRow.append(teamList[counter-1])
+    playerRow.append(PPGList[counter-1])
+    playerRow.append(APGList[counter-1])
+    playerRow.append(RPGList[counter-1])
+    playerRow.append(SPGList[counter-1])
+    playerRow.append(BPGList[counter-1])
+    playerRow.append(TOsList[counter-1])
+    playerRow.append(FGMList[counter-1])
+    playerRow.append(FGPList[counter-1])
+    playerRow.append(ThreePMList[counter-1])
+    playerRow.append(ThreePPList[counter-1])
+    playerRow.append(FTMList[counter-1])
+    playerRow.append(FTPList[counter-1])
+    playerRow.append(minList[counter-1])
+
+    databaseList.append(playerRow)
+
+    counter = counter + 1	# increment counter & move onto next player
+
+  # once databaseList is created, sort by last names
+
+
+
+
 databaseList.sort(key=lambda x: x[0])
-
-# reset playerID to 1
-playerID = 1
-while playerID <= maxCount:
+ # reset playerID to 1
+counter = 1
+while counter <= len(databaseList):
   databaseList[playerID-1].insert(0,playerID)
+  counter = counter + 1
   playerID = playerID + 1
-for list in databaseList:  
+for list in databaseList:
   print(list)
-  
-    
 
 
 # once playerRow is created, add to MySQL database 'TeamCT'
