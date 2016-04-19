@@ -40,7 +40,7 @@ for brand in brands:
 
 #results
 print(row_array)
-print(len(row_array) + "total records")
+print(str(len(row_array)) + "total records")
 
 # now, insert each row (array) into table 'shoe_endorsement'
 for entry in row_array:
