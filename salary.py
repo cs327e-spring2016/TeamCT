@@ -16,7 +16,9 @@ conn = pymysql.connect(host='127.0.0.1', unix_socket='/tmp/mysql.sock', user='ro
 cur = conn.cursor()
 cur.execute("USE TeamCT")
 
-fillerCount = 1
+salaryID = 0
+playerID = 10000
+
 for year in (2014, 2015, 2016):
     for pageNumber in range(1, numPage2016+1):
         html = urlopen("http://espn.go.com/nba/salaries/_/year/" + str(year) + "/page/" + str(pageNumber))
@@ -35,31 +37,34 @@ for year in (2014, 2015, 2016):
                 last = nameList[-1][-1]
                 first = nameList[-1][0]
                 # since player_id cannot be NULL, put fillerCount as filler since cannot be NULL or repeating then later update
-                array = [fillerCount, last, first]
+                array = [salaryID, last, first]
                 prevYear = year-1
                 array.append(str(prevYear) + "-" + str(year)[2:])
                 salaryString = salaryString.replace("$", "")
                 salaryString = salaryString.replace(",", "")
                 salaryArray = array.append(salaryString)
                 name2016Array.append(array)
+                name2016Array.append(playerID)
                 
 
                 # now, insert each row (array) into table 'Salary'
                 if year == 2014:
-                  cur.execute("INSERT INTO Salary (player_id, lname, fname, season_id, salary) VALUES (\"%s\",\"%s\",\"%s\",\"%s\",\"%s\")", (fillerCount, last, first, "2013-14", salaryString))
+                  cur.execute("INSERT INTO Salary (salary_id, lname, fname, season_id, salary, player_id) VALUES (\"%s\",\"%s\",\"%s\",\"%s\",\"%s\",\"%s\")", (salaryID, last, first, "2013-14", salaryString, playerID))
                   cur.connection.commit()
                 if year == 2015:
-                  cur.execute("INSERT INTO Salary (player_id, lname, fname, season_id, salary) VALUES (\"%s\",\"%s\",\"%s\",\"%s\",\"%s\")", (fillerCount, last, first, "2014-15", salaryString))
+                  cur.execute("INSERT INTO Salary (salary_id, lname, fname, season_id, salary, player_id) VALUES (\"%s\",\"%s\",\"%s\",\"%s\",\"%s\",\"%s\")", (salaryID, last, first, "2014-15", salaryString, playerID))
                   cur.connection.commit()
                 if year == 2016:
-                  cur.execute("INSERT INTO Salary (player_id, lname, fname, season_id, salary) VALUES (\"%s\",\"%s\",\"%s\",\"%s\",\"%s\")", (fillerCount, last, first, "2015-16", salaryString))
+                  cur.execute("INSERT INTO Salary (salary_id, lname, fname, season_id, salary, player_id) VALUES (\"%s\",\"%s\",\"%s\",\"%s\",\"%s\",\"%s\")", (salaryID, last, first, "2015-16", salaryString, playerID))
                   cur.connection.commit()
                 
-                fillerCount = fillerCount + 1
+                salaryID = salaryID + 1
+                playerID = playerID + 1
                 
                 
 print(name2016Array)
 
+# sort name2016Array
 
 cur.close()
 conn.close()
