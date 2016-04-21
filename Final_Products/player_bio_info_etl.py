@@ -28,7 +28,7 @@ print(players)
 
 # once player array is cleaned up, add to MySQL database 'TeamCT'
 
-conn = pymysql.connect(host='127.0.0.1', user='root', passwd='Skater123', db='mysql')
+conn = pymysql.connect(host='127.0.0.1', user='root', passwd='xx', db='mysql')
 cur = conn.cursor()
 cur.execute("USE TeamCT")
 
