@@ -114,7 +114,6 @@ for i in seasons:
   #for loops gets all players + stats, ordered by first name however
   while counter <= maxCount:
     playerRow = []
-    playerRow.append(str(counter))
     playerRow.append(str(lnameList[counter-1]))
     playerRow.append(str(fnameList[counter-1]))
     playerRow.append(str(seasonID))
@@ -140,6 +139,6 @@ for i in seasons:
   # once databaseList is created, sort by last names
 print(databaseList)
 for stat in databaseList:
-    insert_stat = stat[0] + ";" + stat[1] + ";" + stat[2] + ";" + stat[3] + ";" + stat[4] + ";" + stat[5] + ";" + stat[6] + ";" + stat[7] + ";" + stat[8] + ";" + stat[9] + ";" + stat[10] + ";" + stat[11] + ";" + stat[12] + ";" + stat[13] + ";" + stat[14] + ";" + stat[15] + ";" + stat[16] + ";" + stat[17] + "\n"
+    insert_stat = stat[0] + ";" + stat[1] + ";" + stat[2] + ";" + stat[3] + ";" + stat[4] + ";" + stat[5] + ";" + stat[6] + ";" + stat[7] + ";" + stat[8] + ";" + stat[9] + ";" + stat[10] + ";" + stat[11] + ";" + stat[12] + ";" + stat[13] + ";" + stat[14] + ";" + stat[15] + ";" + stat[16] + "\n"
     result.write(insert_stat)
     file.write(insert_stat)
