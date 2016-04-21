@@ -3,8 +3,10 @@ import json
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 
+file = open("stats_info.txt", "w")
+result = open("stats_info_result.txt", "w")
+
 seasons = ["2013-14", "2014-15", "2015-16"]
-playerID = 1
 databaseList = []
 
 for i in seasons:
@@ -14,7 +16,7 @@ for i in seasons:
   responseJson = json.loads(string)
 
   entireSet = responseJson['resultSets'][0]['rowSet']
-  print(entireSet)
+  #print(entireSet)
 
   # loop to get all stats lists
   fullNameList = []
@@ -86,21 +88,21 @@ for i in seasons:
     minutes = set[10]
     minList.append(minutes)
 
-  print(lnameList)
-  print(fnameList)
-  print(PPGList)
-  print(APGList)
-  print(RPGList)
-  print(SPGList)
-  print(BPGList)
-  print(TOsList)
-  print(FGMList)
-  print(FGPList)
-  print(ThreePMList)
-  print(ThreePPList)
-  print(FTMList)
-  print(FTPList)
-  print(minList)
+#  print(lnameList)
+#  print(fnameList)
+#  print(PPGList)
+#  print(APGList)
+#  print(RPGList)
+#  print(SPGList)
+#  print(BPGList)
+#  print(TOsList)
+#  print(FGMList)
+#  print(FGPList)
+#  print(ThreePMList)
+#  print(ThreePPList)
+#  print(FTMList)
+#  print(FTPList)
+#  print(minList)
 
   # now, create rows in database in our format
   counter = 1	# also a counter
@@ -111,60 +113,33 @@ for i in seasons:
 
   #for loops gets all players + stats, ordered by first name however
   while counter <= maxCount:
-
     playerRow = []
-    #playerRow.append(playerID)
-    playerRow.append(lnameList[counter-1])
-    playerRow.append(fnameList[counter-1])
-    playerRow.append(seasonID)
-    playerRow.append(teamList[counter-1])
-    playerRow.append(PPGList[counter-1])
-    playerRow.append(APGList[counter-1])
-    playerRow.append(RPGList[counter-1])
-    playerRow.append(SPGList[counter-1])
-    playerRow.append(BPGList[counter-1])
-    playerRow.append(TOsList[counter-1])
-    playerRow.append(FGMList[counter-1])
-    playerRow.append(FGPList[counter-1])
-    playerRow.append(ThreePMList[counter-1])
-    playerRow.append(ThreePPList[counter-1])
-    playerRow.append(FTMList[counter-1])
-    playerRow.append(FTPList[counter-1])
-    playerRow.append(minList[counter-1])
+    playerRow.append(str(counter))
+    playerRow.append(str(lnameList[counter-1]))
+    playerRow.append(str(fnameList[counter-1]))
+    playerRow.append(str(seasonID))
+    playerRow.append(str(teamList[counter-1]))
+    playerRow.append(str(PPGList[counter-1]))
+    playerRow.append(str(APGList[counter-1]))
+    playerRow.append(str(RPGList[counter-1]))
+    playerRow.append(str(SPGList[counter-1]))
+    playerRow.append(str(BPGList[counter-1]))
+    playerRow.append(str(TOsList[counter-1]))
+    playerRow.append(str(FGMList[counter-1]))
+    playerRow.append(str(FGPList[counter-1]))
+    playerRow.append(str(ThreePMList[counter-1]))
+    playerRow.append(str(ThreePPList[counter-1]))
+    playerRow.append(str(FTMList[counter-1]))
+    playerRow.append(str(FTPList[counter-1]))
+    playerRow.append(str(minList[counter-1]))
 
     databaseList.append(playerRow)
 
     counter = counter + 1	# increment counter & move onto next player
 
   # once databaseList is created, sort by last names
-
-
-
-
-databaseList.sort(key=lambda x: x[0])
- # reset playerID to 1
-counter = 1
-while counter <= len(databaseList):
-  databaseList[playerID-1].insert(0,playerID)
-  counter = counter + 1
-  playerID = playerID + 1
-for list in databaseList:
-  print(list)
-
-
-# once playerRow is created, add to MySQL database 'TeamCT'
-  
-conn = pymysql.connect(host='127.0.0.1', user='root', passwd='xyz', db='mysql')
-cur = conn.cursor()
-cur.execute("USE TeamCT")
-
-for num in range(len(databaseList)):  # loop to add each playerRow into Player_Bio_Info table
-  cur.execute("INSERT INTO Player_Bio_Info (player_id, lname, fname, season, team, PPG, APG, RPG, SPG, BPG, TOs, FG_Percent, FGM, 3P_Percent, 3PM, FT_Percent, FTM, min_per_game) VALUES (databaseList[num-1][0], databaseList[num-1][1], databaseList[num-1][2], databaseList[num-1][3], databaseList[num-1][4], databaseList[num-1][5], databaseList[num-1][6], databaseList[num-1][7], databaseList[num-1][8], databaseList[num-1][9], databaseList[num-1][10], databaseList[num-1][11], databaseList[num-1][12], databaseList[num-1][13], databaseList[num-1][14], databaseList[num-1][15], databaseList[num-1][16], databaseList[num-1][-1])
-  cur.connection.commit()
-  
-  print(cur.fetchone())
-  
-#cur.execute("SELECT * FROM pages WHERE id=1")
-#print(cur.fetchone())
-cur.close()
-conn.close()
+print(databaseList)
+for stat in databaseList:
+    insert_stat = stat[0] + ";" + stat[1] + ";" + stat[2] + ";" + stat[3] + ";" + stat[4] + ";" + stat[5] + ";" + stat[6] + ";" + stat[7] + ";" + stat[8] + ";" + stat[9] + ";" + stat[10] + ";" + stat[11] + ";" + stat[12] + ";" + stat[13] + ";" + stat[14] + ";" + stat[15] + ";" + stat[16] + ";" + stat[17] + "\n"
+    result.write(insert_stat)
+    file.write(insert_stat)
