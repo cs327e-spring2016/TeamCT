@@ -10,9 +10,9 @@ numPage2014 = 10
 name = []
 name2016Array = []
 commandList = []
-s
+
 ### DONT FORGET TO CHANGE PERSONAL PASSWORD PER USER ###
-conn = pymysql.connect(host='127.0.0.1', user='root', passwd='xx', db='mysql', charset='utf8')
+conn = pymysql.connect(host='127.0.0.1', user='root', passwd='xyz', db='mysql', charset='utf8')
 cur = conn.cursor()
 cur.execute("USE TeamCT")
 

@@ -15,7 +15,7 @@ cur.execute("USE TeamCT")
 ##############
 ans = True
 while ans:
-  mainMenu = str(input("Choose one of the following menu options(#): \n 1) Colleges \n 2) Salaries \n 3) Player Lookup\n"))
+  mainMenu = str(input("Choose one of the following menu options(#): \n 1) Colleges \n 2) Salaries \n 3) Player Lookup \n 4) Teams \n"))
 
   if mainMenu == "1":
     print("College")
@@ -108,7 +108,7 @@ while ans:
           print(last.ljust(20) + first.ljust(20) + pos.ljust(20) + ht.ljust(20) + wt.ljust(20) + birth.ljust(20))
         ansCollege = False
       elif collegeMenu != "":  
-        print("Not Valid Choice, Please Try Again")
+        print("Not Valid Choice, Please Try Again \n")
     ans = False
     
   elif mainMenu == "2":
@@ -206,7 +206,7 @@ while ans:
         print(resultList)
         ansSalary = False
       elif salaryMenu != "":  
-        print("Not Valid Choice, Please Try Again")
+        print("Not Valid Choice, Please Try Again \n")
     ans = False
 
   elif mainMenu == "3":
@@ -216,7 +216,7 @@ while ans:
     ##############
     ansLookup = True
     while ansLookup:
-      print("This lookup will find the basketball stats of a desired player in a specific season.")
+      print("This lookup will find the basketball stats of a desired player in a specific season. \n ")
       lastName = str(input("Last Name: "))
       firstName = str(input("First Name: "))
       years = str(input("Which season: "))  
@@ -227,8 +227,66 @@ while ans:
       
       ansLookup = False
     ans = False
+    
+  elif mainMenu == "4":
+    print("Teams")
+    
+    ## Teams Menu
+    #############
+    ansTeams = True
+    while ansTeams:
+      seasonsMenu = str(input("Select the number of a season: \n 1) 2013-14 \n 2) 2014-15 \n 3) 2015-16 \n"))
+      
+      if seasonsMenu == "1":
+        print("2013-14")
+        teamsMenu = str(input("Select the number of the team you wish to see all its players for the 2013-14 season: \n 1) Atlanta Hawks \n 2) Boston Celtics \n 3) Brooklyn (New Jersey) Nets \n 4) Charlotte Hornets (Bobcats) \n 5) Chicago Bulls \n"))
+        
+        if teamsMenu == "1":
+          print("Atlanta Hawks")
+          cur.execute("
+          cur.connection.commit()
+          
+        
+        
+          ansTeams = False
+        elif teamsMenu == "2":
+          print("Boston Celtics")
+          
+          
+          ansTeams = False        
+        elif teamsMenu == "3":
+          print("Brooklyn(New Jersey) Nets")
+          
+          ansTeams = False
+        elif teamsMenu == "4":
+          print("Charlotte Hornets (Bobcats)")
+          
+          
+          ansTeams = False
+        elif teamsMenu == "5":
+          print("Chicago Bulls")  
+        
+        
+        
+          ansTeams = False
+        elif teamsMenu == "":
+          print("Please choose an NBA team \n")  
+        ansTeams = False
+      elif seasonsMenu == "2":
+        print("2014-15")
+        
+        ansTeams = False
+      elif seasonsMenu == "3":
+        print("2015-16")
+        
+        ansTeams = False
+      elif seasonsMenu == "":
+        print("Please Choose a Valid Season \n")
+        
+    ans = False       
+  
   elif mainMenu == "":
-    print("Please Choose a Valid Menu Option")
+    print("Please Choose a Valid Menu Option \n")
    
 
 
