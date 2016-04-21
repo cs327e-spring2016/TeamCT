@@ -27,10 +27,14 @@ for brand in brands:
             for col in row.find_all('td'):
                 if(idx == 1):
                     name = col.find("a").text
+                    name = name.replace("\\", "")
                     name = name.split()
                     if(len(name) != 1):
-                        name = name[0] + " " + name [1]
-                    row_player.append(name)
+                        row_player.append(name[1])
+                        row_player.append(name[0])
+                    elif(name == "Nene"):
+                        row_player.append("Hilario")
+                        row_player.append("Nene")
                 elif(idx == 5):
                     name = col.find("a").text
                     row_player.append(brand)
@@ -43,9 +47,19 @@ print(row_array)
 print(str(len(row_array)) + "total records")
 
 # now, insert each row (array) into table 'shoe_endorsement'
+e_id = 1
 for entry in row_array:
-    cur.execute("INSERT INTO shoe_endorsement (endorsement_id, season_id, shoe_brand, shoe_model, player_id) VALUES (\"%s\",\"%s\",\"%s\",\"%s\",\"%s\")", (temp, temp, entry[1], entry[2], temp))
-    cur.connection.commit()
-
+    # get player id
+    cur.execute("SELECT * FROM Player_Bio_Info WHERE lname = %s AND fname = %s", (entry[0], entry[1]))
+    if cur.rowcount:
+        playerID = cur.fetchone()
+        playerID = list(playerID)
+        playerID = playerID[0]
+        cur.execute("INSERT INTO shoe_endorsement (endorsement_id, lname, fname, shoe_brand, shoe_model, player_id) VALUES (%s,%s,%s,%s,%s,%s)", (e_id, entry[0], entry[1], entry[2], entry[3], playerID))
+        cur.connection.commit()
+        e_id+=1
+    else:
+        print("Missing player_id: " + entry[1] + " " + entry[0])
+print(e_id)
 cur.close()
 conn.close()
