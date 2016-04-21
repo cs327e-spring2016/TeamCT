@@ -25,32 +25,87 @@ while ans:
     ##############
     ansCollege = True
     while ansCollege:
-      collegeMenu = str(input("Choose one of the following numbers to select all NBA players from that college: \n 1) Texas \n 2) Duke \n 3) UNC \n 4) Kansas \n 5) UCLA \n"))
+      collegeMenu = str(input("Choose one of the following numbers to select all NBA players from that college: \n 1) Texas \n 2) Duke \n 3) North Carolina \n 4) Kansas \n 5) Kentucky \n"))
 
       if collegeMenu == "1":
         print("Texas")
-        cur.execute("SELECT * FROM Player_Bio_Info WHERE college = "Texas";
+        cur.execute("SELECT lname, fname, position, height, weight, DOB FROM Player_Bio_Info WHERE college = 'Texas'")
         cur.connection.commit()
+        result = cur.fetchall()
+        # next two lines make tuples of tuples into lists of lists
+        result = list(result)
+        resultList = [list(elem) for elem in result]
+        #header
+        print("lname".ljust(20) + "fname".ljust(20) + "position".ljust(20) + "height".ljust(20) + "weight".ljust(20) + "DOB".ljust(20))
+        print("----------------------------------------------------------------------------------------------------------------")
+        # table items
+        for row in resultList:
+          last, first, pos, ht, wt, birth = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5])
+          print(last.ljust(20) + first.ljust(20) + pos.ljust(20) + ht.ljust(20) + wt.ljust(20) + birth.ljust(20))
         ansCollege = False
       elif collegeMenu == "2":
         print("Duke")
-        cur.execute("SELECT * FROM Player_Bio_Info WHERE college = "Duke";
+        cur.execute("SELECT lname, fname, position, height, weight, DOB FROM Player_Bio_Info WHERE college = 'Duke'")
         cur.connection.commit()
+        result = cur.fetchall()
+        # next two lines make tuples of tuples into lists of lists
+        result = list(result)
+        resultList = [list(elem) for elem in result]
+        #header
+        print("lname".ljust(20) + "fname".ljust(20) + "position".ljust(20) + "height".ljust(20) + "weight".ljust(20) + "DOB".ljust(20))
+        print("----------------------------------------------------------------------------------------------------------------")
+        # table items
+        for row in resultList:
+          last, first, pos, ht, wt, birth = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5])
+          print(last.ljust(20) + first.ljust(20) + pos.ljust(20) + ht.ljust(20) + wt.ljust(20) + birth.ljust(20))
         ansCollege = False
       elif collegeMenu == "3":
-        print("UNC")
-        cur.execute("SELECT * FROM Player_Bio_Info WHERE college = "UNC";
+        print("North Carolina")
+        cur.execute("SELECT lname, fname, position, height, weight, DOB FROM Player_Bio_Info WHERE college = 'North Carolina'")
         cur.connection.commit()
-        ans = False
+        result = cur.fetchall()
+        # next two lines make tuples of tuples into lists of lists
+        result = list(result)
+        resultList = [list(elem) for elem in result]
+        #header
+        print("lname".ljust(20) + "fname".ljust(20) + "position".ljust(20) + "height".ljust(20) + "weight".ljust(20) + "DOB".ljust(20))
+        print("----------------------------------------------------------------------------------------------------------------")
+        # table items
+        for row in resultList:
+          last, first, pos, ht, wt, birth = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5])
+          print(last.ljust(20) + first.ljust(20) + pos.ljust(20) + ht.ljust(20) + wt.ljust(20) + birth.ljust(20))
+        ansCollege = False
       elif collegeMenu == "4":
         print("Kansas")
-        cur.execute("SELECT * FROM Player_Bio_Info WHERE college = "Kansas";
+        cur.execute("SELECT lname, fname, position, height, weight, DOB FROM Player_Bio_Info WHERE college = 'Kansas'")
         cur.connection.commit()
+        result = cur.fetchall()
+        # next two lines make tuples of tuples into lists of lists
+        result = list(result)
+        resultList = [list(elem) for elem in result]
+        #header
+        print("lname".ljust(20) + "fname".ljust(20) + "position".ljust(20) + "height".ljust(20) + "weight".ljust(20) + "DOB".ljust(20))
+        print("-----------------------------------------------------------------------------------------------------------------")
+        # table items
+        for row in resultList:
+          last, first, pos, ht, wt, birth = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5])
+          print(last.ljust(20) + first.ljust(20) + pos.ljust(20) + ht.ljust(20) + wt.ljust(20) + birth.ljust(20))
         ansCollege = False
       elif collegeMenu == "5":
-        print("UCLA")
-        cur.execute("SELECT * FROM Player_Bio_Info WHERE college = "UCLA";
+        print("Kentucky")
+        cur.execute("SELECT lname, fname, position, height, weight, DOB FROM Player_Bio_Info WHERE college = 'Kentucky'")
         cur.connection.commit()
+        result = cur.fetchall()
+        # next two lines make tuples of tuples into lists of lists
+        result = list(result)
+        resultList = [list(elem) for elem in result]
+        #header
+        print("lname".ljust(20) + "fname".ljust(20) + "position".ljust(20) + "height".ljust(20) + "weight".ljust(20) + "DOB".ljust(20))
+        print("-----------------------------------------------------------------------------------------------------------------")
+        # table items
+        for row in resultList:
+          last, first, pos, ht, wt, birth = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5])
+          print(last.ljust(20) + first.ljust(20) + pos.ljust(20) + ht.ljust(20) + wt.ljust(20) + birth.ljust(20))
         ansCollege = False
       elif collegeMenu != "":  
         print("Not Valid Choice, Please Try Again")
@@ -80,7 +135,6 @@ while ans:
         for row in resultList:
           last, first, sal = row[0], row[1], str(row[-1])
           print(last.ljust(20) + first.ljust(20) + sal.ljust(20))
-        print(resultList)
    
         ansSalary = False
       elif salaryMenu == "2":
