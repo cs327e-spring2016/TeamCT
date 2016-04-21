@@ -33,7 +33,7 @@ cur = conn.cursor()
 cur.execute("USE TeamCT")
 
 for player in players:
-    cur.execute("INSERT INTO Player_Bio_Info (player_id, lname, fname, position, height, weight, DOB, college) VALUES (\"%s\",\"%s\",\"%s\",\"%s\",\"%s\",\"%s\",\"%s\",\"%s\")", (player[0], player[1], player[2], player[3], player[4], int(player[5]), player[6], player[7]))
+    cur.execute("INSERT INTO Player_Bio_Info (player_id, lname, fname, position, height, weight, DOB, college) VALUES (%s,%s,%s,%s,%s,%s,%s,%s)", (player[0], player[1], player[2], player[3], player[4], int(player[5]), player[6], player[7]))
     cur.connection.commit()
 
 cur.close()

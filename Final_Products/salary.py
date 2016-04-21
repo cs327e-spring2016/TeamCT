@@ -12,12 +12,11 @@ name2016Array = []
 commandList = []
 
 ### DONT FORGET TO CHANGE PERSONAL PASSWORD PER USER ###
-conn = pymysql.connect(host='127.0.0.1', unix_socket='/tmp/mysql.sock', user='root', passwd='xyz', db='mysql', charset='utf8')
+conn = pymysql.connect(host='127.0.0.1', user='root', passwd='Skater123', db='mysql', charset='utf8')
 cur = conn.cursor()
 cur.execute("USE TeamCT")
 
-salaryID = 0
-playerID = 10000
+salaryID = 1
 
 for year in (2014, 2015, 2016):
     for pageNumber in range(1, numPage2016+1):
@@ -44,24 +43,29 @@ for year in (2014, 2015, 2016):
                 salaryString = salaryString.replace(",", "")
                 salaryArray = array.append(salaryString)
                 name2016Array.append(array)
-                name2016Array.append(playerID)
-                
 
-                # now, insert each row (array) into table 'Salary'
-                if year == 2014:
-                  cur.execute("INSERT INTO Salary (salary_id, lname, fname, season_id, salary, player_id) VALUES (\"%s\",\"%s\",\"%s\",\"%s\",\"%s\",\"%s\")", (salaryID, last, first, "2013-14", salaryString, playerID))
-                  cur.connection.commit()
-                if year == 2015:
-                  cur.execute("INSERT INTO Salary (salary_id, lname, fname, season_id, salary, player_id) VALUES (\"%s\",\"%s\",\"%s\",\"%s\",\"%s\",\"%s\")", (salaryID, last, first, "2014-15", salaryString, playerID))
-                  cur.connection.commit()
-                if year == 2016:
-                  cur.execute("INSERT INTO Salary (salary_id, lname, fname, season_id, salary, player_id) VALUES (\"%s\",\"%s\",\"%s\",\"%s\",\"%s\",\"%s\")", (salaryID, last, first, "2015-16", salaryString, playerID))
-                  cur.connection.commit()
-                
+                print(last, first)
+                # get player id
+                cur.execute("SELECT * FROM Player_Bio_Info WHERE lname = %s AND fname = %s", (last, first))
+                if cur.rowcount:
+                    playerID = cur.fetchone()
+                    playerID = list(playerID)
+                    playerID = playerID[0]
+
+
+                    # now, insert each row (array) into table 'Salary'
+                    if year == 2014:
+                        cur.execute("INSERT INTO Salary (salary_id, lname, fname, season, salary, player_id) VALUES (%s,%s,%s,%s,%s,%s)", (salaryID, last, first, "2013-14", int(salaryString), int(playerID)))
+                        cur.connection.commit()
+                    if year == 2015:
+                        cur.execute("INSERT INTO Salary (salary_id, lname, fname, season, salary, player_id) VALUES (%s,%s,%s,%s,%s,%s)", (salaryID, last, first, "2014-15", int(salaryString), int(playerID)))
+                        cur.connection.commit()
+                    if year == 2016:
+                        cur.execute("INSERT INTO Salary (salary_id, lname, fname, season, salary, player_id) VALUES (%s,%s,%s,%s,%s,%s)", (salaryID, last, first, "2015-16", int(salaryString), int(playerID)))
+                        cur.connection.commit()
+
                 salaryID = salaryID + 1
-                playerID = playerID + 1
-                
-                
+
 print(name2016Array)
 
 # sort name2016Array
