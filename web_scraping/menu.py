@@ -15,7 +15,7 @@ cur.execute("USE TeamCT")
 ##############
 ans = True
 while ans:
-  mainMenu = str(input("Choose one of the following menu options(#): \n 1) Colleges \n 2) Salaries \n 3) Player Lookup \n 4) Teams \n"))
+  mainMenu = str(input("Choose one of the following menu options(#): \n 1) Colleges \n 2) Salaries \n 3) Player Lookup \n 4) Teams \n 5) Shoe Endorsements \n"))
 
   if mainMenu == "1":
     print("College")
@@ -701,7 +701,7 @@ while ans:
           ansTeams = False
           
         elif teamsMenu == "":
-          print("Please choose an NBA team \n")  
+          print("Please choose a valid NBA team \n")  
         ansTeams = False
         
       elif seasonsMenu == "":
@@ -709,6 +709,176 @@ while ans:
         
     ans = False       
   
+  elif mainMenu == "5":
+    print("Shoe Endorsements")
+    
+    ## Shoes Menu
+    ###############
+    ansShoe = True
+    while ansShoe:
+      shoeMenu = str(input("Choose one of the following shoe brands: \n 1) Nike \n 2) Jordan \n 3) Adidas \n 4) Under Armour \n 5) K1X \n 6) Li-Ning \n 7) Brandblack \n 8) Reebok \n 9) Anta \n 10) And1 \n 11) Peak \n 12) Spalding \n"))
+    
+      if shoeMenu == "1":
+        print("Nike")
+        cur.execute("SELECT lname, fname, shoe_model FROM Shoe_Endorsement WHERE shoe_brand = 'nike'")
+        cur.connection.commit()
+        result = cur.fetchall()
+        result = list(result)
+        resultList = [list(elem) for elem in result]
+        print("lname".ljust(20) + "fname".ljust(20) + "shoe_model".ljust(20))
+        print("-------------------------------------------------------")
+        for row in resultList:
+          last, first, model = str(row[0]), str(row[1]), str(row[2])
+          print(last.ljust(20) + first.ljust(20) + model.ljust(20))
+        ansShoe = False
+      elif shoeMenu == "2":
+        print("Jordan")
+        cur.execute("SELECT lname, fname, shoe_model FROM Shoe_Endorsement WHERE shoe_brand = 'jordan'")
+        cur.connection.commit()
+        result = cur.fetchall()
+        result = list(result)
+        resultList = [list(elem) for elem in result]
+        print("lname".ljust(20) + "fname".ljust(20) + "shoe_model".ljust(20))
+        print("-------------------------------------------------------")
+        for row in resultList:
+          last, first, model = str(row[0]), str(row[1]), str(row[2])
+          print(last.ljust(20) + first.ljust(20) + model.ljust(20))
+        ansShoe = False
+      elif shoeMenu == "3":
+        print("Adidas")
+        cur.execute("SELECT lname, fname, shoe_model FROM Shoe_Endorsement WHERE shoe_brand = 'adidas'")
+        cur.connection.commit()
+        result = cur.fetchall()
+        result = list(result)
+        resultList = [list(elem) for elem in result]
+        print("lname".ljust(20) + "fname".ljust(20) + "shoe_model".ljust(20))
+        print("-------------------------------------------------------")
+        for row in resultList:
+          last, first, model = str(row[0]), str(row[1]), str(row[2])
+          print(last.ljust(20) + first.ljust(20) + model.ljust(20))
+        ansShoe = False
+      elif shoeMenu == "4":
+        print("Under Armour")
+        cur.execute("SELECT lname, fname, shoe_model FROM Shoe_Endorsement WHERE shoe_brand = 'under-armour'")
+        cur.connection.commit()
+        result = cur.fetchall()
+        result = list(result)
+        resultList = [list(elem) for elem in result]
+        print("lname".ljust(20) + "fname".ljust(20) + "shoe_model".ljust(20))
+        print("-------------------------------------------------------")
+        for row in resultList:
+          last, first, model = str(row[0]), str(row[1]), str(row[2])
+          print(last.ljust(20) + first.ljust(20) + model.ljust(20))
+        ansShoe = False
+      elif shoeMenu == "5":
+        print("K1X")
+        cur.execute("SELECT lname, fname, shoe_model FROM Shoe_Endorsement WHERE shoe_brand = 'K1X'")
+        cur.connection.commit()
+        result = cur.fetchall()
+        result = list(result)
+        resultList = [list(elem) for elem in result]
+        print("lname".ljust(20) + "fname".ljust(20) + "shoe_model".ljust(20))
+        print("-------------------------------------------------------")
+        for row in resultList:
+          last, first, model = str(row[0]), str(row[1]), str(row[2])
+          print(last.ljust(20) + first.ljust(20) + model.ljust(20)) 
+        ansShoe = False
+      elif shoeMenu == "6":
+        print("Li-Ning")
+        cur.execute("SELECT lname, fname, shoe_model FROM Shoe_Endorsement WHERE shoe_brand = 'li-ning'")
+        cur.connection.commit()
+        result = cur.fetchall()
+        result = list(result)
+        resultList = [list(elem) for elem in result]
+        print("lname".ljust(20) + "fname".ljust(20) + "shoe_model".ljust(20))
+        print("-------------------------------------------------------")
+        for row in resultList:
+          last, first, model = str(row[0]), str(row[1]), str(row[2])
+          print(last.ljust(20) + first.ljust(20) + model.ljust(20))
+        ansShoe = False
+      elif shoeMenu == "7":
+        print("Brandblack")
+        cur.execute("SELECT lname, fname, shoe_model FROM Shoe_Endorsement WHERE shoe_brand = 'brandblack'")
+        cur.connection.commit()
+        result = cur.fetchall()
+        result = list(result)
+        resultList = [list(elem) for elem in result]
+        print("lname".ljust(20) + "fname".ljust(20) + "shoe_model".ljust(20))
+        print("-------------------------------------------------------")
+        for row in resultList:
+          last, first, model = str(row[0]), str(row[1]), str(row[2])
+          print(last.ljust(20) + first.ljust(20) + model.ljust(20))
+        ansShoe = False
+      elif shoeMenu == "8":
+        print("Reebok")
+        cur.execute("SELECT lname, fname, shoe_model FROM Shoe_Endorsement WHERE shoe_brand = 'reebok'")
+        cur.connection.commit()
+        result = cur.fetchall()
+        result = list(result)
+        resultList = [list(elem) for elem in result]
+        print("lname".ljust(20) + "fname".ljust(20) + "shoe_model".ljust(20))
+        print("-------------------------------------------------------")
+        for row in resultList:
+          last, first, model = str(row[0]), str(row[1]), str(row[2])
+          print(last.ljust(20) + first.ljust(20) + model.ljust(20))
+        ansShoe = False
+      elif shoeMenu == "9":
+        print("Anta")
+        cur.execute("SELECT lname, fname, shoe_model FROM Shoe_Endorsement WHERE shoe_brand = 'anta'")
+        cur.connection.commit()
+        result = cur.fetchall()
+        result = list(result)
+        resultList = [list(elem) for elem in result]
+        print("lname".ljust(20) + "fname".ljust(20) + "shoe_model".ljust(20))
+        print("-------------------------------------------------------")
+        for row in resultList:
+          last, first, model = str(row[0]), str(row[1]), str(row[2])
+          print(last.ljust(20) + first.ljust(20) + model.ljust(20))
+        ansShoe = False
+      elif shoeMenu == "10":
+        print("And1")
+        cur.execute("SELECT lname, fname, shoe_model FROM Shoe_Endorsement WHERE shoe_brand = 'and1'")
+        cur.connection.commit()
+        result = cur.fetchall()
+        result = list(result)
+        resultList = [list(elem) for elem in result]
+        print("lname".ljust(20) + "fname".ljust(20) + "shoe_model".ljust(20))
+        print("-------------------------------------------------------")
+        for row in resultList:
+          last, first, model = str(row[0]), str(row[1]), str(row[2])
+          print(last.ljust(20) + first.ljust(20) + model.ljust(20))
+        ansShoe = False
+      elif shoeMenu == "11":
+        print("Peak")
+        cur.execute("SELECT lname, fname, shoe_model FROM Shoe_Endorsement WHERE shoe_brand = 'peak'")
+        cur.connection.commit()
+        result = cur.fetchall()
+        result = list(result)
+        resultList = [list(elem) for elem in result]
+        print("lname".ljust(20) + "fname".ljust(20) + "shoe_model".ljust(20))
+        print("-------------------------------------------------------")
+        for row in resultList:
+          last, first, model = str(row[0]), str(row[1]), str(row[2])
+          print(last.ljust(20) + first.ljust(20) + model.ljust(20))
+        ansShoe = False
+      elif shoeMenu == "12":
+        print("Spadling")
+        cur.execute("SELECT lname, fname, shoe_model FROM Shoe_Endorsement WHERE shoe_brand = 'spalding'")
+        cur.connection.commit()
+        result = cur.fetchall()
+        result = list(result)
+        resultList = [list(elem) for elem in result]
+        print("lname".ljust(20) + "fname".ljust(20) + "shoe_model".ljust(20))
+        print("-------------------------------------------------------")
+        for row in resultList:
+          last, first, model = str(row[0]), str(row[1]), str(row[2])
+          print(last.ljust(20) + first.ljust(20) + model.ljust(20))
+        ansShoe = False
+      elif shoeMenu == "":
+        print("Please choose a valid shoe brand \n")
+        
+    ans = False
+    
   elif mainMenu == "":
     print("Please Choose a Valid Menu Option \n")
    
