@@ -726,7 +726,7 @@ while ans:
         result = list(result)
         resultList = [list(elem) for elem in result]
         print("lname".ljust(20) + "fname".ljust(20) + "shoe_model".ljust(20))
-        print("-------------------------------------------------------")
+        print("---------------------------------------------------------------------------")
         for row in resultList:
           last, first, model = str(row[0]), str(row[1]), str(row[2])
           print(last.ljust(20) + first.ljust(20) + model.ljust(20))
@@ -739,7 +739,7 @@ while ans:
         result = list(result)
         resultList = [list(elem) for elem in result]
         print("lname".ljust(20) + "fname".ljust(20) + "shoe_model".ljust(20))
-        print("-------------------------------------------------------")
+        print("---------------------------------------------------------------------------")
         for row in resultList:
           last, first, model = str(row[0]), str(row[1]), str(row[2])
           print(last.ljust(20) + first.ljust(20) + model.ljust(20))
@@ -752,7 +752,7 @@ while ans:
         result = list(result)
         resultList = [list(elem) for elem in result]
         print("lname".ljust(20) + "fname".ljust(20) + "shoe_model".ljust(20))
-        print("-------------------------------------------------------")
+        print("---------------------------------------------------------------------------")
         for row in resultList:
           last, first, model = str(row[0]), str(row[1]), str(row[2])
           print(last.ljust(20) + first.ljust(20) + model.ljust(20))
@@ -765,7 +765,7 @@ while ans:
         result = list(result)
         resultList = [list(elem) for elem in result]
         print("lname".ljust(20) + "fname".ljust(20) + "shoe_model".ljust(20))
-        print("-------------------------------------------------------")
+        print("---------------------------------------------------------------------------")
         for row in resultList:
           last, first, model = str(row[0]), str(row[1]), str(row[2])
           print(last.ljust(20) + first.ljust(20) + model.ljust(20))
@@ -778,7 +778,7 @@ while ans:
         result = list(result)
         resultList = [list(elem) for elem in result]
         print("lname".ljust(20) + "fname".ljust(20) + "shoe_model".ljust(20))
-        print("-------------------------------------------------------")
+        print("---------------------------------------------------------------------------")
         for row in resultList:
           last, first, model = str(row[0]), str(row[1]), str(row[2])
           print(last.ljust(20) + first.ljust(20) + model.ljust(20)) 
@@ -791,7 +791,7 @@ while ans:
         result = list(result)
         resultList = [list(elem) for elem in result]
         print("lname".ljust(20) + "fname".ljust(20) + "shoe_model".ljust(20))
-        print("-------------------------------------------------------")
+        print("---------------------------------------------------------------------------")
         for row in resultList:
           last, first, model = str(row[0]), str(row[1]), str(row[2])
           print(last.ljust(20) + first.ljust(20) + model.ljust(20))
@@ -804,7 +804,7 @@ while ans:
         result = list(result)
         resultList = [list(elem) for elem in result]
         print("lname".ljust(20) + "fname".ljust(20) + "shoe_model".ljust(20))
-        print("-------------------------------------------------------")
+        print("---------------------------------------------------------------------------")
         for row in resultList:
           last, first, model = str(row[0]), str(row[1]), str(row[2])
           print(last.ljust(20) + first.ljust(20) + model.ljust(20))
@@ -817,7 +817,7 @@ while ans:
         result = list(result)
         resultList = [list(elem) for elem in result]
         print("lname".ljust(20) + "fname".ljust(20) + "shoe_model".ljust(20))
-        print("-------------------------------------------------------")
+        print("---------------------------------------------------------------------------")
         for row in resultList:
           last, first, model = str(row[0]), str(row[1]), str(row[2])
           print(last.ljust(20) + first.ljust(20) + model.ljust(20))
@@ -830,7 +830,7 @@ while ans:
         result = list(result)
         resultList = [list(elem) for elem in result]
         print("lname".ljust(20) + "fname".ljust(20) + "shoe_model".ljust(20))
-        print("-------------------------------------------------------")
+        print("---------------------------------------------------------------------------")
         for row in resultList:
           last, first, model = str(row[0]), str(row[1]), str(row[2])
           print(last.ljust(20) + first.ljust(20) + model.ljust(20))
@@ -843,7 +843,7 @@ while ans:
         result = list(result)
         resultList = [list(elem) for elem in result]
         print("lname".ljust(20) + "fname".ljust(20) + "shoe_model".ljust(20))
-        print("-------------------------------------------------------")
+        print("---------------------------------------------------------------------------")
         for row in resultList:
           last, first, model = str(row[0]), str(row[1]), str(row[2])
           print(last.ljust(20) + first.ljust(20) + model.ljust(20))
@@ -856,7 +856,7 @@ while ans:
         result = list(result)
         resultList = [list(elem) for elem in result]
         print("lname".ljust(20) + "fname".ljust(20) + "shoe_model".ljust(20))
-        print("-------------------------------------------------------")
+        print("---------------------------------------------------------------------------")
         for row in resultList:
           last, first, model = str(row[0]), str(row[1]), str(row[2])
           print(last.ljust(20) + first.ljust(20) + model.ljust(20))
@@ -869,7 +869,7 @@ while ans:
         result = list(result)
         resultList = [list(elem) for elem in result]
         print("lname".ljust(20) + "fname".ljust(20) + "shoe_model".ljust(20))
-        print("-------------------------------------------------------")
+        print("---------------------------------------------------------------------------")
         for row in resultList:
           last, first, model = str(row[0]), str(row[1]), str(row[2])
           print(last.ljust(20) + first.ljust(20) + model.ljust(20))
