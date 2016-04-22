@@ -125,11 +125,11 @@ for i in seasons:
     playerRow.append(str(BPGList[counter-1]))
     playerRow.append(str(TOsList[counter-1]))
     playerRow.append(str(FGMList[counter-1]))
-    playerRow.append(str(FGPList[counter-1]))
+    playerRow.append(str(FGPList[counter-1] * 100))
     playerRow.append(str(ThreePMList[counter-1]))
-    playerRow.append(str(ThreePPList[counter-1]))
+    playerRow.append(str(ThreePPList[counter-1] * 100))
     playerRow.append(str(FTMList[counter-1]))
-    playerRow.append(str(FTPList[counter-1]))
+    playerRow.append(str(FTPList[counter-1] * 100))
     playerRow.append(str(minList[counter-1]))
 
     databaseList.append(playerRow)
@@ -138,7 +138,7 @@ for i in seasons:
 
   # once databaseList is created, sort by last names
 print(databaseList)
-#for stat in databaseList:
-    #insert_stat = stat[0] + ";" + stat[1] + ";" + stat[2] + ";" + stat[3] + ";" + stat[4] + ";" + stat[5] + ";" + stat[6] + ";" + stat[7] + ";" + stat[8] + ";" + stat[9] + ";" + stat[10] + ";" + stat[11] + ";" + stat[12] + ";" + stat[13] + ";" + stat[14] + ";" + stat[15] + ";" + stat[16] + "\n"
-    #result.write(insert_stat)
-    #file.write(insert_stat)
+for stat in databaseList:
+    insert_stat = stat[0] + ";" + stat[1] + ";" + stat[2] + ";" + stat[3] + ";" + stat[4] + ";" + stat[5] + ";" + stat[6] + ";" + stat[7] + ";" + stat[8] + ";" + stat[9] + ";" + stat[10] + ";" + stat[11] + ";" + stat[12] + ";" + stat[13] + ";" + stat[14] + ";" + stat[15] + ";" + stat[16] + "\n"
+    result.write(insert_stat)
+    file.write(insert_stat)
