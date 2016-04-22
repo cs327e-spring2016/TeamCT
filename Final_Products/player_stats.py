@@ -10,7 +10,7 @@ seasons = ["2013-14", "2014-15", "2015-16"]
 databaseList = []
 
 for i in seasons:
-
+  print("http://stats.nba.com/stats/leaguedashplayerstats?College=&Conference=&Country=&DateFrom=&DateTo=&Division=&DraftPick=&DraftYear=&GameScope=&GameSegment=&Height=&LastNGames=0&LeagueID=00&Location=&MeasureType=Base&Month=0&OpponentTeamID=0&Outcome=&PORound=0&PaceAdjust=N&PerMode=PerGame&Period=0&PlayerExperience=&PlayerPosition=&PlusMinus=N&Rank=N&Season=" + i +"&SeasonSegment=&SeasonType=Regular+Season&ShotClockRange=&StarterBench=&TeamID=0&VsConference=&VsDivision=&Weight=")
   response = urlopen("http://stats.nba.com/stats/leaguedashplayerstats?College=&Conference=&Country=&DateFrom=&DateTo=&Division=&DraftPick=&DraftYear=&GameScope=&GameSegment=&Height=&LastNGames=0&LeagueID=00&Location=&MeasureType=Base&Month=0&OpponentTeamID=0&Outcome=&PORound=0&PaceAdjust=N&PerMode=PerGame&Period=0&PlayerExperience=&PlayerPosition=&PlusMinus=N&Rank=N&Season=" + i +"&SeasonSegment=&SeasonType=Regular+Season&ShotClockRange=&StarterBench=&TeamID=0&VsConference=&VsDivision=&Weight=")
   string = response.read().decode("utf-8")
   responseJson = json.loads(string)
@@ -67,25 +67,25 @@ for i in seasons:
     turnovers = set[23]
     TOsList.append(turnovers)
 
-    FGM = set[11]
+    FGM = set[10]
     FGMList.append(FGM)
 
-    FGP = set[13]
+    FGP = set[12]
     FGPList.append(FGP)
 
-    ThreePM = set[14]
+    ThreePM = set[13]
     ThreePMList.append(ThreePM)
 
-    ThreePP = set[16]
+    ThreePP = set[15]
     ThreePPList.append(ThreePP)
 
-    FTM = set[17]
+    FTM = set[16]
     FTMList.append(FTM)
 
-    FTP = set[19]
+    FTP = set[18]
     FTPList.append(FTP)
 
-    minutes = set[10]
+    minutes = set[9]
     minList.append(minutes)
 
 #  print(lnameList)
@@ -138,7 +138,7 @@ for i in seasons:
 
   # once databaseList is created, sort by last names
 print(databaseList)
-for stat in databaseList:
-    insert_stat = stat[0] + ";" + stat[1] + ";" + stat[2] + ";" + stat[3] + ";" + stat[4] + ";" + stat[5] + ";" + stat[6] + ";" + stat[7] + ";" + stat[8] + ";" + stat[9] + ";" + stat[10] + ";" + stat[11] + ";" + stat[12] + ";" + stat[13] + ";" + stat[14] + ";" + stat[15] + ";" + stat[16] + "\n"
-    result.write(insert_stat)
-    file.write(insert_stat)
+#for stat in databaseList:
+    #insert_stat = stat[0] + ";" + stat[1] + ";" + stat[2] + ";" + stat[3] + ";" + stat[4] + ";" + stat[5] + ";" + stat[6] + ";" + stat[7] + ";" + stat[8] + ";" + stat[9] + ";" + stat[10] + ";" + stat[11] + ";" + stat[12] + ";" + stat[13] + ";" + stat[14] + ";" + stat[15] + ";" + stat[16] + "\n"
+    #result.write(insert_stat)
+    #file.write(insert_stat)
