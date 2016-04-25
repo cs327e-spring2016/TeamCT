@@ -44,7 +44,7 @@ for year in (2014, 2015, 2016):
                 salaryArray = array.append(salaryString)
                 name2016Array.append(array)
 
-                print(last, first)
+#print(last, first)
                 # get player id
                 cur.execute("SELECT * FROM Player_Bio_Info WHERE lname = %s AND fname = %s", (last, first))
                 if cur.rowcount:
@@ -64,7 +64,7 @@ for year in (2014, 2015, 2016):
                         cur.execute("INSERT INTO Salary (salary_id, lname, fname, season, salary, player_id) VALUES (%s,%s,%s,%s,%s,%s)", (salaryID, last, first, "2015-16", int(salaryString), int(playerID)))
                         cur.connection.commit()
 
-                salaryID = salaryID + 1
+                    salaryID = salaryID + 1
 
 #print(name2016Array)
 
