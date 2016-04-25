@@ -1,0 +1,1350 @@
+Bradley;Avery;G;6-2;180;NOV 26, 1990;Texas
+Bogans;Keith;G-F;6-5;215;MAY 12, 1980;Kentucky
+Sullinger;Jared;C-F;6-9;260;MAR 04, 1992;Ohio State
+Green;Jeff;F;6-9;235;AUG 28, 1986;Georgetown
+Rondo;Rajon;G;6-1;186;FEB 22, 1986;Kentucky
+Bayless;Jerryd;G;6-3;200;AUG 20, 1988;Arizona
+Johnson;Chris;F-G;6-6;201;APR 29, 1990;Dayton
+Pressey;Phil;G;5-11;175;FEB 17, 1991;Missouri
+Bass;Brandon;F;6-8;250;APR 30, 1985;Louisiana State
+Faverani;Vitor;C;6-11;260;MAY 05, 1988;None
+Olynyk;Kelly;C-F;7-0;238;APR 19, 1991;Gonzaga
+Humphries;Kris;C-F;6-9;235;FEB 06, 1985;Minnesota
+Wallace;Gerald;F;6-7;220;JUL 23, 1982;Alabama
+Anthony;Joel;C;6-9;245;AUG 09, 1982;Nevada-Las Vegas
+Babb;Chris;G;6-5;225;FEB 14, 1990;Iowa State
+Blatche;Andray;C-F;6-11;260;AUG 22, 1986;South Kent Prep (CT)
+Plumlee;Mason;F-C;6-11;235;MAR 05, 1990;Duke
+Garnett;Kevin;C-F;6-11;253;MAY 19, 1976;Farragut Academy HS (CHI)
+Anderson;Alan;F-G;6-6;220;OCT 16, 1982;Michigan State
+Johnson;Joe;G;6-7;240;JUN 29, 1981;Arkansas
+Williams;Deron;G;6-3;209;JUN 26, 1984;Illinois
+Thornton;Marcus;G;6-4;205;JUN 05, 1987;Louisiana State
+Lopez;Brook;C;7-0;275;APR 01, 1988;Stanford
+Teague;Marquis;G;6-2;190;FEB 28, 1993;Kentucky
+Gutierrez;Jorge;G;6-3;195;DEC 27, 1988;California-Berkeley
+Livingston;Shaun;G;6-7;175;SEP 11, 1985;Peoria Central HS (IL)
+Teletovic;Mirza;F;6-9;242;SEP 17, 1985;Bosnia
+Pierce;Paul;F;6-7;235;OCT 13, 1977;Kansas
+Kirilenko;Andrei;F;6-9;235;FEB 18, 1981;St. Petersburg, Russia
+Collins;Jason;C;7-0;255;DEC 02, 1978;Stanford
+Ellington;Wayne;G;6-4;200;NOV 29, 1987;North Carolina
+Dalembert;Samuel;C;6-11;250;MAY 10, 1980;Seton Hall
+Calderon;Jose;G;6-3;211;SEP 28, 1981;Villanueva de la Serena, Spain
+Larkin;Shane;G;5-11;176;OCT 02, 1992;Miami (FL)
+Odom;Lamar;F;6-10;230;NOV 06, 1979;Rhode Island
+Stoudemire;Amar'e;F-C;6-11;245;NOV 16, 1982;Cypress Creek (FL)
+Martin;Kenyon;F;6-9;225;DEC 30, 1977;Cincinnati
+Tyler;Jeremy;F;6-10;250;JUN 21, 1991;San Diego HS
+Hardaway Jr.;Tim;G;6-6;205;MAR 16, 1992;Michigan
+Anthony;Carmelo;F;6-8;235;MAY 29, 1984;Syracuse
+Smith;J.R.;G-F;6-6;220;SEP 09, 1985;St. Benedict's Prep (NJ)
+Prigioni;Pablo;G;6-3;185;MAY 17, 1977;Argentina
+Shumpert;Iman;G-F;6-5;220;JUN 26, 1990;Georgia Tech
+Murry;Toure;G;6-5;195;NOV 08, 1989;Wichita State
+Brown;Shannon;G;6-4;210;NOV 29, 1985;Michigan State
+Aldrich;Cole;C;6-11;245;OCT 31, 1988;Kansas
+Bargnani;Andrea;C-F;7-0;250;OCT 26, 1985;Rome, Italy
+Carter-Williams;Michael;G;6-6;185;OCT 10, 1991;Syracuse
+Noel;Nerlens;C;6-11;228;APR 10, 1994;Kentucky
+Moultrie;Arnett;F;6-10;240;NOV 18, 1990;Mississippi State
+Thomas;Adonis;G-F;6-7;240;MAR 25, 1993;Memphis
+Wroten;Tony;G;6-6;205;APR 13, 1993;Washington
+Anderson;James;G-F;6-6;210;MAR 25, 1989;Oklahoma State
+Ware;Casper;G;5-10;175;JAN 17, 1990;Long Beach State
+Davies;Brandon;F;6-10;240;JUL 25, 1991;Brigham Young
+Young;Thaddeus;F;6-8;230;JUN 21, 1988;Georgia Tech
+Richardson;Jason;G;6-6;225;JAN 20, 1981;Michigan State
+Williams;Elliot;G;6-5;180;JUN 20, 1989;Memphis
+Mullens;Byron;C;7-0;275;FEB 14, 1989;Ohio State
+Thompson;Hollis;G-F;6-8;206;APR 03, 1991;Georgetown
+Sims;Henry;C;6-10;248;MAR 27, 1990;Georgetown
+Varnado;Jarvis;F-C;6-9;230;MAR 01, 1988;Mississippi State
+Fields;Landry;F;6-7;215;JUN 27, 1988;Stanford
+De Colo;Nando;G;6-5;195;JUN 23, 1987;Saint Catherine, France
+Lowry;Kyle;G;6-0;205;MAR 25, 1986;Villanova
+DeRozan;DeMar;G;6-7;216;AUG 07, 1989;Southern California
+Buycks;Dwight;G;6-3;190;MAR 06, 1989;Marquette
+Johnson;Amir;F;6-9;210;MAY 01, 1987;Westchester HS (Los Angeles)
+Novak;Steve;F;6-10;235;JUN 13, 1983;Marquette
+Valanciunas;Jonas;C;6-11;231;MAY 06, 1992;Utena, Lithuania
+Vasquez;Greivis;G;6-6;211;JAN 16, 1987;Maryland
+Salmons;John;F-G;6-6;207;DEC 12, 1979;Miami (FL)
+Ross;Terrence;F;6-6;195;FEB 05, 1991;Washington
+Hayes;Charles;F;6-6;250;JUN 11, 1983;Kentucky
+Hansbrough;Tyler;F-C;6-9;250;NOV 03, 1985;North Carolina
+Patterson;Patrick;F;6-9;235;MAR 14, 1989;Kentucky
+Stone;Julyan;G;6-6;200;DEC 07, 1988;Texas-El Paso
+Rose;Derrick;G;6-3;190;OCT 04, 1988;Memphis
+Boozer;Carlos;F;6-9;266;NOV 20, 1981;Duke
+James;Mike;G;6-2;188;JUN 23, 1975;Duquesne
+Smith;Greg;F-C;6-10;250;JAN 08, 1991;Fresno State
+Brewer;Ronnie;F;6-7;235;MAR 20, 1985;Arkansas
+Hinrich;Kirk;G;6-4;190;JAN 02, 1981;Kansas
+Noah;Joakim;C;6-11;232;FEB 25, 1985;Florida
+Augustin;D.J.;G;6-0;183;NOV 10, 1987;Texas
+Amundson;Lou;F;6-9;225;DEC 07, 1982;Nevada-Las Vegas
+Snell;Tony;G;6-7;200;NOV 10, 1991;New Mexico
+Butler;Jimmy;G-F;6-7;220;SEP 14, 1989;Marquette
+Gibson;Taj;F-C;6-9;225;JUN 24, 1985;Southern California
+Fredette;Jimmer;G;6-2;195;FEB 25, 1989;Brigham Young
+Dunleavy;Mike;F;6-9;230;SEP 15, 1980;Duke
+Mohammed;Nazr;C;6-10;250;SEP 05, 1977;Kentucky
+Miles;CJ;G;6-6;231;MAR 18, 1987;Skyline HS (TX)
+Jack;Jarrett;G;6-3;200;OCT 28, 1983;Georgia Tech
+Irving;Kyrie;G;6-3;193;MAR 23, 1992;Duke
+Waiters;Dion;G;6-4;225;DEC 10, 1991;Syracuse
+Dellavedova;Matthew;G;6-4;200;SEP 08, 1990;Saint Mary's (CA)
+Deng;Luol;F;6-9;220;APR 16, 1985;Duke
+Karasev;Sergey;G;6-7;196;OCT 26, 1993;Russia
+Thompson;Tristan;F;6-9;238;MAR 13, 1991;Texas
+Bennett;Anthony;F;6-8;259;MAR 14, 1993;Nevada-Las Vegas
+Varejao;Anderson;C;6-11;267;SEP 28, 1982;Santa Teresa, Brazil
+Hopson;Scotty;G;6-7;204;AUG 08, 1989;Tennessee
+Felix;Carrick;G-F;6-6;201;AUG 17, 1990;Arizona State
+Hawes;Spencer;C;7-1;245;APR 28, 1988;Washington
+Gee;Alonzo;F;6-6;225;MAY 29, 1987;Alabama
+Zeller;Tyler;C-F;7-0;253;JAN 17, 1990;North Carolina
+Drummond;Andre;C;6-10;270;AUG 10, 1993;Connecticut
+Billups;Chauncey;G;6-3;210;SEP 25, 1976;Colorado
+Stuckey;Rodney;G;6-5;205;APR 21, 1986;Eastern Washington
+Caldwell-Pope;Kentavious;G;6-5;205;FEB 18, 1993;Georgia
+Smith;Josh;F;6-9;225;DEC 05, 1985;Oak Hill Academy (VA)
+Jennings;Brandon;G;6-1;169;SEP 23, 1989;Oak Hill Academy (VA)
+Mitchell;Tony;F;6-8;235;APR 07, 1992;North Texas
+Monroe;Greg;F-C;6-11;250;JUN 04, 1990;Georgetown
+Bynum;Will;G;6-0;185;JAN 04, 1983;Georgia Tech
+Datome;Gigi;F;6-8;215;NOV 27, 1987;Italy
+Singler;Kyle;F;6-8;230;MAY 04, 1988;Duke
+Villanueva;Charlie;F;6-11;232;AUG 24, 1984;Connecticut
+Jerebko;Jonas;F;6-10;231;MAR 02, 1987;Kinna, Sweden
+Siva;Peyton;G;6-0;185;OCT 24, 1990;Louisville
+Harrellson;Josh;F-C;6-10;275;FEB 12, 1989;Kentucky
+Stephenson;Lance;G;6-5;230;SEP 05, 1990;Cincinnati
+Hill;George;G;6-3;188;MAY 04, 1986;Indiana Purdue-Indianapolis
+Scola;Luis;F;6-9;240;APR 30, 1980;Buenos Aires, Argentina
+Allen;Lavoy;F-C;6-9;255;FEB 04, 1989;Temple
+Butler;Rasual;G-F;6-7;215;MAY 23, 1979;La Salle
+Hill;Solomon;F;6-7;225;MAR 18, 1991;Arizona
+Turner;Evan;F-G;6-7;220;OCT 27, 1988;Ohio State
+Sloan;Donald;G;6-3;205;JAN 15, 1988;Texas A&M
+Bynum;Andrew;C;7-0;285;OCT 27, 1987;St. Joseph HS (NJ)
+West;David;F;6-9;250;AUG 29, 1980;Xavier
+Copeland;Chris;F;6-8;235;MAR 17, 1984;Colorado
+George;Paul;F-G;6-9;220;MAY 02, 1990;Fresno State
+Mahinmi;Ian;C;6-11;250;NOV 05, 1986;Rouen, France
+Watson;CJ;G;6-2;175;APR 17, 1984;Tennessee
+Hibbert;Roy;C;7-2;290;DEC 11, 1986;Georgetown
+Mayo;O.J.;G;6-4;210;NOV 05, 1987;Southern California
+Udoh;Ekpe;F-C;6-10;245;MAY 20, 1987;Baylor
+Wolters;Nate;G;6-4;190;MAY 15, 1991;South Dakota State
+Ilyasova;Ersan;F;6-10;235;MAY 15, 1987;Eskisehir, Turkey
+Sanders;Larry;C;6-11;235;NOV 21, 1988;Virginia Commonwealth
+Raduljica;Miroslav;C;7-0;250;JAN 05, 1988;Serbia
+Delfino;Carlos;G-F;6-6;230;AUG 29, 1982;Santa Fe, Argentina
+Knight;Brandon;G;6-3;189;DEC 02, 1991;Kentucky
+Adrien;Jeff;F;6-7;245;FEB 10, 1986;Connecticut
+Sessions;Ramon;G;6-3;190;APR 11, 1986;Nevada
+Wright;Chris;F;6-9;226;SEP 30, 1988;Dayton
+Middleton;Khris;F;6-8;217;AUG 12, 1991;Texas A&M
+Pachulia;Zaza;C;6-11;275;FEB 10, 1984;Tbilisi, Georgia
+Henson;John;C-F;6-11;220;DEC 28, 1990;North Carolina
+Antetokounmpo;Giannis;G-F;6-9;205;DEC 06, 1994;Greece
+Teague;Jeff;G;6-2;181;JUN 10, 1988;Wake Forest
+Williams;Lou;G;6-1;175;OCT 27, 1986;South Gwinnett HS (GA)
+Millsap;Paul;F;6-8;253;FEB 10, 1985;Louisiana Tech
+Carroll;DeMarre;F;6-8;212;JUL 27, 1986;Missouri
+Antic;Pero;C;6-11;260;JUL 29, 1982;Macedonia
+Mack;Shelvin;G;6-3;207;APR 22, 1990;Butler
+Jenkins;John;G;6-4;215;MAR 06, 1991;Vanderbilt
+Ayon;Gustavo;F-C;6-10;250;APR 01, 1985;Tepic, Mexico
+Horford;Al;C-F;6-10;250;JUN 03, 1986;Florida
+Schroder;Dennis;G;6-1;168;SEP 15, 1993;Germany
+Martin;Cartier;F;6-7;220;NOV 20, 1984;Kansas State
+Korver;Kyle;G-F;6-7;212;MAR 17, 1981;Creighton
+Muscala;Mike;C;6-11;239;JUL 01, 1991;Bucknell
+Scott;Mike;F;6-8;237;JUL 16, 1988;Virginia
+Brand;Elton;F;6-9;254;MAR 11, 1979;Duke
+Biyombo;Bismack;C-F;6-9;245;AUG 28, 1992;Lubumbashi, DR Congo
+Pargo;Jannero;G;6-1;185;OCT 22, 1979;Arkansas
+White;DJ;F;6-9;250;AUG 31, 1986;Indiana
+Henderson;Gerald;G;6-5;215;DEC 09, 1987;Duke
+McRoberts;Josh;F;6-10;240;FEB 28, 1987;Duke
+Neal;Gary;G;6-4;210;OCT 03, 1984;Towson
+Ridnour;Luke;G;6-2;175;FEB 13, 1981;Oregon
+Kidd-Gilchrist;Michael;F;6-7;232;SEP 26, 1993;Kentucky
+Walker;Kemba;G;6-1;184;MAY 08, 1990;Connecticut
+Jefferson;Al;C;6-10;289;JAN 04, 1985;Prentiss HS (MS)
+Haywood;Brendan;C;7-0;263;NOV 27, 1979;North Carolina
+Zeller;Cody;C-F;7-0;240;OCT 05, 1992;Indiana
+Tolliver;Anthony;F;6-8;240;JUN 01, 1985;Creighton
+Taylor;Jeff;F;6-7;225;MAY 23, 1989;Vanderbilt
+Douglas-Roberts;Chris;G;6-7;210;JAN 08, 1987;Memphis
+Douglas;Toney;G;6-2;195;MAR 16, 1986;Florida State
+Bosh;Chris;C-F;6-11;235;MAR 24, 1984;Georgia Tech
+Wade;Dwyane;G;6-4;220;JAN 17, 1982;Marquette
+James;LeBron;F;6-8;250;DEC 30, 1984;St. Vincent-St. Mary HS (OH)
+Hamilton;Justin;C;7-0;255;APR 01, 1990;Louisiana State
+Beasley;Michael;F;6-10;235;JAN 09, 1989;Kansas State
+Lewis;Rashard;F;6-10;235;AUG 08, 1979;Alief Elsik HS (TX)
+Andersen;Chris;F-C;6-10;245;JUL 07, 1978;Blinn
+Chalmers;Mario;G;6-2;190;MAY 19, 1986;Kansas
+Oden;Greg;C;7-0;273;JAN 22, 1988;Ohio State
+Jones;James;F-G;6-8;215;OCT 04, 1980;Miami (FL)
+Cole;Norris;G;6-2;175;OCT 13, 1988;Cleveland State
+Battier;Shane;F;6-8;220;SEP 09, 1978;Duke
+Allen;Ray;G;6-5;205;JUL 20, 1975;Connecticut
+Haslem;Udonis;F;6-8;235;JUN 09, 1980;Florida
+Lamb;Doron;G;6-4;200;NOV 06, 1991;Kentucky
+O'Quinn;Kyle;F;6-10;250;MAR 26, 1990;Norfolk State
+Dedmon;Dewayne;C;7-0;255;AUG 12, 1989;Southern California
+Afflalo;Arron;G-F;6-5;215;OCT 15, 1985;UCLA
+Oladipo;Victor;G;6-4;215;MAY 04, 1992;Indiana
+Vucevic;Nikola;C;7-0;250;OCT 24, 1990;Southern California
+Price;Ronnie;G;6-2;190;JUN 21, 1983;Utah Valley
+Harris;Tobias;F;6-9;235;JUL 15, 1992;Tennessee
+Nelson;Jameer;G;6-0;190;FEB 09, 1982;Saint Joseph's
+Harkless;Maurice;F;6-9;220;MAY 11, 1993;St. John's (NY)
+Nicholson;Andrew;F;6-9;250;DEC 08, 1989;St. Bonaventure
+Maxiell;Jason;F;6-7;260;FEB 18, 1983;Cincinnati
+Moore;E'Twaun;G;6-4;191;FEB 25, 1989;Purdue
+Ariza;Trevor;F;6-8;220;JUN 30, 1985;UCLA
+Wall;John;G;6-4;195;SEP 06, 1990;Kentucky
+Beal;Bradley;G;6-5;207;JUN 28, 1993;Florida
+Gortat;Marcin;C;6-11;240;FEB 17, 1984;Lodz, Poland
+Harrington;Al;F;6-9;245;FEB 17, 1980;St. Patrick's HS (NJ)
+Webster;Martell;F-G;6-7;230;DEC 04, 1986;Seattle Prep HS (WA)
+Seraphin;Kevin;C;6-10;278;DEC 07, 1989;Le Moyne
+Rice Jr.;Glen;G-F;6-6;206;JAN 01, 1991;Georgia Tech
+Temple;Garrett;G;6-6;195;MAY 08, 1986;Louisiana State
+Porter;Otto;F;6-8;198;JUN 03, 1993;Georgetown
+Miller;Andre;G;6-2;200;MAR 19, 1976;Utah
+Singleton;Chris;F;6-9;228;NOV 21, 1989;Florida State
+Booker;Trevor;F;6-8;235;NOV 25, 1987;Clemson
+Hilario;Nene;F-C;6-11;250;SEP 13, 1982;Sao Carlos, Brazil
+Gooden;Drew;F;6-10;250;SEP 24, 1981;Kansas
+Brooks;Aaron;G;6-0;161;JAN 14, 1985;Oregon
+Arthur;Darrell;F;6-9;235;MAR 25, 1988;Kansas
+Lawson;Ty;G;5-11;195;NOV 03, 1987;North Carolina
+Foye;Randy;G;6-4;213;SEP 24, 1983;Villanova
+Hickson;JJ;C-F;6-9;242;SEP 04, 1988;North Carolina State
+Gallinari;Danilo;F;6-10;225;AUG 08, 1988;Sant'Angelo Lodigiano, Italy
+Robinson;Nate;G;5-9;180;MAY 31, 1984;Washington
+Randolph;Anthony;F;6-11;225;JUL 15, 1989;Louisiana State
+Chandler;Wilson;F;6-8;225;MAY 10, 1987;DePaul
+Vesely;Jan;F;7-0;242;APR 24, 1990;Ostrava, Czech Republic
+Mozgov;Timofey;C;7-1;250;JUL 16, 1986;St. Petersburg, Russia
+Miller;Quincy;F;6-9;210;NOV 18, 1992;Baylor
+McGee;JaVale;C;7-0;270;JAN 19, 1988;Nevada
+Faried;Kenneth;F;6-8;228;NOV 19, 1989;Morehead State
+Fournier;Evan;G;6-6;200;OCT 29, 1992;France
+Jeffers;Othyus;G-F;6-5;210;AUG 05, 1985;Robert Morris (IL)
+Shved;Alexey;G;6-6;187;DEC 16, 1988;Russia
+Dieng;Gorgui;C;6-11;238;JAN 18, 1990;Louisville
+Hummel;Robbie;F;6-8;220;MAR 08, 1989;Purdue
+Rubio;Ricky;G;6-4;185;OCT 21, 1990;El Masnou, Spain
+Budinger;Chase;F;6-7;209;MAY 22, 1988;Arizona
+Juan Barea;Jose;G;6-0;178;JUN 26, 1984;Northeastern
+Mbah a Moute;Luc;F;6-8;230;SEP 09, 1986;UCLA
+Brewer;Corey;F;6-9;185;MAR 05, 1986;Florida
+Pekovic;Nikola;C;6-11;285;JAN 03, 1986;Montenegro
+Muhammad;Shabazz;F;6-6;222;NOV 13, 1992;UCLA
+Martin;Kevin;G;6-7;197;FEB 01, 1983;Western Carolina
+Turiaf;Ronny;C;6-10;241;JAN 13, 1983;Gonzaga
+Cunningham;Dante;F;6-8;221;APR 22, 1987;Villanova
+Love;Kevin;F-C;6-10;243;SEP 07, 1988;UCLA
+Westbrook;Russell;G;6-3;200;NOV 12, 1988;UCLA
+Butler;Caron;F;6-7;228;MAR 13, 1980;Connecticut
+Jones;Perry;F;6-11;235;SEP 24, 1991;Baylor
+Collison;Nick;F-C;6-10;255;OCT 26, 1980;Kansas
+Perkins;Kendrick;C;6-10;270;NOV 10, 1984;Clifton J. Ozen HS (TX)
+Fisher;Derek;G;6-1;210;AUG 09, 1974;Arkansas-Little Rock
+Jerrett;Grant;F;6-10;232;JUL 08, 1993;Arizona
+Ibaka;Serge;F-C;6-10;245;SEP 18, 1989;Brazzaville, Rep. of Congo
+Lamb;Jeremy;G;6-5;185;MAY 30, 1992;Connecticut
+Adams;Steven;C;7-0;255;JUL 20, 1993;Pittsburgh
+Jackson;Reggie;G;6-3;208;APR 16, 1990;Boston College
+Roberson;Andre;G-F;6-7;210;DEC 04, 1991;Colorado
+Sefolosha;Thabo;G;6-7;222;MAY 02, 1984;Vevey, Switzerland
+Thabeet;Hasheem;C;7-3;263;FEB 16, 1987;Connecticut
+Durant;Kevin;F;6-9;240;SEP 29, 1988;Texas
+Lillard;Damian;G;6-3;195;JUL 15, 1990;Weber State
+Wright;Dorell;F;6-9;205;DEC 02, 1985;South Kent Prep (CT)
+Matthews;Wesley;G;6-5;220;OCT 14, 1986;Marquette
+McCollum;CJ;G;6-4;200;SEP 19, 1991;Lehigh
+Barton;Will;G;6-6;175;JAN 06, 1991;Memphis
+Leonard;Meyers;C;7-1;245;FEB 27, 1992;Illinois
+Aldridge;LaMarcus;F;6-11;240;JUL 19, 1985;Texas
+Watson;Earl;G;6-1;199;JUN 12, 1979;UCLA
+Claver;Victor;F;6-9;224;AUG 30, 1988;Valencia, Spain
+Freeland;Joel;C-F;6-10;225;FEB 07, 1987;England
+Crabbe;Allen;G;6-6;210;APR 09, 1992;California
+Williams;Mo;G;6-1;195;DEC 19, 1982;Alabama
+Robinson;Thomas;F;6-10;237;MAR 17, 1991;Kansas
+Lopez;Robin;C;7-0;255;APR 01, 1988;Stanford
+Batum;Nicolas;F;6-8;200;DEC 14, 1988;Lisieux, France
+Kanter;Enes;C;6-11;247;MAY 20, 1992;Kentucky
+Williams;Marvin;F;6-9;237;JUN 19, 1986;North Carolina
+Burke;Trey;G;6-1;190;NOV 12, 1992;Michigan
+Lucas III;John;G;5-11;166;NOV 21, 1982;Oklahoma State
+Garrett;Diante;G;6-4;190;NOV 03, 1988;Iowa State
+Burks;Alec;G;6-6;211;JUL 20, 1991;Colorado
+Favors;Derrick;C-F;6-10;268;JUL 15, 1991;Georgia Tech
+Hayward;Gordon;G-F;6-8;220;MAR 23, 1990;Butler
+Clark;Ian;G;6-3;173;MAR 07, 1991;Belmont
+Thomas;Malcolm;F;6-9;225;NOV 08, 1988;San Diego State
+Jefferson;Richard;F;6-7;234;JUN 21, 1980;Arizona
+Rush;Brandon;G;6-6;233;JUL 07, 1985;Kansas
+Gobert;Rudy;C;7-1;245;JUN 26, 1992;France
+Murphy;Erik;F;6-10;230;OCT 26, 1990;Florida
+Evans;Jeremy;F;6-9;197;OCT 24, 1987;Western Kentucky
+Kuzmic;Ognjen;C;7-0;251;MAY 16, 1990;None
+Speights;Marreese;F-C;6-10;255;AUG 04, 1987;Florida
+O'Neal;Jermaine;C-F;6-11;255;OCT 13, 1978;Eau Claire HS (SC)
+Nedovic;Nemanja;G;6-3;192;JUN 16, 1991;Serbia
+Iguodala;Andre;F-G;6-6;207;JAN 28, 1984;Arizona
+Lee;David;F;6-9;240;APR 29, 1983;Florida
+Thompson;Klay;G;6-7;205;FEB 08, 1990;Washington State
+Bogut;Andrew;C;7-0;260;NOV 28, 1984;Utah
+Green;Draymond;F;6-7;230;MAR 04, 1990;Michigan State
+Blake;Steve;G;6-3;172;FEB 26, 1980;Maryland
+Curry;Stephen;G;6-3;185;MAR 14, 1988;Davidson
+Ezeli;Festus;C;6-11;255;OCT 21, 1989;Vanderbilt
+Barnes;Harrison;F;6-8;210;MAY 30, 1992;North Carolina
+Crawford;Jordan;G;6-4;195;OCT 23, 1988;Xavier
+Armstrong;Hilton;F-C;6-11;235;NOV 23, 1984;Connecticut
+Davis;Glen;F-C;6-9;289;JAN 01, 1986;Louisiana State
+Collison;Darren;G;6-0;175;AUG 23, 1987;UCLA
+Paul;Chris;G;6-0;175;MAY 06, 1985;Wake Forest
+Redick;JJ;G;6-4;190;JUN 24, 1984;Duke
+Jordan;DeAndre;C;6-11;265;JUL 21, 1988;Texas A&M
+Turkoglu;Hedo;F;6-10;220;MAR 19, 1979;Istanbul, Turkey
+Dudley;Jared;F;6-7;225;JUL 10, 1985;Boston College
+Crawford;Jamal;G;6-5;200;MAR 20, 1980;Michigan
+Hollins;Ryan;C;7-0;240;OCT 10, 1984;UCLA
+Barnes;Matt;F;6-7;226;MAR 09, 1980;UCLA
+Bullock;Reggie;G;6-7;205;MAR 16, 1991;North Carolina
+Griffin;Blake;F;6-10;251;MAR 16, 1989;Oklahoma
+Granger;Danny;F;6-9;228;APR 20, 1983;New Mexico
+Green;Willie;G;6-3;201;JUL 28, 1981;Detroit Mercy
+Young;Nick;F-G;6-7;210;JUN 01, 1985;Southern California
+Farmar;Jordan;G;6-2;180;NOV 30, 1986;UCLA
+Brooks;MarShon;G;6-5;200;JAN 26, 1989;Providence
+Kelly;Ryan;F;6-11;230;APR 09, 1991;Duke
+Bazemore;Kent;G;6-5;201;JUL 01, 1989;Old Dominion
+Henry;Xavier;F-G;6-6;220;MAR 15, 1991;Kansas
+Kaman;Chris;C;7-0;265;APR 28, 1982;Central Michigan
+Nash;Steve;G;6-3;178;FEB 07, 1974;Santa Clara
+Johnson;Wesley;F;6-7;215;JUL 11, 1987;Syracuse
+Marshall;Kendall;G;6-4;195;AUG 19, 1991;North Carolina
+Gasol;Pau;C-F;7-0;250;JUL 06, 1980;Barcelona, Spain
+Meeks;Jodie;G;6-4;208;AUG 21, 1987;Kentucky
+Bryant;Kobe;G;6-6;205;AUG 23, 1978;Lower Merion HS (PA)
+Hill;Jordan;F-C;6-10;235;JUL 27, 1987;Arizona
+Sacre;Robert;C;7-0;260;JUN 06, 1989;Gonzaga
+Dragic;Goran;G;6-3;190;MAY 06, 1986;Ljubljana, Slovenia
+Bledsoe;Eric;G;6-1;195;DEC 09, 1989;Kentucky
+Smith;Ish;G;6-0;175;JUL 05, 1988;Wake Forest
+Frye;Channing;F-C;6-11;245;MAY 17, 1983;Arizona
+Barbosa;Leandro;G;6-3;194;NOV 28, 1982;Sau Paulo, Brazil
+Morris;Markieff;F;6-10;245;SEP 02, 1989;Kansas
+Green;Gerald;G-F;6-8;210;JAN 26, 1986;Gulf Shores Aca. (TX)
+Morris;Marcus;F;6-9;235;SEP 02, 1989;Kansas
+Tucker;PJ;F-G;6-6;224;MAY 05, 1985;Texas
+Goodwin;Archie;G;6-5;198;AUG 17, 1994;Kentucky
+Len;Alex;C;7-1;255;JUN 16, 1993;Maryland
+Plumlee;Miles;C-F;6-11;255;SEP 01, 1988;Duke
+Christmas;Dionte;G;6-5;205;SEP 15, 1986;Temple
+Randolph;Shavlik;F;6-10;236;NOV 24, 1983;Duke
+Okafor;Emeka;C;6-10;255;SEP 28, 1982;Connecticut
+McCallum;Ray;G;6-3;190;JUN 12, 1991;Detroit Mercy
+Acy;Quincy;F;6-7;225;OCT 06, 1990;Baylor
+Gay;Rudy;F;6-8;230;AUG 17, 1986;Connecticut
+Cunningham;Jared;G;6-4;195;MAY 22, 1991;Oregon State
+Williams;Derrick;F;6-8;240;MAY 25, 1991;Arizona
+Cousins;DeMarcus;C;6-11;270;AUG 13, 1990;Kentucky
+McLemore;Ben;G;6-5;195;FEB 11, 1993;Kansas
+Thomas;Isaiah;G;5-9;185;FEB 07, 1989;Washington
+Landry;Carl;F;6-9;248;SEP 19, 1983;Purdue
+Outlaw;Travis;F;6-9;207;SEP 18, 1984;Starkville HS (MS)
+Evans;Reggie;F;6-8;245;MAY 18, 1980;Iowa
+Terry;Jason;G;6-2;180;SEP 15, 1977;Arizona
+Gray;Aaron;C;7-0;270;DEC 07, 1984;Pittsburgh
+Thompson;Jason;F-C;6-11;250;JUL 21, 1986;Rider
+Reed;Willie;F-C;6-10;220;MAY 16, 1990;Saint Louis
+Felton;Raymond;G;6-1;205;JUN 26, 1984;North Carolina
+Chandler;Tyson;C;7-1;240;OCT 02, 1982;Dominquez H.S
+Marion;Shawn;F;6-7;228;MAY 07, 1978;Nevada-Las Vegas
+James;Bernard;C;6-10;240;FEB 07, 1985;Florida State
+Ledo;Ricky;G;6-7;195;SEP 10, 1992;Providence
+Crowder;Jae;F;6-6;235;JUL 06, 1990;Marquette
+Ellis;Monta;G;6-3;185;OCT 26, 1985;Lanier HS (Jackson, MS)
+Harris;Devin;G;6-3;192;FEB 27, 1983;Wisconsin
+Carter;Vince;G-F;6-6;220;JAN 26, 1977;North Carolina
+Mekel;Gal;G;6-3;191;MAR 04, 1988;Wichita State
+Wright;Brandan;F;6-10;210;OCT 05, 1987;North Carolina
+Nowitzki;Dirk;F;7-0;245;JUN 19, 1978;Wurzburg, Germany
+Blair;DeJuan;C-F;6-7;270;APR 22, 1989;Pittsburgh
+Canaan;Isaiah;G;6-0;188;MAY 21, 1991;Murray State
+Beverley;Patrick;G;6-1;185;JUL 12, 1988;Arkansas
+Asik;Omer;C;7-0;255;JUL 04, 1986;Turkey
+Hamilton;Jordan;F-G;6-7;220;OCT 06, 1990;Texas
+Jones;Terrence;F;6-9;252;JAN 09, 1992;Kentucky
+Lin;Jeremy;G;6-3;200;AUG 23, 1988;Harvard
+Howard;Dwight;C-F;6-11;265;DEC 08, 1985;SW Atlanta Christian Academy (GA)
+Harden;James;G;6-5;220;AUG 26, 1989;Arizona State
+Casspi;Omri;F;6-9;225;JUN 22, 1988;Yavne, Israel
+Motiejunas;Donatas;F-C;7-0;222;SEP 20, 1990;Kaunas, Lithuania
+Powell;Josh;F;6-9;240;JAN 25, 1983;North Carolina State
+Parsons;Chandler;F;6-9;227;OCT 25, 1988;Florida
+Daniels;Troy;G;6-4;204;JUL 15, 1991;Virginia Commonwealth
+Garcia;Francisco;G-F;6-7;195;DEC 31, 1981;Louisville
+Covington;Robert;F;6-9;215;DEC 14, 1990;Tennessee State
+Johnson;James;F;6-9;248;FEB 20, 1987;Wake Forest
+Lee;Courtney;G;6-5;200;OCT 03, 1985;Western Kentucky
+Allen;Tony;G;6-4;213;JAN 11, 1982;Oklahoma State
+Conley;Mike;G;6-1;185;OCT 11, 1987;Ohio State
+Calathes;Nick;G;6-6;213;FEB 07, 1989;Florida
+Miller;Mike;F;6-8;218;FEB 19, 1980;Florida
+Udrih;Beno;G;6-3;210;JUL 05, 1982;Sempeter, Slovenia
+Pondexter;Quincy;F;6-6;225;MAR 10, 1988;Washington
+Prince;Tayshaun;F;6-9;215;FEB 28, 1980;Kentucky
+Franklin;Jamaal;G;6-5;191;JUL 21, 1991;San Diego State
+Leuer;Jon;F;6-10;228;MAY 14, 1989;Wisconsin
+Davis;Ed;F;6-10;225;JUN 05, 1989;North Carolina
+Gasol;Marc;C;7-1;265;JAN 29, 1985;Barcelona, Spain
+Koufos;Kosta;C;7-0;265;FEB 24, 1989;Ohio State
+Randolph;Zach;F;6-9;260;JUL 16, 1981;Michigan State
+Aminu;Al-Farouq;F;6-9;215;SEP 21, 1990;Wake Forest
+Evans;Tyreke;F-G;6-6;220;SEP 19, 1989;Memphis
+Miller;Darius;F;6-8;225;MAR 21, 1990;Kentucky
+Morrow;Anthony;G;6-5;210;SEP 27, 1985;Georgia Tech
+Ely;Melvin;C-F;6-10;260;MAY 02, 1978;Fresno State
+Withey;Jeff;C;7-0;235;MAR 07, 1990;Kansas
+Babbitt;Luke;F;6-9;225;JUN 20, 1989;Nevada
+Gordon;Eric;G;6-4;215;DEC 25, 1988;Indiana
+Holiday;Jrue;G;6-4;205;JUN 12, 1990;UCLA
+Smith;Jason;C-F;7-0;240;MAR 02, 1986;Colorado State
+Roberts;Brian;G;6-1;173;DEC 03, 1985;Dayton
+Davis;Anthony;F-C;6-10;220;MAR 11, 1993;Kentucky
+Rivers;Austin;G;6-4;200;AUG 01, 1992;Duke
+Southerland;James;F;6-8;215;APR 28, 1990;Syracuse
+Anderson;Ryan;F;6-10;240;MAY 06, 1988;California
+Ajinca;Alexis;C;7-2;248;MAY 06, 1988;Saint Etienne, France
+Leonard;Kawhi;F-G;6-7;230;JUN 29, 1991;San Diego State
+Belinelli;Marco;G;6-5;210;MAR 25, 1986;Bologna, Italy
+Green;Danny;G-F;6-6;215;JUN 22, 1987;North Carolina
+Joseph;Cory;G;6-3;190;AUG 20, 1991;Texas
+James;Damion;F;6-7;225;OCT 07, 1987;Texas
+Mills;Patty;G;6-0;185;AUG 11, 1988;Saint Mary's (CA)
+Parker;Tony;G;6-2;185;MAY 17, 1982;Paris, France
+Ayres;Jeff;C-F;6-9;250;APR 29, 1987;Arizona State
+Bonner;Matt;F-C;6-10;235;APR 05, 1980;Florida
+Baynes;Aron;F-C;6-10;260;DEC 09, 1986;Washington State
+Ginobili;Manu;G;6-6;205;JUL 28, 1977;Bahia Blanca, Argentina
+Duncan;Tim;F;6-11;250;APR 25, 1976;Wake Forest
+Splitter;Tiago;C;6-11;245;JAN 01, 1985;Blumenau, Brazil
+Daye;Austin;F;6-11;200;JUN 05, 1988;Gonzaga
+Diaw;Boris;F;6-8;250;APR 16, 1982;Cormeille-en-Parisis, France
+Bradley;Avery;G;6-2;180;NOV 26, 1990;Texas
+Thomas;Isaiah;G;5-9;185;FEB 07, 1989;Washington
+Sullinger;Jared;F;6-9;260;MAR 04, 1992;Ohio State
+Jerebko;Jonas;F;6-10;231;MAR 02, 1987;Kinna, Sweden
+Turner;Evan;G-F;6-7;220;OCT 27, 1988;Ohio State
+Young;James;G-F;6-6;215;AUG 16, 1995;Kentucky
+Pressey;Phil;G;5-11;175;FEB 17, 1991;Missouri
+Bass;Brandon;F-C;6-8;250;APR 30, 1985;Louisiana State
+Smart;Marcus;G;6-4;220;MAR 06, 1994;Oklahoma State
+Olynyk;Kelly;C-F;7-0;238;APR 19, 1991;Gonzaga
+Zeller;Tyler;C-F;7-0;253;JAN 17, 1990;North Carolina
+Wallace;Gerald;F;6-7;220;JUL 23, 1982;Alabama
+Babb;Chris;G;6-5;225;FEB 14, 1990;Iowa State
+Datome;Gigi;F;6-8;215;NOV 27, 1987;Italy
+Crowder;Jae;F;6-6;235;JUL 06, 1990;Marquette
+Jack;Jarrett;G;6-3;200;OCT 28, 1983;Georgia Tech
+Plumlee;Mason;C-F;6-11;235;MAR 05, 1990;Duke
+Anderson;Alan;G-F;6-6;220;OCT 16, 1982;Michigan State
+Johnson;Joe;F-G;6-7;240;JUN 29, 1981;Arkansas
+Williams;Deron;G;6-3;200;JUN 26, 1984;Illinois
+Jordan;Jerome;C;7-0;253;SEP 29, 1986;Tulsa
+Karasev;Sergey;G-F;6-7;208;OCT 26, 1993;Russia
+Lopez;Brook;C;7-0;275;APR 01, 1988;Stanford
+Morris;Darius;G;6-4;195;JAN 03, 1991;Michigan
+Jefferson;Cory;F;6-9;218;DEC 26, 1990;Baylor
+Brown;Markel;G;6-3;190;JAN 29, 1992;Oklahoma State
+Young;Thaddeus;F;6-8;221;JUN 21, 1988;Georgia Tech
+Teletovic;Mirza;F;6-9;242;SEP 17, 1985;Bosnia
+Bogdanovic;Bojan;G-F;6-8;216;APR 18, 1989;None
+Clark;Earl;F;6-10;234;JAN 17, 1988;Louisville
+Larkin;Shane;G;5-11;175;OCT 02, 1992;Miami (FL)
+Shved;Alexey;G;6-6;187;DEC 16, 1988;Russia
+Galloway;Langston;G;6-2;200;DEC 09, 1991;Saint Joseph's
+Calderon;Jose;G;6-3;200;SEP 28, 1981;Villanueva de la Serena, Spain
+Acy;Quincy;F;6-7;240;OCT 06, 1990;Baylor
+Hardaway Jr.;Tim;G;6-6;210;MAR 16, 1992;Michigan
+Wear;Travis;F;6-10;225;SEP 21, 1990;UCLA
+Anthony;Carmelo;F;6-8;240;MAY 29, 1984;Syracuse
+Ledo;Ricky;G;6-7;195;SEP 10, 1992;Providence
+Smith;Jason;F-C;7-0;245;MAR 02, 1986;Colorado State
+Early;Cleanthony;F;6-8;220;APR 17, 1991;Wichita State
+Amundson;Lou;F;6-9;225;DEC 07, 1982;Nevada-Las Vegas
+Thomas;Lance;F;6-8;225;APR 24, 1988;Duke
+Aldrich;Cole;C;6-11;250;OCT 31, 1988;Kansas
+Bargnani;Andrea;C-F;7-0;245;OCT 26, 1985;Rome, Italy
+Canaan;Isaiah;G;6-0;201;MAY 21, 1991;Murray State
+Robinson;Glenn;G-F;6-7;222;JAN 08, 1994;Michigan
+Noel;Nerlens;C-F;6-11;228;APR 10, 1994;Kentucky
+Smith;Ish;G;6-0;175;JUL 05, 1988;Wake Forest
+Wroten;Tony;G;6-6;205;APR 13, 1993;Washington
+Sampson;JaKarr;G-F;6-9;214;MAR 20, 1993;St. John's (NY)
+Mbah a Moute;Luc;F;6-8;230;SEP 09, 1986;UCLA
+Aldemir;Furkan;F-C;6-10;240;AUG 09, 1991;Galatasaray
+Embiid;Joel;C;7-0;250;MAR 16, 1994;Kansas
+Richardson;Jason;G;6-6;225;JAN 20, 1981;Michigan State
+Thompson;Hollis;G-F;6-8;206;APR 03, 1991;Georgetown
+Covington;Robert;F;6-9;215;DEC 14, 1990;Tennessee State
+Sims;Henry;C;6-10;248;MAR 27, 1990;Georgetown
+Grant;Jerami;F;6-8;210;MAR 12, 1994;Syracuse
+Robinson;Thomas;F;6-10;237;MAR 17, 1991;Kansas
+Fields;Landry;G-F;6-7;215;JUN 27, 1988;Stanford
+Johnson;James;F;6-9;250;FEB 20, 1987;Wake Forest
+Caboclo;Bruno;F;6-9;205;SEP 21, 1995;None
+Lowry;Kyle;G;6-0;205;MAR 25, 1986;Villanova
+DeRozan;DeMar;G;6-7;220;AUG 07, 1989;Southern California
+Johnson;Amir;F;6-9;240;MAY 01, 1987;Westchester HS (Los Angeles)
+Valanciunas;Jonas;C;7-0;255;MAY 06, 1992;Utena, Lithuania
+Vasquez;Greivis;G;6-6;200;JAN 16, 1987;Maryland
+Williams;Lou;G;6-1;175;OCT 27, 1986;South Gwinnett HS (GA)
+Ross;Terrence;F-G;6-7;195;FEB 05, 1991;Washington
+Stiemsma;Greg;C;6-11;260;SEP 26, 1985;Wisconsin
+Hayes;Charles;C-F;6-6;240;JUN 11, 1983;Kentucky
+Hansbrough;Tyler;F-C;6-9;250;NOV 03, 1985;North Carolina
+Patterson;Patrick;F;6-9;235;MAR 14, 1989;Kentucky
+Nogueira;Lucas;C;7-0;220;JUL 26, 1992;None
+Brooks;Aaron;G;6-0;161;JAN 14, 1985;Oregon
+Rose;Derrick;G;6-3;190;OCT 04, 1988;Memphis
+McDermott;Doug;F;6-8;225;JAN 03, 1992;Creighton
+Hinrich;Kirk;G;6-4;190;JAN 02, 1981;Kansas
+Noah;Joakim;C;6-11;232;FEB 25, 1985;Florida
+Gasol;Pau;F-C;7-0;250;JUL 06, 1980;Barcelona, Spain
+Snell;Tony;F;6-7;200;NOV 10, 1991;New Mexico
+Butler;Jimmy;G-F;6-7;220;SEP 14, 1989;Marquette
+Gibson;Taj;F;6-9;225;JUN 24, 1985;Southern California
+Dunleavy;Mike;F;6-9;230;SEP 15, 1980;Duke
+Bairstow;Cameron;F-C;6-9;250;DEC 07, 1990;New Mexico
+Mirotic;Nikola;F;6-10;220;FEB 11, 1991;None
+Mohammed;Nazr;C;6-10;250;SEP 05, 1977;Kentucky
+Moore;E'Twaun;G;6-4;191;FEB 25, 1989;Purdue
+Love;Kevin;F;6-10;243;SEP 07, 1988;UCLA
+Jones;James;F;6-8;215;OCT 04, 1980;Miami (FL)
+Irving;Kyrie;G;6-3;193;MAR 23, 1992;Duke
+Perkins;Kendrick;C;6-10;270;NOV 10, 1984;Clifton J. Ozen HS (TX)
+Shumpert;Iman;G;6-5;220;JUN 26, 1990;Georgia Tech
+Smith;J.R.;G-F;6-6;225;SEP 09, 1985;St. Benedict's Prep (NJ)
+Dellavedova;Matthew;G;6-4;200;SEP 08, 1990;Saint Mary's (CA)
+Harris;Joe;G;6-6;225;SEP 07, 1991;Virginia
+Thompson;Tristan;C-F;6-9;238;MAR 13, 1991;Texas
+Varejao;Anderson;C;6-11;267;SEP 28, 1982;Santa Teresa, Brazil
+Miller;Mike;G-F;6-8;218;FEB 19, 1980;Florida
+Mozgov;Timofey;C;7-1;250;JUL 16, 1986;St. Petersburg, Russia
+James;LeBron;F;6-8;250;DEC 30, 1984;St. Vincent-St. Mary HS (OH)
+Marion;Shawn;G-F;6-7;228;MAY 07, 1978;Nevada-Las Vegas
+Haywood;Brendan;C;7-0;263;NOV 27, 1979;North Carolina
+Drummond;Andre;C;6-11;279;AUG 10, 1993;Connecticut
+Jackson;Reggie;G;6-3;208;APR 16, 1990;Boston College
+Williams;Shawne;F;6-10;230;FEB 16, 1986;Memphis
+Caldwell-Pope;Kentavious;G;6-5;205;FEB 18, 1993;Georgia
+Jennings;Brandon;G;6-1;169;SEP 23, 1989;Oak Hill Academy (VA)
+Dinwiddie;Spencer;G;6-6;200;APR 06, 1993;Colorado
+Lucas III;John;G;5-11;166;NOV 21, 1982;Oklahoma State
+Monroe;Greg;F-C;6-11;250;JUN 04, 1990;Georgetown
+Meeks;Jodie;G;6-4;210;AUG 21, 1987;Kentucky
+Prince;Tayshaun;F;6-9;215;FEB 28, 1980;Kentucky
+Butler;Caron;F;6-7;228;MAR 13, 1980;Connecticut
+Miller;Quincy;F;6-9;210;NOV 18, 1992;Baylor
+Martin;Cartier;F;6-7;220;NOV 20, 1984;Kansas State
+Tolliver;Anthony;F;6-8;240;JUN 01, 1985;Creighton
+Anthony;Joel;C;6-9;245;AUG 09, 1982;Nevada-Las Vegas
+Miles;CJ;G;6-6;231;MAR 18, 1987;Skyline HS (TX)
+Stuckey;Rodney;G;6-5;205;APR 21, 1986;Eastern Washington
+Hill;George;G;6-3;188;MAY 04, 1986;Indiana Purdue-Indianapolis
+Scola;Luis;F;6-9;240;APR 30, 1980;Buenos Aires, Argentina
+Allen;Lavoy;F-C;6-9;255;FEB 04, 1989;Temple
+Rudez;Damjan;F;6-10;200;JUN 17, 1986;None
+George;Paul;F-G;6-9;220;MAY 02, 1990;Fresno State
+Sloan;Donald;G;6-3;205;JAN 15, 1988;Texas A&M
+West;David;F;6-9;250;AUG 29, 1980;Xavier
+Copeland;Chris;F;6-8;235;MAR 17, 1984;Colorado
+Mahinmi;Ian;C;6-11;250;NOV 05, 1986;Rouen, France
+Watson;CJ;G;6-2;175;APR 17, 1984;Tennessee
+Whittington;Shayne;F-C;6-11;250;MAR 27, 1991;Western Michigan
+Hill;Solomon;F;6-7;225;MAR 18, 1991;Arizona
+Hibbert;Roy;C;7-2;290;DEC 11, 1986;Georgetown
+Mayo;O.J.;G;6-5;210;NOV 05, 1987;Southern California
+O'Bryant;Johnny;F;6-9;265;JUN 01, 1993;Louisiana State
+Carter-Williams;Michael;G;6-6;190;OCT 10, 1991;Syracuse
+Ilyasova;Ersan;F;6-10;235;MAY 15, 1987;Eskisehir, Turkey
+Dudley;Jared;F-G;6-7;225;JUL 10, 1985;Boston College
+Ennis;Tyler;G;6-3;175;AUG 24, 1994;Syracuse
+Parker;Jabari;F;6-8;240;MAR 15, 1995;Duke
+Gutierrez;Jorge;G;6-3;195;DEC 27, 1988;California-Berkeley
+Inglis;Damien;F;6-8;225;MAY 20, 1995;None
+Bayless;Jerryd;G;6-3;200;AUG 20, 1988;Arizona
+Plumlee;Miles;C-F;6-11;255;SEP 01, 1988;Duke
+Middleton;Khris;G-F;6-7;225;AUG 12, 1991;Texas A&M
+Pachulia;Zaza;C;6-11;270;FEB 10, 1984;Tbilisi, Georgia
+Henson;John;C-F;6-11;230;DEC 28, 1990;North Carolina
+Antetokounmpo;Giannis;F;6-11;217;DEC 06, 1994;Greece
+Teague;Jeff;G;6-2;181;JUN 10, 1988;Wake Forest
+Daye;Austin;F;6-11;220;JUN 05, 1988;Gonzaga
+Millsap;Paul;F;6-8;253;FEB 10, 1985;Louisiana Tech
+Carroll;DeMarre;F;6-8;212;JUL 27, 1986;Missouri
+Antic;Pero;F-C;6-11;260;JUL 29, 1982;Macedonia
+Brand;Elton;F-C;6-9;254;MAR 11, 1979;Duke
+Mack;Shelvin;G;6-3;207;APR 22, 1990;Butler
+Jenkins;John;G;6-4;215;MAR 06, 1991;Vanderbilt
+Horford;Al;C-F;6-10;250;JUN 03, 1986;Florida
+Schroder;Dennis;G;6-1;168;SEP 15, 1993;Germany
+Bazemore;Kent;G;6-5;201;JUL 01, 1989;Old Dominion
+Sefolosha;Thabo;F-G;6-7;222;MAY 02, 1984;Vevey, Switzerland
+Korver;Kyle;G;6-7;212;MAR 17, 1981;Creighton
+Muscala;Mike;F-C;6-11;230;JUL 01, 1991;Bucknell
+Scott;Mike;F;6-8;237;JUL 16, 1988;Virginia
+Stephenson;Lance;G;6-5;230;SEP 05, 1990;Cincinnati
+Williams;Marvin;F;6-9;237;JUN 19, 1986;North Carolina
+Williams;Mo;G;6-1;198;DEC 19, 1982;Alabama
+Biyombo;Bismack;C-F;6-9;245;AUG 28, 1992;Lubumbashi, DR Congo
+Henderson;Gerald;G-F;6-5;215;DEC 09, 1987;Duke
+Vonleh;Noah;F;6-10;240;AUG 24, 1995;Indiana
+Kidd-Gilchrist;Michael;F;6-7;232;SEP 26, 1993;Kentucky
+Walker;Kemba;G;6-1;184;MAY 08, 1990;Connecticut
+Hairston;PJ;G-F;6-6;230;DEC 24, 1992;North Carolina
+Roberts;Brian;G;6-1;173;DEC 03, 1985;Dayton
+Jefferson;Al;C;6-10;289;JAN 04, 1985;Prentiss HS (MS)
+Daniels;Troy;G;6-4;205;JUL 15, 1991;Virginia Commonwealth
+Zeller;Cody;F-C;7-0;240;OCT 05, 1992;Indiana
+Taylor;Jeff;F;6-7;225;MAY 23, 1989;Vanderbilt
+Maxiell;Jason;F;6-7;260;FEB 18, 1983;Cincinnati
+Bosh;Chris;C;6-11;235;MAR 24, 1984;Georgia Tech
+Wade;Dwyane;G;6-4;220;JAN 17, 1982;Marquette
+McRoberts;Josh;F;6-10;240;FEB 28, 1987;Duke
+Walker;Henry;F;6-6;235;OCT 09, 1987;Kansas State
+Dragic;Goran;G;6-3;190;MAY 06, 1986;Ljubljana, Slovenia
+Johnson;Tyler;G;6-3;190;MAY 07, 1992;Fresno State
+Deng;Luol;F;6-9;220;APR 16, 1985;Duke
+Andersen;Chris;F-C;6-10;245;JUL 07, 1978;Blinn
+Dragic;Zoran;G-F;6-5;200;JUN 22, 1989;None
+Napier;Shabazz;G;6-1;175;JUL 14, 1991;Connecticut
+Chalmers;Mario;G;6-2;190;MAY 19, 1986;Kansas
+Whiteside;Hassan;C;7-0;265;JUN 13, 1989;Marshall
+Beasley;Michael;F;6-10;235;JAN 09, 1989;Kansas State
+Ennis;James;F;6-7;208;JUL 01, 1990;Long Beach State
+Haslem;Udonis;F;6-8;235;JUN 09, 1980;Florida
+Gordon;Aaron;F;6-9;220;SEP 16, 1995;Arizona
+O'Quinn;Kyle;F-C;6-10;250;MAR 26, 1990;Norfolk State
+Dedmon;Dewayne;C;7-0;245;AUG 12, 1989;Southern California
+Payton;Elfrid;G;6-4;185;FEB 22, 1994;Louisiana-Lafayette
+Oladipo;Victor;G;6-4;210;MAY 04, 1992;Indiana
+Gordon;Ben;G;6-3;205;APR 04, 1983;Connecticut
+Frye;Channing;F;6-11;255;MAY 17, 1983;Arizona
+Vucevic;Nikola;C;7-0;260;OCT 24, 1990;Southern California
+Fournier;Evan;G;6-7;205;OCT 29, 1992;France
+Marble;Devyn;F;6-6;200;SEP 21, 1992;Iowa
+Harris;Tobias;F;6-9;235;JUL 15, 1992;Tennessee
+Ridnour;Luke;G;6-2;175;FEB 13, 1981;Oregon
+Harkless;Maurice;F;6-9;215;MAY 11, 1993;St. John's (NY)
+Green;Willie;G;6-3;205;JUL 28, 1981;Detroit Mercy
+Nicholson;Andrew;F;6-9;250;DEC 08, 1989;St. Bonaventure
+Bynum;Will;G;6-0;185;JAN 04, 1983;Georgia Tech
+Wall;John;G;6-4;195;SEP 06, 1990;Kentucky
+Beal;Bradley;G;6-5;207;JUN 28, 1993;Florida
+Gortat;Marcin;C;6-11;240;FEB 17, 1984;Lodz, Poland
+Sessions;Ramon;G;6-3;190;APR 11, 1986;Nevada
+Butler;Rasual;F;6-7;215;MAY 23, 1979;La Salle
+Webster;Martell;F-G;6-7;230;DEC 04, 1986;Seattle Prep HS (WA)
+Seraphin;Kevin;C;6-10;278;DEC 07, 1989;Le Moyne
+Temple;Garrett;G;6-6;195;MAY 08, 1986;Louisiana State
+Porter;Otto;F;6-8;198;JUN 03, 1993;Georgetown
+Pierce;Paul;F;6-7;235;OCT 13, 1977;Kansas
+Hilario;Nene;F-C;6-11;250;SEP 13, 1982;Sao Carlos, Brazil
+Humphries;Kris;F;6-9;235;FEB 06, 1985;Minnesota
+Blair;DeJuan;C-F;6-7;270;APR 22, 1989;Pittsburgh
+Gooden;Drew;F;6-10;250;SEP 24, 1981;Kansas
+Arthur;Darrell;F;6-9;235;MAR 25, 1988;Kansas
+Lawson;Ty;G;5-11;195;NOV 03, 1987;North Carolina
+Foye;Randy;G;6-4;213;SEP 24, 1983;Villanova
+Barton;Will;G;6-6;175;JAN 06, 1991;Memphis
+Hickson;JJ;F-C;6-9;242;SEP 04, 1988;North Carolina State
+Gallinari;Danilo;F;6-10;225;AUG 08, 1988;Sant'Angelo Lodigiano, Italy
+Green;Erick;G;6-4;185;MAY 09, 1991;Virginia Tech
+Harris;Gary;G;6-4;210;SEP 14, 1994;Michigan State
+Clark;Ian;G;6-3;180;MAR 07, 1991;Belmont
+Chandler;Wilson;F;6-8;225;MAY 10, 1987;DePaul
+Franklin;Jamaal;G;6-5;191;JUL 21, 1991;San Diego State
+Nurkic;Jusuf;C;6-11;280;AUG 23, 1994;None
+Nelson;Jameer;G;6-0;190;FEB 09, 1982;Saint Joseph's
+Faried;Kenneth;F;6-8;228;NOV 19, 1989;Morehead State
+Lauvergne;Joffrey;F-C;6-11;220;SEP 30, 1991;None
+Payne;Adreian;F-C;6-10;245;FEB 19, 1991;Michigan State
+Hummel;Robbie;F;6-9;219;MAR 08, 1989;Purdue
+Dieng;Gorgui;C;6-11;233;JAN 18, 1990;Louisville
+Brown;Lorenzo;G;6-5;189;AUG 26, 1990;North Carolina State
+LaVine;Zach;G;6-5;183;MAR 10, 1995;UCLA
+Rubio;Ricky;G;6-4;192;OCT 21, 1990;El Masnou, Spain
+Budinger;Chase;F;6-7;209;MAY 22, 1988;Arizona
+Neal;Gary;G;6-4;210;OCT 03, 1984;Towson
+Pekovic;Nikola;C;6-11;295;JAN 03, 1986;Montenegro
+Muhammad;Shabazz;F;6-6;227;NOV 13, 1992;UCLA
+Garnett;Kevin;F-C;6-11;253;MAY 19, 1976;Farragut Academy HS (CHI)
+Wiggins;Andrew;F-G;6-8;199;FEB 23, 1995;Kansas
+Martin;Kevin;G;6-7;204;FEB 01, 1983;Western Carolina
+Bennett;Anthony;F;6-8;245;MAR 14, 1993;Nevada-Las Vegas
+Hamilton;Justin;C;7-0;255;APR 01, 1990;Louisiana State
+Onuaku;Arinze;F-C;6-9;275;JUL 13, 1987;Syracuse
+Westbrook;Russell;G;6-3;200;NOV 12, 1988;UCLA
+Morrow;Anthony;G;6-5;210;SEP 27, 1985;Georgia Tech
+Jones;Perry;F;6-11;235;SEP 24, 1991;Baylor
+Collison;Nick;F;6-10;255;OCT 26, 1980;Kansas
+Singler;Kyle;F;6-8;228;MAY 04, 1988;Duke
+Novak;Steve;F;6-10;225;JUN 13, 1983;Marquette
+Ibaka;Serge;F;6-10;245;SEP 18, 1989;Brazzaville, Rep. of Congo
+Lamb;Jeremy;G;6-5;185;MAY 30, 1992;Connecticut
+Adams;Steven;C;7-0;255;JUL 20, 1993;Pittsburgh
+Augustin;D.J.;G;6-0;183;NOV 10, 1987;Texas
+Roberson;Andre;G;6-7;210;DEC 04, 1991;Colorado
+Waiters;Dion;G;6-4;225;DEC 10, 1991;Syracuse
+McGary;Mitch;F;6-10;255;JUN 06, 1992;Michigan
+Kanter;Enes;C;6-11;245;MAY 20, 1992;Kentucky
+Durant;Kevin;F;6-9;240;SEP 29, 1988;Texas
+Lillard;Damian;G;6-3;195;JUL 15, 1990;Weber State
+Wright;Dorell;F;6-9;205;DEC 02, 1985;South Kent Prep (CT)
+Matthews;Wesley;G;6-5;220;OCT 14, 1986;Marquette
+McCollum;CJ;G;6-4;200;SEP 19, 1991;Lehigh
+Afflalo;Arron;G;6-5;215;OCT 15, 1985;UCLA
+Blake;Steve;G;6-3;172;FEB 26, 1980;Maryland
+Frazier;Tim;G;6-1;170;NOV 01, 1990;None
+Leonard;Meyers;C;7-1;245;FEB 27, 1992;Illinois
+Aldridge;LaMarcus;F;6-11;240;JUL 19, 1985;Texas
+Freeland;Joel;C-F;6-10;225;FEB 07, 1987;England
+Crabbe;Allen;F;6-6;210;APR 09, 1992;California
+Gee;Alonzo;F;6-6;225;MAY 29, 1987;Alabama
+Kaman;Chris;C;7-0;265;APR 28, 1982;Central Michigan
+Lopez;Robin;C;7-0;255;APR 01, 1988;Stanford
+Batum;Nicolas;F;6-8;200;DEC 14, 1988;Lisieux, France
+Ingles;Joe;G-F;6-8;216;OCT 02, 1987;None
+Burke;Trey;G;6-1;185;NOV 12, 1992;Michigan
+Hood;Rodney;G-F;6-8;215;OCT 20, 1992;Duke
+Cotton;Bryce;G;6-1;165;AUG 11, 1992;Providence
+Burks;Alec;G;6-6;211;JUL 20, 1991;Colorado
+Exum;Dante;G;6-6;190;JUL 13, 1995;None
+Millsap;Elijah;G;6-6;215;AUG 12, 1987;Alabama-Birmingham
+Favors;Derrick;F;6-10;262;JUL 15, 1991;Georgia Tech
+Jerrett;Grant;F;6-10;232;JUL 08, 1993;Arizona
+Hayward;Gordon;F;6-8;225;MAR 23, 1990;Butler
+Johnson;Chris;F;6-6;201;APR 29, 1990;Dayton
+Gobert;Rudy;C;7-1;245;JUN 26, 1992;France
+Booker;Trevor;F;6-8;230;NOV 25, 1987;Clemson
+Evans;Jeremy;F;6-9;200;OCT 24, 1987;Western Kentucky
+Cooley;Jack;F;6-9;246;APR 04, 1991;Notre Dame
+Kuzmic;Ognjen;C;7-0;260;MAY 16, 1990;None
+Rush;Brandon;G-F;6-6;220;JUL 07, 1985;Kansas
+Speights;Marreese;C-F;6-10;255;AUG 04, 1987;Florida
+Holiday;Justin;G;6-6;185;APR 05, 1989;Washington
+Iguodala;Andre;G-F;6-6;215;JAN 28, 1984;Arizona
+Lee;David;F-C;6-9;245;APR 29, 1983;Florida
+Thompson;Klay;G;6-7;215;FEB 08, 1990;Washington State
+Bogut;Andrew;C;7-0;260;NOV 28, 1984;Utah
+Barbosa;Leandro;G;6-3;194;NOV 28, 1982;Sau Paulo, Brazil
+Michael McAdoo;James;F;6-9;230;JAN 04, 1993;North Carolina
+Green;Draymond;F;6-7;230;MAR 04, 1990;Michigan State
+Curry;Stephen;G;6-3;190;MAR 14, 1988;Davidson
+Ezeli;Festus;C;6-11;265;OCT 21, 1989;Vanderbilt
+Livingston;Shaun;G;6-7;192;SEP 11, 1985;Peoria Central HS (IL)
+Barnes;Harrison;F;6-8;225;MAY 30, 1992;North Carolina
+Davis;Glen;F-C;6-9;289;JAN 01, 1986;Louisiana State
+Hamilton;Jordan;G-F;6-7;220;OCT 06, 1990;Texas
+Paul;Chris;G;6-0;175;MAY 06, 1985;Wake Forest
+Redick;JJ;G;6-4;190;JUN 24, 1984;Duke
+Jordan;DeAndre;C;6-11;265;JUL 21, 1988;Texas A&M
+Hawes;Spencer;F-C;7-1;245;APR 28, 1988;Washington
+Crawford;Jamal;G;6-5;200;MAR 20, 1980;Michigan
+Udoh;Ekpe;F;6-10;245;MAY 20, 1987;Baylor
+Hudson;Lester;G;6-3;190;AUG 07, 1984;Tennessee-Martin
+Turkoglu;Hedo;F;6-10;220;MAR 19, 1979;Istanbul, Turkey
+Barnes;Matt;F;6-7;226;MAR 09, 1980;UCLA
+Rivers;Austin;G;6-4;200;AUG 01, 1992;Duke
+Wilcox;CJ;G;6-5;195;DEC 30, 1990;Washington
+Jones;Dahntay;G-F;6-6;225;DEC 27, 1980;Duke
+Griffin;Blake;F;6-10;251;MAR 16, 1989;Oklahoma
+Young;Nick;F-G;6-7;210;JUN 01, 1985;Southern California
+Ellington;Wayne;G;6-4;200;NOV 29, 1987;North Carolina
+Kelly;Ryan;F;6-11;230;APR 09, 1991;Duke
+Boozer;Carlos;F;6-9;258;NOV 20, 1981;Duke
+Clarkson;Jordan;G;6-5;185;JUN 07, 1992;Missouri
+Price;Ronnie;G;6-2;190;JUN 21, 1983;Utah Valley
+Johnson;Wesley;F;6-7;215;JUL 11, 1987;Syracuse
+Blue;Vander;G;6-4;200;JUL 22, 1992;Marquette
+Brown;Jabari;G;6-5;214;DEC 18, 1992;Missouri
+Lin;Jeremy;G;6-3;200;AUG 23, 1988;Harvard
+Davis;Ed;F;6-10;240;JUN 05, 1989;North Carolina
+Bryant;Kobe;G;6-6;212;AUG 23, 1978;Lower Merion HS (PA)
+Hill;Jordan;C;6-10;235;JUL 27, 1987;Arizona
+Black;Tarik;C-F;6-11;257;NOV 22, 1991;Kansas
+Randle;Julius;F;6-9;250;NOV 29, 1994;Kentucky
+Sacre;Robert;C;7-0;270;JUN 06, 1989;Gonzaga
+Bledsoe;Eric;G;6-1;195;DEC 09, 1989;Kentucky
+Knight;Brandon;G;6-3;189;DEC 02, 1991;Kentucky
+McNeal;Jerel;G;6-3;200;JUN 01, 1987;Marquette
+Morris;Markieff;F;6-10;245;SEP 02, 1989;Kansas
+Warren;TJ;F;6-8;215;SEP 05, 1993;North Carolina State
+Green;Gerald;G-F;6-8;210;JAN 26, 1986;Gulf Shores Aca. (TX)
+Morris;Marcus;F;6-9;235;SEP 02, 1989;Kansas
+Tucker;PJ;F-G;6-6;224;MAY 05, 1985;Texas
+Goodwin;Archie;G;6-5;198;AUG 17, 1994;Kentucky
+Len;Alex;C;7-1;255;JUN 16, 1993;Maryland
+Granger;Danny;F-G;6-9;222;APR 20, 1983;New Mexico
+Thornton;Marcus;G;6-4;205;JUN 05, 1987;Louisiana State
+Bullock;Reggie;G;6-7;205;MAR 16, 1991;North Carolina
+Barron;Earl;F-C;7-0;250;AUG 14, 1981;Memphis
+Wright;Brandan;F;6-10;210;OCT 05, 1987;North Carolina
+McCallum;Ray;G;6-3;190;JUN 12, 1991;Detroit Mercy
+Hollins;Ryan;C;7-0;240;OCT 10, 1984;UCLA
+Collison;Darren;G;6-0;175;AUG 23, 1987;UCLA
+Gay;Rudy;F;6-8;230;AUG 17, 1986;Connecticut
+Stockton;David;G;5-11;165;JUN 24, 1991;Gonzaga
+Stauskas;Nik;G;6-6;205;OCT 07, 1993;Michigan
+Williams;Derrick;F;6-8;240;MAY 25, 1991;Arizona
+Cousins;DeMarcus;C;6-11;270;AUG 13, 1990;Kentucky
+Casspi;Omri;F;6-9;225;JUN 22, 1988;Yavne, Israel
+Miller;Andre;G;6-2;200;MAR 19, 1976;Utah
+McLemore;Ben;G;6-5;195;FEB 11, 1993;Kansas
+Landry;Carl;F;6-9;248;SEP 19, 1983;Purdue
+Moreland;Eric;F;6-10;218;DEC 24, 1991;Oregon State
+Evans;Reggie;C-F;6-8;245;MAY 18, 1980;Iowa
+Thompson;Jason;F;6-11;250;JUL 21, 1986;Rider
+Stoudemire;Amar'e;C-F;6-10;245;NOV 16, 1982;Cypress Creek (FL)
+Felton;Raymond;G;6-1;205;JUN 26, 1984;North Carolina
+Villanueva;Charlie;F;6-11;232;AUG 24, 1984;Connecticut
+Smith;Greg;C;6-10;250;JAN 08, 1991;Fresno State
+Juan Barea;Jose;G;6-0;185;JUN 26, 1984;Northeastern
+Chandler;Tyson;C;7-1;240;OCT 02, 1982;Dominquez H.S
+Aminu;Al-Farouq;F;6-9;215;SEP 21, 1990;Wake Forest
+Powell;Dwight;F;6-11;240;JUL 20, 1991;Stanford
+Rondo;Rajon;G;6-1;186;FEB 22, 1986;Kentucky
+Ellis;Monta;G;6-3;185;OCT 26, 1985;Lanier HS (Jackson, MS)
+Harris;Devin;G;6-3;192;FEB 27, 1983;Wisconsin
+Jefferson;Richard;F;6-7;234;JUN 21, 1980;Arizona
+Parsons;Chandler;F;6-9;227;OCT 25, 1988;Florida
+Nowitzki;Dirk;F;7-0;245;JUN 19, 1978;Wurzburg, Germany
+James;Bernard;C;6-10;235;FEB 07, 1985;Florida State
+Ariza;Trevor;F;6-8;215;JUN 30, 1985;UCLA
+Beverley;Patrick;G;6-1;210;JUL 12, 1988;Arkansas
+Johnson;Nick;G;6-3;202;DEC 22, 1992;Arizona
+Smith;Josh;F;6-9;225;DEC 05, 1985;Oak Hill Academy (VA)
+Jones;Terrence;F;6-9;255;JAN 09, 1992;Kentucky
+Dorsey;Joey;C-F;6-9;275;DEC 16, 1983;Memphis
+Prigioni;Pablo;G;6-3;185;MAY 17, 1977;Argentina
+Howard;Dwight;C;6-11;275;DEC 08, 1985;SW Atlanta Christian Academy (GA)
+Harden;James;G;6-5;225;AUG 26, 1989;Arizona State
+Capela;Clint;C;6-10;240;MAY 18, 1994;None
+Papanikolaou;Kostas;F;6-8;235;JUL 31, 1990;None
+Motiejunas;Donatas;F-C;7-0;255;SEP 20, 1990;Kaunas, Lithuania
+Terry;Jason;G;6-2;185;SEP 15, 1977;Arizona
+McDaniels;KJ;G-F;6-6;205;FEB 09, 1993;Clemson
+Brewer;Corey;G-F;6-9;186;MAR 05, 1986;Florida
+Green;JaMychal;F;6-8;230;JUN 21, 1990;Alabama
+Stokes;Jarnell;F-C;6-9;263;JAN 07, 1994;Tennessee
+Smith;Russ;G;6-0;165;APR 19, 1991;Louisville
+Adams;Jordan;G;6-5;209;JUL 08, 1994;UCLA
+Lee;Courtney;G;6-5;200;OCT 03, 1985;Western Kentucky
+Allen;Tony;F-G;6-4;213;JAN 11, 1982;Oklahoma State
+Conley;Mike;G;6-1;175;OCT 11, 1987;Ohio State
+Calathes;Nick;G;6-6;213;FEB 07, 1989;Florida
+Carter;Vince;G-F;6-6;220;JAN 26, 1977;North Carolina
+Udrih;Beno;G;6-3;205;JUL 05, 1982;Sempeter, Slovenia
+Leuer;Jon;F;6-10;228;MAY 14, 1989;Wisconsin
+Green;Jeff;F;6-9;235;AUG 28, 1986;Georgetown
+Gasol;Marc;C;7-1;265;JAN 29, 1985;Barcelona, Spain
+Koufos;Kosta;C;7-0;265;FEB 24, 1989;Ohio State
+Randolph;Zach;F;6-9;260;JUL 16, 1981;Michigan State
+Evans;Tyreke;G-F;6-6;220;SEP 19, 1989;Memphis
+Asik;Omer;C;7-0;255;JUL 04, 1986;Turkey
+Withey;Jeff;C;7-0;222;MAR 07, 1990;Kansas
+Babbitt;Luke;F;6-9;225;JUN 20, 1989;Nevada
+Gordon;Eric;G;6-4;215;DEC 25, 1988;Indiana
+Holiday;Jrue;G;6-4;205;JUN 12, 1990;UCLA
+Douglas;Toney;G;6-2;195;MAR 16, 1986;Florida State
+Pondexter;Quincy;F-G;6-7;220;MAR 10, 1988;Washington
+Davis;Anthony;F-C;6-10;220;MAR 11, 1993;Kentucky
+Cole;Norris;G;6-2;175;OCT 13, 1988;Cleveland State
+Fredette;Jimmer;G;6-2;195;FEB 25, 1989;Brigham Young
+Anderson;Ryan;F;6-10;240;MAY 06, 1988;California
+Ajinca;Alexis;C;7-2;248;MAY 06, 1988;Saint Etienne, France
+Cunningham;Dante;F;6-8;230;APR 22, 1987;Villanova
+Anderson;Kyle;F;6-9;230;SEP 20, 1993;UCLA
+Leonard;Kawhi;F;6-7;230;JUN 29, 1991;San Diego State
+Belinelli;Marco;F-G;6-5;210;MAR 25, 1986;Bologna, Italy
+Joseph;Cory;G;6-3;190;AUG 20, 1991;Texas
+Mills;Patty;G;6-0;185;AUG 11, 1988;Saint Mary's (CA)
+Parker;Tony;G;6-2;185;MAY 17, 1982;Paris, France
+Ayres;Jeff;F-C;6-9;250;APR 29, 1987;Arizona State
+Green;Danny;G-F;6-6;215;JUN 22, 1987;North Carolina
+Bonner;Matt;C-F;6-10;235;APR 05, 1980;Florida
+Baynes;Aron;C-F;6-10;260;DEC 09, 1986;Washington State
+Ginobili;Manu;G;6-6;205;JUL 28, 1977;Bahia Blanca, Argentina
+Duncan;Tim;F;6-11;250;APR 25, 1976;Wake Forest
+Splitter;Tiago;C;6-11;245;JAN 01, 1985;Blumenau, Brazil
+Diaw;Boris;C-F;6-8;250;APR 16, 1982;Cormeille-en-Parisis, France
+Williams;Reggie;F;6-6;205;SEP 14, 1986;Virginia Military Institute
+Bradley;Avery;G;6-2;180;NOV 26, 1990;Texas
+Thomas;Isaiah;G;5-9;185;FEB 07, 1989;Washington
+Sullinger;Jared;C-F;6-9;260;MAR 04, 1992;Ohio State
+Jerebko;Jonas;F;6-10;231;MAR 02, 1987;Kinna, Sweden
+Turner;Evan;G-F;6-7;220;OCT 27, 1988;Ohio State
+Rozier;Terry;G;6-2;190;MAR 17, 1994;Louisville
+Young;James;G-F;6-6;215;AUG 16, 1995;Kentucky
+Hunter;RJ;G;6-5;185;OCT 24, 1993;Georgia State
+Holland;John;G-F;6-5;205;NOV 06, 1988;Boston U.
+Smart;Marcus;G;6-4;220;MAR 06, 1994;Oklahoma State
+Olynyk;Kelly;C-F;7-0;238;APR 19, 1991;Gonzaga
+Zeller;Tyler;C-F;7-0;253;JAN 17, 1990;North Carolina
+Mickey;Jordan;F;6-8;235;JUL 09, 1994;Louisiana State
+Johnson;Amir;F;6-9;240;MAY 01, 1987;Westchester HS (Los Angeles)
+Crowder;Jae;F;6-6;235;JUL 06, 1990;Marquette
+Larkin;Shane;G;5-11;175;OCT 02, 1992;Miami (FL)
+McCullough;Chris;F;6-11;200;FEB 05, 1995;Syracuse
+Jack;Jarrett;G;6-3;200;OCT 28, 1983;Georgia Tech
+Kilpatrick;Sean;G;6-4;219;JAN 06, 1990;Cincinnati
+Karasev;Sergey;G-F;6-7;208;OCT 26, 1993;Russia
+Lopez;Brook;C;7-0;275;APR 01, 1988;Stanford
+Sims;Henry;C-F;6-10;248;MAR 27, 1990;Georgetown
+Sloan;Donald;G;6-3;205;JAN 15, 1988;Texas A&M
+Ellington;Wayne;G;6-4;200;NOV 29, 1987;North Carolina
+Brown;Markel;G;6-3;190;JAN 29, 1992;Oklahoma State
+Hollis-Jefferson;Rondae;G-F;6-7;220;JAN 03, 1995;Arizona
+Young;Thaddeus;F;6-8;221;JUN 21, 1988;Georgia Tech
+Reed;Willie;F-C;6-10;220;MAY 16, 1990;Saint Louis
+Robinson;Thomas;F;6-10;237;MAR 17, 1991;Kansas
+Bogdanovic;Bojan;G-F;6-8;216;APR 18, 1989;None
+Seraphin;Kevin;F-C;6-10;278;DEC 07, 1989;Le Moyne
+Galloway;Langston;G;6-2;200;DEC 09, 1991;Saint Joseph's
+Calderon;Jose;G;6-3;200;SEP 28, 1981;Villanueva de la Serena, Spain
+Afflalo;Arron;G;6-5;210;OCT 15, 1985;UCLA
+Wroten;Tony;G;6-6;205;APR 13, 1993;Washington
+Porzingis;Kristaps;F-C;7-3;240;AUG 02, 1995;None
+Anthony;Carmelo;F;6-8;240;MAY 29, 1984;Syracuse
+Lopez;Robin;C;7-0;255;APR 01, 1988;Stanford
+O'Quinn;Kyle;F-C;6-10;250;MAR 26, 1990;Norfolk State
+Early;Cleanthony;F;6-8;210;APR 17, 1991;Wichita State
+Grant;Jerian;G;6-4;195;OCT 09, 1992;Notre Dame
+Amundson;Lou;F;6-9;220;DEC 07, 1982;Nevada-Las Vegas
+Vujacic;Sasha;G;6-7;195;MAR 08, 1984;Maribor, Slovenia
+Williams;Derrick;F;6-8;240;MAY 25, 1991;Arizona
+Thomas;Lance;F;6-8;235;APR 24, 1988;Duke
+Antetokounmpo;Thanasis;F;6-7;205;JUL 18, 1992;Greece
+Canaan;Isaiah;G;6-0;201;MAY 21, 1991;Murray State
+Smith;Ish;G;6-0;175;JUL 05, 1988;Wake Forest
+Noel;Nerlens;F-C;6-11;228;APR 10, 1994;Kentucky
+Marshall;Kendall;G;6-4;200;AUG 19, 1991;North Carolina
+Landry;Carl;F;6-9;248;SEP 19, 1983;Purdue
+Okafor;Jahlil;C;6-11;275;DEC 15, 1995;Duke
+Stauskas;Nik;G;6-6;205;OCT 07, 1993;Michigan
+McConnell;TJ;G;6-2;200;MAR 25, 1992;Arizona
+Embiid;Joel;C;7-0;250;MAR 16, 1994;Kansas
+Holmes;Richaun;F;6-10;245;OCT 15, 1993;Bowling Green
+Thompson;Hollis;G-F;6-8;206;APR 03, 1991;Georgetown
+Covington;Robert;F;6-9;215;DEC 14, 1990;Tennessee State
+Wood;Christian;F;6-11;220;SEP 27, 1995;Nevada-Las Vegas
+Grant;Jerami;F;6-8;210;MAR 12, 1994;Syracuse
+Brand;Elton;F;6-9;254;MAR 11, 1979;Duke
+Thompson;Jason;F-C;6-11;250;JUL 21, 1986;Rider
+Johnson;James;F;6-9;250;FEB 20, 1987;Wake Forest
+Scola;Luis;F;6-9;240;APR 30, 1980;Buenos Aires, Argentina
+Carroll;DeMarre;F;6-8;212;JUL 27, 1986;Missouri
+Joseph;Cory;G;6-3;190;AUG 20, 1991;Texas
+Lowry;Kyle;G;6-0;205;MAR 25, 1986;Villanova
+Biyombo;Bismack;C-F;6-9;245;AUG 28, 1992;Lubumbashi, DR Congo
+DeRozan;DeMar;G;6-7;220;AUG 07, 1989;Southern California
+Valanciunas;Jonas;C;7-0;255;MAY 06, 1992;Utena, Lithuania
+Caboclo;Bruno;F;6-9;205;SEP 21, 1995;None
+Powell;Norman;G;6-4;215;MAY 25, 1993;UCLA
+Ross;Terrence;F-G;6-7;195;FEB 05, 1991;Washington
+Patterson;Patrick;F;6-9;235;MAR 14, 1989;Kentucky
+Wright;Delon;G;6-5;190;APR 26, 1992;Utah
+Nogueira;Lucas;C;7-0;220;JUL 26, 1992;None
+Brooks;Aaron;G;6-0;161;JAN 14, 1985;Oregon
+Rose;Derrick;G;6-3;190;OCT 04, 1988;Memphis
+McDermott;Doug;F;6-8;225;JAN 03, 1992;Creighton
+Portis;Bobby;F;6-11;230;FEB 10, 1995;Arkansas
+Felicio;Cristiano;F-C;6-10;275;JUL 07, 1992;None
+Holiday;Justin;G;6-6;185;APR 05, 1989;Washington
+Noah;Joakim;C;6-11;232;FEB 25, 1985;Florida
+Gasol;Pau;C-F;7-0;250;JUL 06, 1980;Barcelona, Spain
+Snell;Tony;F;6-7;200;NOV 10, 1991;New Mexico
+Butler;Jimmy;G-F;6-7;220;SEP 14, 1989;Marquette
+Gibson;Taj;F;6-9;225;JUN 24, 1985;Southern California
+Dunleavy;Mike;G-F;6-9;230;SEP 15, 1980;Duke
+Bairstow;Cameron;F-C;6-9;250;DEC 07, 1990;New Mexico
+Mirotic;Nikola;F;6-10;220;FEB 11, 1991;None
+Moore;E'Twaun;G;6-4;191;FEB 25, 1989;Purdue
+Love;Kevin;F;6-10;251;SEP 07, 1988;UCLA
+Jones;James;G-F;6-8;218;OCT 04, 1980;Miami (FL)
+Irving;Kyrie;G;6-3;193;MAR 23, 1992;Duke
+Shumpert;Iman;G;6-5;220;JUN 26, 1990;Georgia Tech
+Smith;J.R.;G-F;6-6;225;SEP 09, 1985;St. Benedict's Prep (NJ)
+Dellavedova;Matthew;G;6-4;198;SEP 08, 1990;Saint Mary's (CA)
+Frye;Channing;F;6-11;255;MAY 17, 1983;Arizona
+McRae;Jordan;G;6-5;179;MAR 28, 1991;Tennessee
+Thompson;Tristan;C-F;6-9;238;MAR 13, 1991;Texas
+Kaun;Sasha;C;6-11;260;MAY 08, 1985;Kansas
+Mozgov;Timofey;C;7-1;275;JUL 16, 1986;St. Petersburg, Russia
+James;LeBron;F;6-8;250;DEC 30, 1984;St. Vincent-St. Mary HS (OH)
+Jefferson;Richard;F;6-7;233;JUN 21, 1980;Arizona
+Jones;Dahntay;G-F;6-6;225;DEC 27, 1980;Duke
+Williams;Mo;G;6-1;198;DEC 19, 1982;Alabama
+Drummond;Andre;C;6-11;279;AUG 10, 1993;Connecticut
+Jackson;Reggie;G;6-3;208;APR 16, 1990;Boston College
+Johnson;Stanley;F;6-7;245;MAY 29, 1996;Arizona
+Caldwell-Pope;Kentavious;G;6-5;205;FEB 18, 1993;Georgia
+Hilliard;Darrun;F;6-6;205;APR 13, 1993;Villanova
+Dinwiddie;Spencer;G;6-6;200;APR 06, 1993;Colorado
+Baynes;Aron;C-F;6-10;260;DEC 09, 1986;Washington State
+Morris;Marcus;F;6-9;235;SEP 02, 1989;Kansas
+Brown;Lorenzo;G;6-5;189;AUG 26, 1990;North Carolina State
+Meeks;Jodie;G;6-4;210;AUG 21, 1987;Kentucky
+Blake;Steve;G;6-3;172;FEB 26, 1980;Maryland
+Bullock;Reggie;F;6-7;205;MAR 16, 1991;North Carolina
+Harris;Tobias;F;6-9;235;JUL 15, 1992;Tennessee
+Tolliver;Anthony;F;6-8;240;JUN 01, 1985;Creighton
+Anthony;Joel;C;6-9;245;AUG 09, 1982;Nevada-Las Vegas
+Miles;CJ;F-G;6-6;231;MAR 18, 1987;Skyline HS (TX)
+Young;Joe;G;6-2;180;JUN 27, 1992;Oregon
+Stuckey;Rodney;G;6-5;205;APR 21, 1986;Eastern Washington
+Hill;George;G;6-3;188;MAY 04, 1986;Indiana Purdue-Indianapolis
+Allen;Lavoy;F-C;6-9;255;FEB 04, 1989;Temple
+Lawson;Ty;G;5-11;195;NOV 03, 1987;North Carolina
+Ellis;Monta;G;6-3;185;OCT 26, 1985;Lanier HS (Jackson, MS)
+George;Paul;F;6-9;220;MAY 02, 1990;Fresno State
+Christmas;Rakeem;F;6-9;250;DEC 01, 1991;Syracuse
+Hill;Jordan;C;6-10;235;JUL 27, 1987;Arizona
+Mahinmi;Ian;C;6-11;250;NOV 05, 1986;Rouen, France
+Turner;Myles;F-C;6-11;243;MAR 24, 1996;Texas
+Robinson;Glenn;G-F;6-7;222;JAN 08, 1994;Michigan
+Whittington;Shayne;F-C;6-11;250;MAR 27, 1991;Western Michigan
+Hill;Solomon;F;6-7;225;MAR 18, 1991;Arizona
+Mayo;O.J.;G;6-5;210;NOV 05, 1987;Southern California
+Carter-Williams;Michael;G;6-6;190;OCT 10, 1991;Syracuse
+Novak;Steve;F;6-10;225;JUN 13, 1983;Marquette
+Ennis;Tyler;G;6-3;194;AUG 24, 1994;Syracuse
+Parker;Jabari;F;6-8;250;MAR 15, 1995;Duke
+Monroe;Greg;C-F;6-11;265;JUN 04, 1990;Georgetown
+Inglis;Damien;F;6-8;246;MAY 20, 1995;None
+Plumlee;Miles;C;6-11;249;SEP 01, 1988;Duke
+Bayless;Jerryd;G;6-3;200;AUG 20, 1988;Arizona
+Vaughn;Rashad;G;6-6;202;AUG 16, 1996;UNLV
+Vasquez;Greivis;G;6-6;217;JAN 16, 1987;Maryland
+Middleton;Khris;G-F;6-8;234;AUG 12, 1991;Texas A&M
+Henson;John;F;6-11;229;DEC 28, 1990;North Carolina
+Antetokounmpo;Giannis;F;6-11;222;DEC 06, 1994;Greece
+O'Bryant;Johnny;F-C;6-9;257;JUN 01, 1993;Louisiana State
+Teague;Jeff;G;6-2;186;JUN 10, 1988;Wake Forest
+Millsap;Paul;F;6-8;246;FEB 10, 1985;Louisiana Tech
+Hardaway Jr.;Tim;G;6-6;205;MAR 16, 1992;Michigan
+Splitter;Tiago;C-F;6-11;245;JAN 01, 1985;Blumenau, Brazil
+Hinrich;Kirk;G;6-4;190;JAN 02, 1981;Kansas
+Patterson;Lamar;G-F;6-5;225;AUG 12, 1991;Pittsburgh
+Horford;Al;C-F;6-10;245;JUN 03, 1986;Florida
+Schroder;Dennis;G;6-1;172;SEP 15, 1993;Germany
+Tavares;Walter;C;7-3;260;MAR 22, 1992;None
+Bazemore;Kent;F-G;6-5;201;JUL 01, 1989;Old Dominion
+Sefolosha;Thabo;F;6-7;220;MAY 02, 1984;Vevey, Switzerland
+Korver;Kyle;G;6-7;212;MAR 17, 1981;Creighton
+Muscala;Mike;F-C;6-11;240;JUL 01, 1991;Bucknell
+Scott;Mike;F;6-8;237;JUL 16, 1988;Virginia
+Humphries;Kris;F;6-9;235;FEB 06, 1985;Minnesota
+Hawes;Spencer;F-C;7-1;245;APR 28, 1988;Washington
+Lee;Courtney;G;6-5;200;OCT 03, 1985;Western Kentucky
+Williams;Marvin;F;6-9;237;JUN 19, 1986;North Carolina
+Lamb;Jeremy;G;6-5;185;MAY 30, 1992;Connecticut
+Batum;Nicolas;G-F;6-8;200;DEC 14, 1988;Lisieux, France
+Lin;Jeremy;G;6-3;200;AUG 23, 1988;Harvard
+Harrison;Aaron;G;6-6;210;OCT 28, 1994;Kentucky
+Gutierrez;Jorge;G;6-3;189;DEC 27, 1988;California-Berkeley
+Kidd-Gilchrist;Michael;F;6-7;232;SEP 26, 1993;Kentucky
+Walker;Kemba;G;6-1;184;MAY 08, 1990;Connecticut
+Jefferson;Al;C;6-10;289;JAN 04, 1985;Prentiss HS (MS)
+Daniels;Troy;G;6-4;205;JUL 15, 1991;Virginia Commonwealth
+Zeller;Cody;C-F;7-0;240;OCT 05, 1992;Indiana
+Kaminsky;Frank;C;7-0;240;APR 04, 1993;Wisconsin
+Hansbrough;Tyler;F;6-9;250;NOV 03, 1985;North Carolina
+Richardson;Josh;G;6-6;200;SEP 15, 1993;Tennessee
+Bosh;Chris;F;6-11;235;MAR 24, 1984;Georgia Tech
+Johnson;Joe;F-G;6-7;240;JUN 29, 1981;Arkansas
+Wade;Dwyane;G;6-4;220;JAN 17, 1982;Marquette
+McRoberts;Josh;F;6-10;240;FEB 28, 1987;Duke
+Stoudemire;Amar'e;F-C;6-10;245;NOV 16, 1982;Cypress Creek (FL)
+Dragic;Goran;G;6-3;190;MAY 06, 1986;Ljubljana, Slovenia
+Johnson;Tyler;G;6-4;186;MAY 07, 1992;Fresno State
+Deng;Luol;F;6-9;220;APR 16, 1985;Duke
+Wright;Dorell;F-G;6-9;205;DEC 02, 1985;South Kent Prep (CT)
+Weber;Briante;G;6-2;165;DEC 29, 1992;Virginia Commonwealth
+Green;Gerald;F;6-7;205;JAN 26, 1986;Gulf Shores Aca. (TX)
+Winslow;Justise;F;6-7;225;MAR 26, 1996;Duke
+Whiteside;Hassan;C;7-0;265;JUN 13, 1989;Marshall
+Haslem;Udonis;F;6-8;235;JUN 09, 1980;Florida
+Gordon;Aaron;F;6-9;220;SEP 16, 1995;Arizona
+Dedmon;Dewayne;C;7-0;245;AUG 12, 1989;Southern California
+Payton;Elfrid;G;6-4;185;FEB 22, 1994;Louisiana-Lafayette
+Oladipo;Victor;G;6-4;210;MAY 04, 1992;Indiana
+Ilyasova;Ersan;F;6-10;235;MAY 15, 1987;Eskisehir, Turkey
+Vucevic;Nikola;C;7-0;260;OCT 24, 1990;Southern California
+Fournier;Evan;G-F;6-7;205;OCT 29, 1992;France
+Marble;Devyn;F;6-6;200;SEP 21, 1992;Iowa
+Napier;Shabazz;G;6-1;175;JUL 14, 1991;Connecticut
+Smith;Jason;F-C;7-0;240;MAR 02, 1986;Colorado State
+Hezonja;Mario;G-F;6-8;218;FEB 25, 1995;Croatia
+Watson;CJ;G;6-2;175;APR 17, 1984;Tennessee
+Nicholson;Andrew;F;6-9;250;DEC 08, 1989;St. Bonaventure
+Jennings;Brandon;G;6-1;169;SEP 23, 1989;Oak Hill Academy (VA)
+Dudley;Jared;F;6-7;225;JUL 10, 1985;Boston College
+Wall;John;G;6-4;195;SEP 06, 1990;Kentucky
+Beal;Bradley;G;6-5;207;JUN 28, 1993;Florida
+Morris;Markieff;F;6-10;245;SEP 02, 1989;Kansas
+Anderson;Alan;F-G;6-6;220;OCT 16, 1982;Michigan State
+Sessions;Ramon;G;6-3;190;APR 11, 1986;Nevada
+Eddie;Jarell;G-F;6-7;218;OCT 30, 1991;Virginia Tech
+Oubre;Kelly;F;6-7;205;DEC 09, 1995;Kansas
+Gortat;Marcin;C;6-11;240;FEB 17, 1984;Lodz, Poland
+Thornton;Marcus;F-G;6-4;205;JUN 05, 1987;Louisiana State
+Temple;Garrett;G;6-6;195;MAY 08, 1986;Louisiana State
+Hickson;JJ;C-F;6-9;242;SEP 04, 1988;North Carolina State
+Porter;Otto;F;6-8;198;JUN 03, 1993;Georgetown
+Hilario;Nene;F-C;6-11;250;SEP 13, 1982;Sao Carlos, Brazil
+Gooden;Drew;F;6-10;250;SEP 24, 1981;Kansas
+Arthur;Darrell;F;6-9;235;MAR 25, 1988;Kansas
+Mudiay;Emmanuel;G;6-5;200;MAR 05, 1996;None
+Nelson;Jameer;G;6-0;190;FEB 09, 1982;Saint Joseph's
+Miller;Mike;G-F;6-8;218;FEB 19, 1980;Florida
+Barton;Will;F-G;6-6;175;JAN 06, 1991;Memphis
+Toupane;Axel;G-F;6-7;210;JUL 23, 1992;None
+Gallinari;Danilo;F;6-10;225;AUG 08, 1988;Sant'Angelo Lodigiano, Italy
+Sampson;JaKarr;G-F;6-9;214;MAR 20, 1993;St. John's (NY)
+Augustin;D.J.;G;6-0;183;NOV 10, 1987;Texas
+Harris;Gary;G;6-4;210;SEP 14, 1994;Michigan State
+Jokic;Nikola;C;6-10;250;FEB 19, 1995;None
+Chandler;Wilson;F;6-8;225;MAY 10, 1987;DePaul
+Nurkic;Jusuf;C;7-0;280;AUG 23, 1994;None
+Faried;Kenneth;F;6-8;228;NOV 19, 1989;Morehead State
+Lauvergne;Joffrey;C-F;6-11;220;SEP 30, 1991;None
+Jones;Tyus;G;6-2;195;MAY 10, 1996;Duke
+Smith;Greg;C;6-10;250;JAN 08, 1991;Fresno State
+Dieng;Gorgui;C;6-11;241;JAN 18, 1990;Louisville
+LaVine;Zach;G;6-5;189;MAR 10, 1995;UCLA
+Rubio;Ricky;G;6-4;194;OCT 21, 1990;El Masnou, Spain
+Rudez;Damjan;F;6-9;230;JUN 17, 1986;None
+Prince;Tayshaun;F;6-9;212;FEB 28, 1980;Kentucky
+Pekovic;Nikola;C;6-11;307;JAN 03, 1986;Montenegro
+Muhammad;Shabazz;F;6-6;223;NOV 13, 1992;UCLA
+Garnett;Kevin;F;6-11;240;MAY 19, 1976;Farragut Academy HS (CHI)
+Wiggins;Andrew;G-F;6-8;199;FEB 23, 1995;Kansas
+Towns;Karl-Anthony;C;7-0;244;NOV 15, 1995;Kentucky
+Payne;Adreian;F;6-10;237;FEB 19, 1991;Michigan State
+Bjelica;Nemanja;F;6-10;240;MAY 09, 1988;None
+Westbrook;Russell;G;6-3;200;NOV 12, 1988;UCLA
+Morrow;Anthony;G;6-5;210;SEP 27, 1985;Georgia Tech
+Waiters;Dion;G;6-4;220;DEC 10, 1991;Syracuse
+Collison;Nick;F;6-10;255;OCT 26, 1980;Kansas
+Singler;Kyle;F;6-8;228;MAY 04, 1988;Duke
+Foye;Randy;G;6-4;213;SEP 24, 1983;Villanova
+Ibaka;Serge;F;6-10;245;SEP 18, 1989;Brazzaville, Rep. of Congo
+Kanter;Enes;C;6-11;245;MAY 20, 1992;Kentucky
+Adams;Steven;C;7-0;255;JUL 20, 1993;Pittsburgh
+Mohammed;Nazr;C;6-10;250;SEP 05, 1977;Kentucky
+Roberson;Andre;G;6-7;210;DEC 04, 1991;Colorado
+Payne;Cameron;G;6-3;185;AUG 08, 1994;Murray State
+McGary;Mitch;F;6-10;255;JUN 06, 1992;Michigan
+Huestis;Josh;F;6-7;230;DEC 19, 1991;Stanford
+Durant;Kevin;F;6-9;240;SEP 29, 1988;Texas
+Lillard;Damian;G;6-3;195;JUL 15, 1990;Weber State
+Roberts;Brian;G;6-1;173;DEC 03, 1985;Dayton
+McCollum;CJ;G;6-4;200;SEP 19, 1991;Lehigh
+Harkless;Maurice;F;6-9;215;MAY 11, 1993;St. John's (NY)
+Connaughton;Pat;G;6-5;206;JAN 06, 1993;Notre Dame
+Aminu;Al-Farouq;F;6-9;215;SEP 21, 1990;Wake Forest
+Henderson;Gerald;G;6-5;215;DEC 09, 1987;Duke
+Leonard;Meyers;F-C;7-1;245;FEB 27, 1992;Illinois
+Davis;Ed;F-C;6-10;240;JUN 05, 1989;North Carolina
+Vonleh;Noah;F;6-9;240;AUG 24, 1995;Indiana
+Crabbe;Allen;G;6-6;210;APR 09, 1992;California
+Plumlee;Mason;C-F;6-11;235;MAR 05, 1990;Duke
+Alexander;Cliff;F;6-8;240;NOV 16, 1995;Kansas
+Kaman;Chris;C;7-0;265;APR 28, 1982;Central Michigan
+Montero;Luis;G;6-7;185;APR 06, 1993;Westchester CC NY
+Ingles;Joe;F;6-8;226;OCT 02, 1987;None
+Burke;Trey;G;6-1;191;NOV 12, 1992;Michigan
+Hood;Rodney;G;6-8;206;OCT 20, 1992;Duke
+Mack;Shelvin;G;6-3;203;APR 22, 1990;Butler
+Burks;Alec;G;6-6;214;JUL 20, 1991;Colorado
+Exum;Dante;G;6-6;190;JUL 13, 1995;None
+Favors;Derrick;F-C;6-10;265;JUL 15, 1991;Georgia Tech
+Hayward;Gordon;F;6-8;226;MAR 23, 1990;Butler
+Pleiss;Tibor;C;7-3;256;NOV 02, 1989;None
+Johnson;Chris;F;6-6;206;APR 29, 1990;Dayton
+Withey;Jeff;C;7-0;231;MAR 07, 1990;Kansas
+Neto;Raul;G;6-1;179;MAY 19, 1992;None
+Gobert;Rudy;C;7-1;245;JUN 26, 1992;France
+Booker;Trevor;F;6-8;228;NOV 25, 1987;Clemson
+Lyles;Trey;F;6-10;234;NOV 05, 1995;Kentucky
+Rush;Brandon;F-G;6-6;220;JUL 07, 1985;Kansas
+Speights;Marreese;F-C;6-10;255;AUG 04, 1987;Florida
+Iguodala;Andre;G-F;6-6;215;JAN 28, 1984;Arizona
+Thompson;Klay;G;6-7;215;FEB 08, 1990;Washington State
+Bogut;Andrew;C;7-0;260;NOV 28, 1984;Utah
+Varejao;Anderson;F;6-11;273;SEP 28, 1982;Santa Teresa, Brazil
+Barbosa;Leandro;G;6-3;194;NOV 28, 1982;Sau Paulo, Brazil
+Michael McAdoo;James;F;6-9;240;JAN 04, 1993;North Carolina
+Clark;Ian;G;6-3;175;MAR 07, 1991;Belmont
+Green;Draymond;F;6-7;230;MAR 04, 1990;Michigan State
+Curry;Stephen;G;6-3;190;MAR 14, 1988;Davidson
+Ezeli;Festus;C;6-11;265;OCT 21, 1989;Vanderbilt
+Livingston;Shaun;G;6-7;192;SEP 11, 1985;Peoria Central HS (IL)
+Looney;Kevon;F;6-9;220;FEB 06, 1996;UCLA
+Barnes;Harrison;F;6-8;225;MAY 30, 1992;North Carolina
+Paul;Chris;G;6-0;175;MAY 06, 1985;Wake Forest
+Redick;JJ;G;6-4;190;JUN 24, 1984;Duke
+Jordan;DeAndre;C;6-11;265;JUL 21, 1988;Texas A&M
+Green;Jeff;F;6-9;235;AUG 28, 1986;Georgetown
+Prigioni;Pablo;G;6-3;185;MAY 17, 1977;Argentina
+Crawford;Jamal;G;6-5;195;MAR 20, 1980;Michigan
+Mbah a Moute;Luc;F;6-8;230;SEP 09, 1986;UCLA
+Ayres;Jeff;F-C;6-9;250;APR 29, 1987;Arizona State
+Dawson;Branden;F;6-6;225;FEB 01, 1993;Michigan State
+Rivers;Austin;G;6-4;200;AUG 01, 1992;Duke
+Wilcox;CJ;G;6-5;195;DEC 30, 1990;Washington
+Griffin;Blake;F;6-10;251;MAR 16, 1989;Oklahoma
+Johnson;Wesley;F-G;6-7;215;JUL 11, 1987;Syracuse
+Pierce;Paul;F;6-7;235;OCT 13, 1977;Kansas
+Aldrich;Cole;C;6-11;250;OCT 31, 1988;Kansas
+Young;Nick;F-G;6-7;210;JUN 01, 1985;Southern California
+Russell;D'Angelo;G;6-5;195;FEB 23, 1996;Ohio State
+Bass;Brandon;F;6-8;250;APR 30, 1985;Louisiana State
+Brown;Anthony;F;6-7;210;OCT 10, 1992;Stanford
+Kelly;Ryan;F;6-11;230;APR 09, 1991;Duke
+Clarkson;Jordan;G;6-5;194;JUN 07, 1992;Missouri
+Nance Jr.;Larry;F;6-9;230;JAN 01, 1993;Wyoming
+Huertas;Marcelo;G;6-3;200;MAY 25, 1983;None
+Hibbert;Roy;C;7-2;270;DEC 11, 1986;Georgetown
+Williams;Lou;G;6-1;175;OCT 27, 1986;South Gwinnett HS (GA)
+Bryant;Kobe;F-G;6-6;212;AUG 23, 1978;Lower Merion HS (PA)
+Black;Tarik;C-F;6-9;250;NOV 22, 1991;Kansas
+Randle;Julius;F;6-9;250;NOV 29, 1994;Kentucky
+World Peace;Metta;F;6-7;260;NOV 13, 1979;St. John's (NY)
+Sacre;Robert;C;7-0;270;JUN 06, 1989;Gonzaga
+Booker;Devin;G;6-6;206;OCT 30, 1996;Kentucky
+Bledsoe;Eric;G;6-1;190;DEC 09, 1989;Kentucky
+Knight;Brandon;G;6-3;189;DEC 02, 1991;Kentucky
+Chandler;Tyson;C;7-1;240;OCT 02, 1982;Dominquez H.S
+Budinger;Chase;F;6-7;209;MAY 22, 1988;Arizona
+Warren;TJ;F;6-8;230;SEP 05, 1993;North Carolina State
+Price;Ronnie;G;6-2;190;JUN 21, 1983;Utah Valley
+Williams;Alan;C-F;6-8;260;JAN 28, 1993;California-Santa Barbara
+Tucker;PJ;F;6-6;245;MAY 05, 1985;Texas
+Goodwin;Archie;G;6-5;200;AUG 17, 1994;Kentucky
+Len;Alex;C;7-1;260;JUN 16, 1993;Maryland
+Jenkins;John;G;6-4;215;MAR 06, 1991;Vanderbilt
+Leuer;Jon;F;6-10;228;MAY 14, 1989;Wisconsin
+Teletovic;Mirza;F;6-9;242;SEP 17, 1985;Bosnia
+Cauley-Stein;Willie;C;7-0;240;AUG 18, 1993;Kentucky
+Belinelli;Marco;G-F;6-5;210;MAR 25, 1986;Bologna, Italy
+Anderson;James;G-F;6-6;213;MAR 25, 1989;Oklahoma State
+Collison;Darren;G;6-0;175;AUG 23, 1987;UCLA
+Gay;Rudy;F;6-8;230;AUG 17, 1986;Connecticut
+Rondo;Rajon;G;6-1;186;FEB 22, 1986;Kentucky
+Acy;Quincy;F;6-7;240;OCT 06, 1990;Baylor
+Cousins;DeMarcus;C-F;6-11;270;AUG 13, 1990;Kentucky
+Casspi;Omri;F;6-9;225;JUN 22, 1988;Yavne, Israel
+McLemore;Ben;G;6-5;195;FEB 11, 1993;Kansas
+Moreland;Eric;F-C;6-10;238;DEC 24, 1991;Oregon State
+Dukan;Duje;F;6-9;220;DEC 04, 1991;Wisconsin
+Curry;Seth;G;6-2;185;AUG 23, 1990;Duke
+Butler;Caron;F;6-7;228;MAR 13, 1980;Connecticut
+Koufos;Kosta;C;7-0;265;FEB 24, 1989;Ohio State
+Anderson;Justin;G-F;6-6;228;NOV 19, 1993;Virginia
+Felton;Raymond;G;6-1;205;JUN 26, 1984;North Carolina
+Villanueva;Charlie;F;6-11;232;AUG 24, 1984;Connecticut
+Juan Barea;Jose;G;6-0;185;JUN 26, 1984;Northeastern
+Powell;Dwight;F-C;6-11;240;JUL 20, 1991;Stanford
+Williams;Deron;G;6-3;200;JUN 26, 1984;Illinois
+McGee;JaVale;C;7-0;270;JAN 19, 1988;Nevada
+Evans;Jeremy;F;6-9;200;OCT 24, 1987;Western Kentucky
+Matthews;Wesley;G-F;6-5;220;OCT 14, 1986;Marquette
+Parsons;Chandler;F;6-10;230;OCT 25, 1988;Florida
+Pachulia;Zaza;C;6-11;275;FEB 10, 1984;Tbilisi, Georgia
+Harris;Devin;G;6-3;185;FEB 27, 1983;Wisconsin
+Nowitzki;Dirk;F;7-0;245;JUN 19, 1978;Wurzburg, Germany
+Lee;David;F-C;6-9;245;APR 29, 1983;Florida
+Mejri;Salah;C;7-2;245;JUN 15, 1986;None
+Goudelock;Andrew;G;6-3;200;DEC 07, 1988;College of Charleston
+Ariza;Trevor;F;6-8;215;JUN 30, 1985;UCLA
+Beverley;Patrick;G;6-1;185;JUL 12, 1988;Arkansas
+Smith;Josh;F;6-9;225;DEC 05, 1985;Oak Hill Academy (VA)
+Jones;Terrence;F;6-9;252;JAN 09, 1992;Kentucky
+Dekker;Sam;F;6-9;230;MAY 08, 1994;Wisconsin
+Beasley;Michael;F;6-10;235;JAN 09, 1989;Kansas State
+Howard;Dwight;C;6-11;265;DEC 08, 1985;SW Atlanta Christian Academy (GA)
+Harden;James;G;6-5;220;AUG 26, 1989;Arizona State
+Capela;Clint;F-C;6-10;240;MAY 18, 1994;None
+Motiejunas;Donatas;F-C;7-0;222;SEP 20, 1990;Kaunas, Lithuania
+Terry;Jason;G;6-2;185;SEP 15, 1977;Arizona
+McDaniels;KJ;G-F;6-6;205;FEB 09, 1993;Clemson
+Brewer;Corey;G-F;6-9;186;MAR 05, 1986;Florida
+Harrell;Montrezl;F;6-8;240;JAN 26, 1994;Louisville
+Green;JaMychal;F;6-9;227;JUN 21, 1990;Alabama
+Stephenson;Lance;F-G;6-5;230;SEP 05, 1990;Cincinnati
+Adams;Jordan;G;6-5;209;JUL 08, 1994;UCLA
+Farmar;Jordan;G;6-2;180;NOV 30, 1986;UCLA
+Andersen;Chris;F-C;6-10;245;JUL 07, 1978;Blinn
+Cotton;Bryce;G;6-1;165;AUG 11, 1992;Providence
+Allen;Tony;G-F;6-4;213;JAN 11, 1982;Oklahoma State
+Martin;Jarell;F;6-10;239;MAY 24, 1994;Louisiana State
+Conley;Mike;G;6-1;175;OCT 11, 1987;Ohio State
+Munford;Xavier;G;6-3;180;JUN 01, 1992;Rhode Island
+Carter;Vince;G-F;6-6;220;JAN 26, 1977;North Carolina
+Hairston;PJ;F-G;6-6;230;DEC 24, 1992;North Carolina
+Barnes;Matt;F;6-7;226;MAR 09, 1980;UCLA
+Gasol;Marc;C;7-1;255;JAN 29, 1985;Barcelona, Spain
+Wright;Brandan;F;6-10;210;OCT 05, 1987;North Carolina
+Randolph;Zach;F;6-9;260;JUL 16, 1981;Michigan State
+Evans;Tyreke;G-F;6-6;220;SEP 19, 1989;Memphis
+Frazier;Tim;G;6-1;170;NOV 01, 1990;None
+Asik;Omer;C;7-0;255;JUL 04, 1986;Turkey
+Ennis;James;F;6-7;210;JUL 01, 1990;Long Beach State
+Perkins;Kendrick;C;6-10;270;NOV 10, 1984;Clifton J. Ozen HS (TX)
+Babbitt;Luke;F;6-9;225;JUN 20, 1989;Nevada
+Gordon;Eric;G;6-4;215;DEC 25, 1988;Indiana
+Holiday;Jrue;G;6-4;205;JUN 12, 1990;UCLA
+Gee;Alonzo;F;6-6;225;MAY 29, 1987;Alabama
+Douglas;Toney;G;6-2;195;MAR 16, 1986;Florida State
+Pondexter;Quincy;F-G;6-7;220;MAR 10, 1988;Washington
+Davis;Anthony;F-C;6-10;253;MAR 11, 1993;Kentucky
+Hamilton;Jordan;G-F;6-7;220;OCT 06, 1990;Texas
+Cole;Norris;G;6-2;175;OCT 13, 1988;Cleveland State
+Dejean-Jones;Bryce;G;6-6;203;AUG 21, 1992;Iowa State
+Anderson;Ryan;F;6-10;240;MAY 06, 1988;California
+Ajinca;Alexis;C;7-2;248;MAY 06, 1988;Saint Etienne, France
+Cunningham;Dante;F;6-8;230;APR 22, 1987;Villanova
+Anderson;Kyle;F;6-9;230;SEP 20, 1993;UCLA
+Leonard;Kawhi;F;6-7;230;JUN 29, 1991;San Diego State
+Mills;Patty;G;6-0;185;AUG 11, 1988;Saint Mary's (CA)
+Parker;Tony;G;6-2;185;MAY 17, 1982;Paris, France
+Aldridge;LaMarcus;F;6-11;240;JUL 19, 1985;Texas
+Green;Danny;G-F;6-6;215;JUN 22, 1987;North Carolina
+Bonner;Matt;C-F;6-10;235;APR 05, 1980;Florida
+Simmons;Jonathon;G-F;6-6;195;SEP 14, 1989;Houston
+Ginobili;Manu;G;6-6;205;JUL 28, 1977;Bahia Blanca, Argentina
+Duncan;Tim;C-F;6-11;250;APR 25, 1976;Wake Forest
+Martin;Kevin;G;6-7;199;FEB 01, 1983;Western Carolina
+Miller;Andre;G;6-3;200;MAR 19, 1976;Utah
+West;David;F;6-9;250;AUG 29, 1980;Xavier
+Diaw;Boris;C-F;6-8;250;APR 16, 1982;Cormeille-en-Parisis, France
+Marjanovic;Boban;C;7-3;290;AUG 15, 1988;None
