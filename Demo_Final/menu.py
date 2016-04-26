@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 
 
 ### DONT FORGET TO CHANGE PASSWORD ###
-conn = pymysql.connect(host='127.0.0.1', user='root', passwd='skt522', db='mysql')
+conn = pymysql.connect(host='127.0.0.1', user='root', passwd='xyz', db='mysql')
 cur = conn.cursor()
 cur.execute("USE TeamCT")
 
@@ -15,7 +15,7 @@ cur.execute("USE TeamCT")
 ##############
 ans = True
 while ans:
-  mainMenu = str(input("Choose one of the following menu options(#): \n 1) Colleges \n 2) Salaries \n 3) Player Lookup \n 4) Teams \n 5) Shoe Endorsements \n"))
+  mainMenu = str(input("Choose one of the following menu options(#): \n 1) Colleges \n 2) Salaries \n 3) Player Lookup \n 4) Teams \n 5) Shoe Endorsements \n 6) Basketball Stats \n"))
 
   if mainMenu == "1":
     print("College")
@@ -400,19 +400,19 @@ while ans:
     while ansLookup:
       print("This lookup will find the basketball stats of a desired player in a specific season. \n ")
       lastName = str(input("Last Name: "))
-      firstName = str(input("First Name: "))
-      years = str(input("Which season: "))  
-      query = "SELECT * FROM Player_Stats WHERE lname = '" + lastName + "' AND fname = '" + firstName + "' AND season = '" + years + "'"
+      firstName = str(input("First Name: ")) 
+      query = "SELECT * FROM Player_Stats WHERE lname LIKE '%" + lastName + "%' AND fname LIKE '%" + firstName + "%'"
       cur.execute(query)
       cur.connection.commit()
-      result = cur.fetchone()
-      row = list(result)
+      result = cur.fetchall()
+      result = list(result)
+      resultList = [list(elem) for elem in result]
       #header
       print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
       print("----------------------------------------------------------------------------------")
-      #table row
-      last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[1]), str(row[2]), str(row[5]), str(row[6]), str(row[7]), str(row[8]), str(row[9]), str(row[10]), str(row[-2])
-      print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+      for row in resultList:
+        last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[1]), str(row[2]), str(row[5]), str(row[6]), str(row[7]), str(row[8]), str(row[9]), str(row[10]), str(row[-2])
+        print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
       ansLookup = False
     ans = False
     
@@ -878,6 +878,37 @@ while ans:
         print("Please choose a valid shoe brand \n")
         
     ans = False
+   
+  '''  
+  elif mainMenu =="6":
+    print("Basketball Stats")
+    
+    ## Basketball Stats Menu
+    ########################
+    ansStats = True
+    while ansStats:
+      print("This search will find specified player(s) with at least a specified PPG, APG, RPG, SPG, and/or RPG at a certain minimum salary. \nCan input 'any' to specify any amount for that specific stat. \n")
+      points = str(input("PPG Greater Than or Equal To: "))
+      assists = str(input("APG Greater Than or Equal To: "))
+      rebounds = str(input("RPG Greater Than or Equal To: "))
+      steals = str(input("SPG Greater Than or Equal To: "))
+      blocks = str(input("BPG Greater Than or Equal To: "))
+      sal = str(input("Minimum Salary: "))
+      cur.execute("SELECT ps.lname, ps.fname, ps.PPG, ps.APG, ps.RPG, ps.SPG, ps.BPG, s.salary FROM Player_Stats INNER JOIN Player Bio Info USING (player_id) INNER JOIN Salary USING (player_id) WHERE ps.PPG >= " + points + " AND ps.APG >= " + assists + " AND ps.RPG >= " + rebounds + " AND ps.SPG >= " + steals + " AND ps.BPG >= " + blocks + " AND s.salary >= " + sal = ")
+      cur.connection.committ()
+      result = cur.fetchall()
+      result = list(result)
+      resultList = [list(elem) for elem in result]
+      print("lname".ljust(20) + first.ljust(20)
+      print("--------------------------------------------------------------")
+      for row in resultList:
+        last, first, ppg, apg, rpg, spg, bpg, s =
+        print(last.ljust(20) + first.ljust(20)
+      
+      
+      
+      ansStats = False  
+  '''
     
   elif mainMenu == "":
     print("Please Choose a Valid Menu Option \n")
