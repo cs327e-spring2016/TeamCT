@@ -437,11 +437,11 @@ while ans:
       result = list(result)
       resultList = [list(elem) for elem in result]
       #header
-      print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
-      print("----------------------------------------------------------------------------------")
+      print("lname".ljust(20) + "fname".ljust(20) + "season".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+      print("-------------------------------------------------------------------------------------------------------")
       for row in resultList:
-        last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[1]), str(row[2]), str(row[5]), str(row[6]), str(row[7]), str(row[8]), str(row[9]), str(row[10]), str(row[-2])
-        print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+        last, first, season, ppg, apg, rpg, spg, bpg, to, minutes = str(row[1]), str(row[2]), str(row[3]), str(row[5]), str(row[6]), str(row[7]), str(row[8]), str(row[9]), str(row[10]), str(row[-2])
+        print(last.ljust(20) + first.ljust(20) + season.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
       ansLookup = False
     ans = False
     
