@@ -15,8 +15,9 @@ cur.execute("USE TeamCT")
 ##############
 ans = True
 while ans:
+  print("Note: input 'quit' if you would like to return to the Main Menu. \n")
   mainMenu = str(input("Choose one of the following menu options(#): \n 1) Colleges \n 2) Salaries \n 3) Player Lookup \n 4) Teams \n 5) Shoe Endorsements \n 6) Basketball Stats \n"))
-
+  
   if mainMenu == "1":
     print("College")
     # INSERT collegeMenu code here
@@ -25,6 +26,29 @@ while ans:
     ##############
     ansCollege = True
     while ansCollege:
+      
+      print("This lookup will find all NBA players who have played at a specified college. \n")
+      
+      result = []	# filler for error loop
+      while result == []:
+        college = str(input("Name of college: "))
+        cur.execute("SELECT lname, fname, position, height, weight, DOB FROM Player_Bio_Info WHERE college = '" + college + "'")
+        cur.connection.commit()
+        result = cur.fetchall()
+        print(result)
+        result = list(result)
+        resultList = [list(elem) for elem in result]
+        #header
+        print("lname".ljust(20) + "fname".ljust(20) + "position".ljust(20) + "height".ljust(20) + "weight".ljust(20) + "DOB".ljust(20))
+        print("----------------------------------------------------------------------------------------------------------------")
+        # table items
+        for row in resultList:
+          last, first, pos, ht, wt, birth = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5])
+          print(last.ljust(20) + first.ljust(20) + pos.ljust(20) + ht.ljust(20) + wt.ljust(20) + birth.ljust(20))
+        
+      ansCollege = False
+     
+      '''
       collegeMenu = str(input("Choose one of the following numbers to select all NBA players from that college: \n 1) Texas \n 2) Duke \n 3) North Carolina \n 4) Kansas \n 5) Kentucky \n"))
 
       if collegeMenu == "1":
@@ -109,6 +133,8 @@ while ans:
         ansCollege = False
       elif collegeMenu != "":  
         print("Not Valid Choice, Please Try Again \n")
+        
+        
     ans = False
     
   elif mainMenu == "2":
@@ -388,6 +414,8 @@ while ans:
         
       elif seasonsMenu == "":
         print("Please Choose a Valid Season \n")
+      
+      '''
           
     ans = False  
 
@@ -879,7 +907,8 @@ while ans:
         
     ans = False
    
-  '''  
+ 
+ 
   elif mainMenu =="6":
     print("Basketball Stats")
     
@@ -887,32 +916,32 @@ while ans:
     ########################
     ansStats = True
     while ansStats:
-      print("This search will find specified player(s) with at least a specified PPG, APG, RPG, SPG, and/or RPG at a certain minimum salary. \nCan input 'any' to specify any amount for that specific stat. \n")
+      print("This search will find specified player(s) with at least a specified PPG, APG, RPG, SPG, and/or RPG at a certain minimum salary. \nCan input '0' to specify any amount for that specific stat. \n")
+      season = str(input("Which season (2013-14, 2014-15, 2015-16): "))
       points = str(input("PPG Greater Than or Equal To: "))
       assists = str(input("APG Greater Than or Equal To: "))
       rebounds = str(input("RPG Greater Than or Equal To: "))
       steals = str(input("SPG Greater Than or Equal To: "))
       blocks = str(input("BPG Greater Than or Equal To: "))
       sal = str(input("Minimum Salary: "))
-      cur.execute("SELECT ps.lname, ps.fname, ps.PPG, ps.APG, ps.RPG, ps.SPG, ps.BPG, s.salary FROM Player_Stats INNER JOIN Player Bio Info USING (player_id) INNER JOIN Salary USING (player_id) WHERE ps.PPG >= " + points + " AND ps.APG >= " + assists + " AND ps.RPG >= " + rebounds + " AND ps.SPG >= " + steals + " AND ps.BPG >= " + blocks + " AND s.salary >= " + sal = ")
-      cur.connection.committ()
+      cur.execute("SELECT ps.lname, ps.fname, ps.season, ps.PPG, ps.APG, ps.RPG, ps.SPG, ps.BPG, s.salary FROM Player_Stats ps INNER JOIN Player_Bio_Info pb USING (player_id) INNER JOIN Salary s USING (player_id) WHERE ps.PPG >= " + points + " AND ps.APG >= " + assists + " AND ps.RPG >= " + rebounds + " AND ps.SPG >= " + steals + " AND ps.BPG >= " + blocks + " AND s.salary >= " + sal + " AND ps.season = '" + season + "' AND s.season = '" + season + "'")
+      cur.connection.commit()
       result = cur.fetchall()
       result = list(result)
       resultList = [list(elem) for elem in result]
-      print("lname".ljust(20) + first.ljust(20)
-      print("--------------------------------------------------------------")
+      print("lname".ljust(20) + "fname".ljust(20) + "season".ljust(20) + "PPG".ljust(20) + "APG".ljust(20) + "RPG".ljust(20) + "SPG".ljust(20) + "BPG".ljust(20) + "salary".ljust(20))
+      print("----------------------------------------------------------------------------------------------------------------------------------------------------------------------")
       for row in resultList:
-        last, first, ppg, apg, rpg, spg, bpg, s =
-        print(last.ljust(20) + first.ljust(20)
-      
-      
+        #print(row)
+        last, first, yr, ppg, apg, rpg, spg, bpg, s = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+        print(last.ljust(20) + first.ljust(20) + yr.ljust(20) + ppg.ljust(20) + apg.ljust(20) + rpg.ljust(20) + spg.ljust(20) + bpg.ljust(20) + s.ljust(20))
       
       ansStats = False  
-  '''
-    
+    ans = False
+      
   elif mainMenu == "":
     print("Please Choose a Valid Menu Option \n")
-   
+ 
   
 cur.close()
 conn.close()
