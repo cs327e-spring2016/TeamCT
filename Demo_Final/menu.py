@@ -15,7 +15,7 @@ cur.execute("USE TeamCT")
 ##############
 ans = True
 while ans:
-  print("Note: input 'quit' if you would like to return to the Main Menu. \n")
+  #print("Note: input 'quit' if you would like to return to the Main Menu. \n")
   mainMenu = str(input("Choose one of the following menu options(#): \n 1) Colleges \n 2) Salaries \n 3) Player Lookup \n 4) Teams \n 5) Shoe Endorsements \n 6) Basketball Stats \n"))
   
   if mainMenu == "1":
@@ -137,6 +137,7 @@ while ans:
         
     ans = False
     
+  '''  
   elif mainMenu == "2":
     print("Salaries")
 
@@ -415,7 +416,7 @@ while ans:
       elif seasonsMenu == "":
         print("Please Choose a Valid Season \n")
       
-      '''
+  
           
     ans = False  
 
