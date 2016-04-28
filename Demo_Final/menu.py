@@ -923,18 +923,19 @@ while ans:
       rebounds = str(input("RPG Greater Than or Equal To: "))
       steals = str(input("SPG Greater Than or Equal To: "))
       blocks = str(input("BPG Greater Than or Equal To: "))
+      three = str(input("3PM Greater Than or Equal To: "))
       sal = str(input("Minimum Salary: "))
-      cur.execute("SELECT ps.lname, ps.fname, ps.season, ps.PPG, ps.APG, ps.RPG, ps.SPG, ps.BPG, s.salary FROM Player_Stats ps INNER JOIN Player_Bio_Info pb USING (player_id) INNER JOIN Salary s USING (player_id) WHERE ps.PPG >= " + points + " AND ps.APG >= " + assists + " AND ps.RPG >= " + rebounds + " AND ps.SPG >= " + steals + " AND ps.BPG >= " + blocks + " AND s.salary >= " + sal + " AND ps.season = '" + season + "' AND s.season = '" + season + "'")
+      cur.execute("SELECT ps.lname, ps.fname, ps.season, ps.PPG, ps.APG, ps.RPG, ps.SPG, ps.BPG, ps.3PM, s.salary FROM Player_Stats ps INNER JOIN Player_Bio_Info pb USING (player_id) INNER JOIN Salary s USING (player_id) WHERE ps.PPG >= " + points + " AND ps.APG >= " + assists + " AND ps.RPG >= " + rebounds + " AND ps.SPG >= " + steals + " AND ps.BPG >= " + blocks + " AND s.salary >= " + sal + " AND ps.season = '" + season + "' AND s.season = '" + season + "' AND ps.3PM >= '" + three + "'")
       cur.connection.commit()
       result = cur.fetchall()
       result = list(result)
       resultList = [list(elem) for elem in result]
-      print("lname".ljust(20) + "fname".ljust(20) + "season".ljust(20) + "PPG".ljust(20) + "APG".ljust(20) + "RPG".ljust(20) + "SPG".ljust(20) + "BPG".ljust(20) + "salary".ljust(20))
-      print("----------------------------------------------------------------------------------------------------------------------------------------------------------------------")
+      print("lname".ljust(20) + "fname".ljust(20) + "season".ljust(20) + "PPG".ljust(20) + "APG".ljust(20) + "RPG".ljust(20) + "SPG".ljust(20) + "BPG".ljust(20) + "3PM".ljust(20) + "salary".ljust(20))
+      print("--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------")
       for row in resultList:
         #print(row)
-        last, first, yr, ppg, apg, rpg, spg, bpg, s = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
-        print(last.ljust(20) + first.ljust(20) + yr.ljust(20) + ppg.ljust(20) + apg.ljust(20) + rpg.ljust(20) + spg.ljust(20) + bpg.ljust(20) + s.ljust(20))
+        last, first, yr, ppg, apg, rpg, spg, bpg, thr, s = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8]), str(row[9])
+        print(last.ljust(20) + first.ljust(20) + yr.ljust(20) + ppg.ljust(20) + apg.ljust(20) + rpg.ljust(20) + spg.ljust(20) + bpg.ljust(20) + thr.ljust(20) + s.ljust(20))
       
       ansStats = False  
     ans = False
