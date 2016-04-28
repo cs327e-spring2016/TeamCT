@@ -35,7 +35,6 @@ while ans:
         cur.execute("SELECT lname, fname, position, height, weight, DOB FROM Player_Bio_Info WHERE college = '" + college + "'")
         cur.connection.commit()
         result = cur.fetchall()
-        print(result)
         result = list(result)
         resultList = [list(elem) for elem in result]
         #header
@@ -134,10 +133,10 @@ while ans:
       elif collegeMenu != "":  
         print("Not Valid Choice, Please Try Again \n")
         
-        
+  '''      
     ans = False
     
-  '''  
+    
   elif mainMenu == "2":
     print("Salaries")
 
