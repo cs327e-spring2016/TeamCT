@@ -3,7 +3,6 @@ import json
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 
-file = open("stats_info.txt", "w")
 result = open("stats_info_result.txt", "w")
 
 seasons = ["2013-14", "2014-15", "2015-16"]
