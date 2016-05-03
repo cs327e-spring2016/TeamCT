@@ -45,98 +45,9 @@ while ans:
           last, first, pos, ht, wt, birth = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5])
           print(last.ljust(20) + first.ljust(20) + pos.ljust(20) + ht.ljust(20) + wt.ljust(20) + birth.ljust(20))
         
-      ansCollege = False
-     
-      '''
-      collegeMenu = str(input("Choose one of the following numbers to select all NBA players from that college: \n 1) Texas \n 2) Duke \n 3) North Carolina \n 4) Kansas \n 5) Kentucky \n"))
-
-      if collegeMenu == "1":
-        print("Texas")
-        cur.execute("SELECT lname, fname, position, height, weight, DOB FROM Player_Bio_Info WHERE college = 'Texas'")
-        cur.connection.commit()
-        result = cur.fetchall()
-        # next two lines make tuples of tuples into lists of lists
-        result = list(result)
-        resultList = [list(elem) for elem in result]
-        #header
-        print("lname".ljust(20) + "fname".ljust(20) + "position".ljust(20) + "height".ljust(20) + "weight".ljust(20) + "DOB".ljust(20))
-        print("----------------------------------------------------------------------------------------------------------------")
-        # table items
-        for row in resultList:
-          last, first, pos, ht, wt, birth = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5])
-          print(last.ljust(20) + first.ljust(20) + pos.ljust(20) + ht.ljust(20) + wt.ljust(20) + birth.ljust(20))
-        ansCollege = False
-      elif collegeMenu == "2":
-        print("Duke")
-        cur.execute("SELECT lname, fname, position, height, weight, DOB FROM Player_Bio_Info WHERE college = 'Duke'")
-        cur.connection.commit()
-        result = cur.fetchall()
-        # next two lines make tuples of tuples into lists of lists
-        result = list(result)
-        resultList = [list(elem) for elem in result]
-        #header
-        print("lname".ljust(20) + "fname".ljust(20) + "position".ljust(20) + "height".ljust(20) + "weight".ljust(20) + "DOB".ljust(20))
-        print("----------------------------------------------------------------------------------------------------------------")
-        # table items
-        for row in resultList:
-          last, first, pos, ht, wt, birth = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5])
-          print(last.ljust(20) + first.ljust(20) + pos.ljust(20) + ht.ljust(20) + wt.ljust(20) + birth.ljust(20))
-        ansCollege = False
-      elif collegeMenu == "3":
-        print("North Carolina")
-        cur.execute("SELECT lname, fname, position, height, weight, DOB FROM Player_Bio_Info WHERE college = 'North Carolina'")
-        cur.connection.commit()
-        result = cur.fetchall()
-        # next two lines make tuples of tuples into lists of lists
-        result = list(result)
-        resultList = [list(elem) for elem in result]
-        #header
-        print("lname".ljust(20) + "fname".ljust(20) + "position".ljust(20) + "height".ljust(20) + "weight".ljust(20) + "DOB".ljust(20))
-        print("----------------------------------------------------------------------------------------------------------------")
-        # table items
-        for row in resultList:
-          last, first, pos, ht, wt, birth = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5])
-          print(last.ljust(20) + first.ljust(20) + pos.ljust(20) + ht.ljust(20) + wt.ljust(20) + birth.ljust(20))
-        ansCollege = False
-      elif collegeMenu == "4":
-        print("Kansas")
-        cur.execute("SELECT lname, fname, position, height, weight, DOB FROM Player_Bio_Info WHERE college = 'Kansas'")
-        cur.connection.commit()
-        result = cur.fetchall()
-        # next two lines make tuples of tuples into lists of lists
-        result = list(result)
-        resultList = [list(elem) for elem in result]
-        #header
-        print("lname".ljust(20) + "fname".ljust(20) + "position".ljust(20) + "height".ljust(20) + "weight".ljust(20) + "DOB".ljust(20))
-        print("-----------------------------------------------------------------------------------------------------------------")
-        # table items
-        for row in resultList:
-          last, first, pos, ht, wt, birth = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5])
-          print(last.ljust(20) + first.ljust(20) + pos.ljust(20) + ht.ljust(20) + wt.ljust(20) + birth.ljust(20))
-        ansCollege = False
-      elif collegeMenu == "5":
-        print("Kentucky")
-        cur.execute("SELECT lname, fname, position, height, weight, DOB FROM Player_Bio_Info WHERE college = 'Kentucky'")
-        cur.connection.commit()
-        result = cur.fetchall()
-        # next two lines make tuples of tuples into lists of lists
-        result = list(result)
-        resultList = [list(elem) for elem in result]
-        #header
-        print("lname".ljust(20) + "fname".ljust(20) + "position".ljust(20) + "height".ljust(20) + "weight".ljust(20) + "DOB".ljust(20))
-        print("-----------------------------------------------------------------------------------------------------------------")
-        # table items
-        for row in resultList:
-          last, first, pos, ht, wt, birth = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5])
-          print(last.ljust(20) + first.ljust(20) + pos.ljust(20) + ht.ljust(20) + wt.ljust(20) + birth.ljust(20))
-        ansCollege = False
-      elif collegeMenu != "":  
-        print("Not Valid Choice, Please Try Again \n")
-        
-  '''      
+      ansCollege = False 
     ans = False
-    
-    
+       
   elif mainMenu == "2":
     print("Salaries")
 
@@ -455,7 +366,7 @@ while ans:
       
       if seasonsMenu == "1":
         print("2013-14")
-        teamsMenu = str(input("Select the number of the team you wish to see all its players for the 2013-14 season: \n 1) Atlanta Hawks \n 2) Boston Celtics \n 3) Brooklyn (New Jersey) Nets \n 4) Charlotte Hornets (Bobcats) \n 5) Chicago Bulls \n"))
+        teamsMenu = str(input("Select the number of the team you wish to see all its players for the 2013-14 season: \n 1) Atlanta Hawks \n 2) Boston Celtics \n 3) Brooklyn (New Jersey) Nets \n 4) Charlotte Hornets (Bobcats) \n 5) Chicago Bulls \n 6) Cleveland Cavaliers \n 7) Dallas Mavericks \n 8) Denver Nuggets \n 9) Detroit Pistons \n 10) Golden State Warriors \n 11) Houston Rockets \n 12) Indiana Pacers \n 13) Los Angeles Clippers \n 14) Los Angeles Lakers \n 15) Memphis Grizzlies \n 16) Miami Heat \n 17) Milwaukee Bucks \n 18) Minnesota Timberwolves \n 19) New Orleans Pelicans \n 20) New York Knicks \n 21) Oklahoma City Thunder \n 22) Orlando Magic \n 23) Philadelphia 76ers \n 24) Phoenix Suns \n 25) Portland Trail Blazers \n 26) Sacramento Kings \n 27) San Antonio Spurs \n 28) Toronto Raptors \n 29) Utah Jazz \n 30) Washington Wizards"))
         
         if teamsMenu == "1":
           print("2013-14 Atlanta Hawks")
@@ -541,14 +452,440 @@ while ans:
             last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
             print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))    
           ansTeams = False
+        
+        if teamsMenu == "6":
+          print("2013-14 Cleveland Cavaliers")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2013-14' AND team = 'CLE'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "7":
+          print("2013-14 Dallas Mavericks")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2013-14' AND team = 'DAL'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+        
+        if teamsMenu == "8":
+          print("2013-14 Denver Nuggets")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2013-14' AND team = 'DEN'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "9":
+          print("2013-14 Detroit Pistons")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2013-14' AND team = 'DET'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "10":
+          print("2013-14 Golden State Warriors")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2013-14' AND team = 'GSW'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False  
+        
+        if teamsMenu == "11":
+          print("2013-14 Houston Rockets")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2013-14' AND team = 'HOU'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "12":
+          print("2013-14 Indiana Pacers")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2013-14' AND team = 'IND'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "13":
+          print("2013-14 Los Angeles Clippers")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2013-14' AND team = 'LAC'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "14":
+          print("2013-14 Los Angeles Lakers")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2013-14' AND team = 'LAL'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "15":
+          print("2013-14 Memphis Grizzlies")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2013-14' AND team = 'MEM'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "16":
+          print("2013-14 Miami Heat")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2013-14' AND team = 'MIA'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "17":
+          print("2013-14 Milwaukee Bucks")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2013-14' AND team = 'MIL'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "18":
+          print("2013-14 Minnesota Timberwolves")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2013-14' AND team = 'MIN'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "19":
+          print("2013-14 New Orleans Pelicans")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2013-14' AND team = 'NOP'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "20":
+          print("2013-14 New York Knicks")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2013-14' AND team = 'NYK'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "21":
+          print("2013-14 Oklahoma City Thunder")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2013-14' AND team = 'OKC'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "22":
+          print("2013-14 Orlando Magic")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2013-14' AND team = 'ORL'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "23":
+          print("2013-14 Philadelphia 76ers")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2013-14' AND team = 'PHI'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "24":
+          print("2013-14 Phoenix Suns")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2013-14' AND team = 'PHX'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "25":
+          print("2013-14 Portland Trail Blazers")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2013-14' AND team = 'POR'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "26":
+          print("2013-14 Sacramento Kings")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2013-14' AND team = 'SAC'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "27":
+          print("2013-14 San Antonio Spurs")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2013-14' AND team = 'SAS'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "28":
+          print("2013-14 Toronto Raptors")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2013-14' AND team = 'TOR'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+        
+        if teamsMenu == "29":
+          print("2013-14 Utah Jazz")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2013-14' AND team = 'UTA'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "30":
+          print("2013-14 Washington Wizards")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2013-14' AND team = 'WAS'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
           
         elif teamsMenu == "":
           print("Please choose an NBA team \n")  
         ansTeams = False
         
-      elif seasonsMenu == "2":
+        
+      if seasonsMenu == "2":
         print("2014-15")
-        teamsMenu = str(input("Select the number of the team you wish to see all its players for the 2013-14 season: \n 1) Atlanta Hawks \n 2) Boston Celtics \n 3) Brooklyn (New Jersey) Nets \n 4) Charlotte Hornets (Bobcats) \n 5) Chicago Bulls \n"))
+        teamsMenu = str(input("Select the number of the team you wish to see all its players for the 2014-15 season: \n 1) Atlanta Hawks \n 2) Boston Celtics \n 3) Brooklyn (New Jersey) Nets \n 4) Charlotte Hornets (Bobcats) \n 5) Chicago Bulls \n 6) Cleveland Cavaliers \n 7) Dallas Mavericks \n 8) Denver Nuggets \n 9) Detroit Pistons \n 10) Golden State Warriors \n 11) Houston Rockets \n 12) Indiana Pacers \n 13) Los Angeles Clippers \n 14) Los Angeles Lakers \n 15) Memphis Grizzlies \n 16) Miami Heat \n 17) Milwaukee Bucks \n 18) Minnesota Timberwolves \n 19) New Orleans Pelicans \n 20) New York Knicks \n 21) Oklahoma City Thunder \n 22) Orlando Magic \n 23) Philadelphia 76ers \n 24) Phoenix Suns \n 25) Portland Trail Blazers \n 26) Sacramento Kings \n 27) San Antonio Spurs \n 28) Toronto Raptors \n 29) Utah Jazz \n 30) Washington Wizards"))
         
         if teamsMenu == "1":
           print("2014-15 Atlanta Hawks")
@@ -634,17 +971,442 @@ while ans:
             last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
             print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))    
           ansTeams = False
+        
+        if teamsMenu == "6":
+          print("2014-15 Cleveland Cavaliers")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2014-15' AND team = 'CLE'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "7":
+          print("2014-15 Dallas Mavericks")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2014-15' AND team = 'DAL'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+        
+        if teamsMenu == "8":
+          print("2014-15 Denver Nuggets")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2014-15' AND team = 'DEN'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "9":
+          print("2014-15 Detroit Pistons")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2014-15' AND team = 'DET'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "10":
+          print("2014-15 Golden State Warriors")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2014-15' AND team = 'GSW'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False  
+        
+        if teamsMenu == "11":
+          print("2014-15 Houston Rockets")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2014-15' AND team = 'HOU'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "12":
+          print("2014-15 Indiana Pacers")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2014-15' AND team = 'IND'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "13":
+          print("2014-15 Los Angeles Clippers")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2014-15' AND team = 'LAC'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "14":
+          print("2014-15 Los Angeles Lakers")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2014-15' AND team = 'LAL'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "15":
+          print("2014-15 Memphis Grizzlies")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2014-15' AND team = 'MEM'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "16":
+          print("2014-15 Miami Heat")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2014-15' AND team = 'MIA'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "17":
+          print("2014-15 Milwaukee Bucks")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2014-15' AND team = 'MIL'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "18":
+          print("2014-15 Minnesota Timberwolves")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2014-15' AND team = 'MIN'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "19":
+          print("2014-15 New Orleans Pelicans")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2014-15' AND team = 'NOP'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "20":
+          print("2014-15 New York Knicks")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2014-15' AND team = 'NYK'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "21":
+          print("2014-15 Oklahoma City Thunder")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2014-15' AND team = 'OKC'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "22":
+          print("2014-15 Orlando Magic")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2014-15' AND team = 'ORL'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "23":
+          print("2014-15 Philadelphia 76ers")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2014-15' AND team = 'PHI'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "24":
+          print("2014-15 Phoenix Suns")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2014-15' AND team = 'PHX'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "25":
+          print("2014-15 Portland Trail Blazers")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2014-15' AND team = 'POR'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "26":
+          print("2014-15 Sacramento Kings")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2014-15' AND team = 'SAC'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "27":
+          print("2014-15 San Antonio Spurs")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2014-15' AND team = 'SAS'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "28":
+          print("2014-15 Toronto Raptors")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2014-15' AND team = 'TOR'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+        
+        if teamsMenu == "29":
+          print("2014-15 Utah Jazz")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2014-15' AND team = 'UTA'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "30":
+          print("2014-15 Washington Wizards")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2014-15' AND team = 'WAS'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
           
         elif teamsMenu == "":
           print("Please choose an NBA team \n")  
-        ansTeams = False
+        ansTeams = False  
         
-      elif seasonsMenu == "3":
+      if seasonsMenu == "3":
         print("2015-16")
-        teamsMenu = str(input("Select the number of the team you wish to see all its players for the 2013-14 season: \n 1) Atlanta Hawks \n 2) Boston Celtics \n 3) Brooklyn (New Jersey) Nets \n 4) Charlotte Hornets (Bobcats) \n 5) Chicago Bulls \n"))
+        teamsMenu = str(input("Select the number of the team you wish to see all its players for the 2015-16 season: \n 1) Atlanta Hawks \n 2) Boston Celtics \n 3) Brooklyn (New Jersey) Nets \n 4) Charlotte Hornets (Bobcats) \n 5) Chicago Bulls \n 6) Cleveland Cavaliers \n 7) Dallas Mavericks \n 8) Denver Nuggets \n 9) Detroit Pistons \n 10) Golden State Warriors \n 11) Houston Rockets \n 12) Indiana Pacers \n 13) Los Angeles Clippers \n 14) Los Angeles Lakers \n 15) Memphis Grizzlies \n 16) Miami Heat \n 17) Milwaukee Bucks \n 18) Minnesota Timberwolves \n 19) New Orleans Pelicans \n 20) New York Knicks \n 21) Oklahoma City Thunder \n 22) Orlando Magic \n 23) Philadelphia 76ers \n 24) Phoenix Suns \n 25) Portland Trail Blazers \n 26) Sacramento Kings \n 27) San Antonio Spurs \n 28) Toronto Raptors \n 29) Utah Jazz \n 30) Washington Wizards"))
         
         if teamsMenu == "1":
-          print("2015-16Atlanta Hawks")
+          print("2015-16 Atlanta Hawks")
           cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2015-16' AND team = 'ATL'")
           cur.connection.commit()
           result = cur.fetchall()
@@ -727,11 +1489,436 @@ while ans:
             last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
             print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))    
           ansTeams = False
+        
+        if teamsMenu == "6":
+          print("2015-16 Cleveland Cavaliers")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2015-16' AND team = 'CLE'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "7":
+          print("2015-16 Dallas Mavericks")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2015-16' AND team = 'DAL'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+        
+        if teamsMenu == "8":
+          print("2015-16 Denver Nuggets")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2015-16' AND team = 'DEN'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "9":
+          print("2015-16 Detroit Pistons")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2015-16' AND team = 'DET'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "10":
+          print("2015-16 Golden State Warriors")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2015-16' AND team = 'GSW'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False  
+        
+        if teamsMenu == "11":
+          print("2015-16 Houston Rockets")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2015-16' AND team = 'HOU'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "12":
+          print("2015-16 Indiana Pacers")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2015-16' AND team = 'IND'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "13":
+          print("2015-16 Los Angeles Clippers")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2015-16' AND team = 'LAC'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "14":
+          print("2015-16 Los Angeles Lakers")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2015-16' AND team = 'LAL'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "15":
+          print("2015-16 Memphis Grizzlies")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2015-16' AND team = 'MEM'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "16":
+          print("2015-16 Miami Heat")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2015-16' AND team = 'MIA'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "17":
+          print("2015-16 Milwaukee Bucks")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2015-16' AND team = 'MIL'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "18":
+          print("2015-16 Minnesota Timberwolves")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2015-16' AND team = 'MIN'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "19":
+          print("2015-16 New Orleans Pelicans")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2015-16' AND team = 'NOP'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "20":
+          print("2015-16 New York Knicks")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2015-16' AND team = 'NYK'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "21":
+          print("2015-16 Oklahoma City Thunder")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2015-16' AND team = 'OKC'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "22":
+          print("2015-16 Orlando Magic")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2015-16' AND team = 'ORL'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "23":
+          print("2015-16 Philadelphia 76ers")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2015-16' AND team = 'PHI'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "24":
+          print("2015-16 Phoenix Suns")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2015-16' AND team = 'PHX'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "25":
+          print("2015-16 Portland Trail Blazers")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2015-16' AND team = 'POR'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "26":
+          print("2015-16 Sacramento Kings")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2015-16' AND team = 'SAC'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "27":
+          print("2015-16 San Antonio Spurs")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2015-16' AND team = 'SAS'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "28":
+          print("2015-16 Toronto Raptors")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2015-16' AND team = 'TOR'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+        
+        if teamsMenu == "29":
+          print("2015-16 Utah Jazz")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2015-16' AND team = 'UTA'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
+          
+        if teamsMenu == "30":
+          print("2015-16 Washington Wizards")
+          cur.execute("SELECT lname, fname, PPG, APG, RPG, SPG, BPG, TOs, min_per_game FROM Player_Stats WHERE season = '2015-16' AND team = 'WAS'")
+          cur.connection.commit()
+          result = cur.fetchall()
+          # next two lines make tuples of tuples into lists of lists
+          result = list(result)
+          resultList = [list(elem) for elem in result]
+          #header
+          print("lname".ljust(20) + "fname".ljust(20) + "PPG".ljust(5) + "APG".ljust(5) + "RPG".ljust(5) + "SPG".ljust(5) + "BPG".ljust(5) + "TOs".ljust(5) + "min_per_game".ljust(5))
+          print("----------------------------------------------------------------------------------")
+          # table items
+          for row in resultList:
+            last, first, ppg, apg, rpg, spg, bpg, to, minutes = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4]), str(row[5]), str(row[6]), str(row[7]), str(row[8])
+            print(last.ljust(20) + first.ljust(20) + ppg.ljust(5) + apg.ljust(5) + rpg.ljust(5) + spg.ljust(5) + bpg.ljust(5) + to.ljust(5) + minutes.ljust(5))
+          ansTeams = False
           
         elif teamsMenu == "":
-          print("Please choose a valid NBA team \n")  
+          print("Please choose an NBA team \n")  
         ansTeams = False
-        
+      
       elif seasonsMenu == "":
         print("Please Choose a Valid Season \n")
         

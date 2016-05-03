@@ -1,6 +1,6 @@
 import pymysql
 from decimal import *
-conn = pymysql.connect(host='127.0.0.1', user='root', passwd='skt522', db='mysql')
+conn = pymysql.connect(host='127.0.0.1', user='root', passwd='xyz', db='mysql')
 cur = conn.cursor()
 cur.execute("USE TeamCT")
 
