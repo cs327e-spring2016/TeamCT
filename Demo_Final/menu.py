@@ -16,7 +16,7 @@ cur.execute("USE TeamCT")
 ans = True
 while ans:
   #print("Note: input 'quit' if you would like to return to the Main Menu. \n")
-  mainMenu = str(input("Choose one of the following menu options(#): \n 1) Colleges \n 2) Salaries \n 3) Player Lookup \n 4) Teams \n 5) Shoe Endorsements \n 6) Basketball Stats \n"))
+  mainMenu = str(input("Choose one of the following menu options(#): \n 1) Colleges \n 2) Salaries \n 3) Player Lookup \n 4) Teams \n 5) Shoe Endorsements \n 6) Basketball Stats \n 7) Player Analysis \n"))
   
   if mainMenu == "1":
     print("College")
@@ -2127,8 +2127,121 @@ while ans:
       ansStats = False  
     ans = False
       
+      
+  elif mainMenu == "7":
+    print("Player Analysis")
+    
+    ## Player Analysis
+    ##################
+    print("This menu will allow the user to input a number that will search the top X number of players based upon Team CT's algorithm. \n")
+    
+    ansAnalysis = True
+    while ansAnalysis:
+      seasonsMenu = str(input("Select the number of a season: \n 1) 2013-14 \n 2) 2014-15 \n 3) 2015-16 \n"))
+      
+      if seasonsMenu == "1":
+        print("2013-14 Top Players")
+        qty = str(input("How many records would you like the query to return: "))
+        cur.execute("select lname, fname, season, team, (PPG + APG + RPG + 2*SPG + 2*BPG - 2*TOs + 2.5*3PM + 0.33*FTM)*min_per_game/48 as GRADE from player_stats WHERE season = '2013-14' order by GRADE desc limit " + qty + "")
+        cur.connection.commit()
+        result = cur.fetchall()
+        result = list(result)
+        resultList = [list(elem) for elem in result]
+        #header
+        print("lname".ljust(20) + "fname".ljust(20) + "season".ljust(20) + "team".ljust(20) + "GRADE".ljust(20))
+        print("-----------------------------------------------------------------------------------------")
+        # table items
+        for row in resultList:
+          last, first, seas, team, grade = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4])
+          print(last.ljust(20) + first.ljust(20) + seas.ljust(20) + team.ljust(20) + grade.ljust(20))
+      
+        # average grade for season
+        cur.execute("select season, avg((PPG + APG + RPG + 2*SPG + 2*BPG - 2*TOs + 2.5*3PM + 0.33*FTM)*min_per_game/48) as AVG_GRADE from player_stats where season = '2013-14'")
+        cur.connection.commit()
+        result = cur.fetchall()
+        result = list(result)
+        resultList = [list(elem) for elem in result]
+        print("\n")
+        print("season".ljust(20) + "grade".ljust(20))
+        print("--------------------------------------------")
+        for row in resultList:
+          seas, grade = str(row[0]), str(row[1])
+          print(seas.ljust(20) + grade.ljust(20))
+        ansAnalysis = False
+      
+      elif seasonsMenu == "2":
+        print("2014-15 Top Players")
+        qty = str(input("How many records would you like the query to return: "))
+        cur.execute("select lname, fname, season, team, (PPG + APG + RPG + 2*SPG + 2*BPG - 2*TOs + 2.5*3PM + 0.33*FTM)*min_per_game/48 as GRADE from player_stats WHERE season = '2014-15' order by GRADE desc limit " + qty + "")
+        cur.connection.commit()
+        result = cur.fetchall()
+        result = list(result)
+        resultList = [list(elem) for elem in result]
+        #header
+        print("lname".ljust(20) + "fname".ljust(20) + "season".ljust(20) + "team".ljust(20) + "GRADE".ljust(20))
+        print("-----------------------------------------------------------------------------------------")
+        # table items
+        for row in resultList:
+          last, first, seas, team, grade = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4])
+          print(last.ljust(20) + first.ljust(20) + seas.ljust(20) + team.ljust(20) + grade.ljust(20))
+          
+        # average grade for season
+        cur.execute("select season, avg((PPG + APG + RPG + 2*SPG + 2*BPG - 2*TOs + 2.5*3PM + 0.33*FTM)*min_per_game/48) as AVG_GRADE from player_stats where season = '2014-15'")
+        cur.connection.commit()
+        result = cur.fetchall()
+        result = list(result)
+        resultList = [list(elem) for elem in result]
+        print("\n")
+        print("season".ljust(20) + "grade".ljust(20))
+        print("--------------------------------------------")
+        for row in resultList:
+          seas, grade = str(row[0]), str(row[1])
+          print(seas.ljust(20) + grade.ljust(20))
+          
+        ansAnalysis = False
+      
+      elif seasonsMenu == "3":
+        print("2015-16 Top Players")
+        qty = str(input("How many records would you like the query to return: "))
+        cur.execute("select lname, fname, season, team, (PPG + APG + RPG + 2*SPG + 2*BPG - 2*TOs + 2.5*3PM + 0.33*FTM)*min_per_game/48 as GRADE from player_stats WHERE season = '2015-16' order by GRADE desc limit " + qty + "")
+        cur.connection.commit()
+        result = cur.fetchall()
+        result = list(result)
+        resultList = [list(elem) for elem in result]
+        #header
+        print("lname".ljust(20) + "fname".ljust(20) + "season".ljust(20) + "team".ljust(20) + "GRADE".ljust(20))
+        print("-----------------------------------------------------------------------------------------")
+        # table items
+        for row in resultList:
+          last, first, seas, team, grade = str(row[0]), str(row[1]), str(row[2]), str(row[3]), str(row[4])
+          print(last.ljust(20) + first.ljust(20) + seas.ljust(20) + team.ljust(20) + grade.ljust(20))
+          
+        # average grade for season
+        cur.execute("select season, avg((PPG + APG + RPG + 2*SPG + 2*BPG - 2*TOs + 2.5*3PM + 0.33*FTM)*min_per_game/48) as AVG_GRADE from player_stats where season = '2015-16'")
+        cur.connection.commit()
+        result = cur.fetchall()
+        result = list(result)
+        resultList = [list(elem) for elem in result]
+        print("\n")
+        print("season".ljust(20) + "grade".ljust(20))
+        print("--------------------------------------------")
+        for row in resultList:
+          seas, grade = str(row[0]), str(row[1])
+          print(seas.ljust(20) + grade.ljust(20))
+          
+        ansAnalysis = False
+        
+      elif seasonsMenu == "":
+        print("Please Choose a Valid Season \n")  
+  
+    ans = False
+      
   elif mainMenu == "":
     print("Please Choose a Valid Menu Option \n")
+    
+    
+    
+
  
   
 cur.close()
